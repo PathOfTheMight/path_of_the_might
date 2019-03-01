@@ -1,0 +1,10 @@
+execute if entity @s[scores={Rng=700..709}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=7.7..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=710..719}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=7.8..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=720..729}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=7.9..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=730..739}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=8..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=740..749}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=8.1..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=750..759}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=8.2..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=760..769}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=8.3..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=770..779}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=8.4..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=780..789}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=8.5..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1
+execute if entity @s[scores={Rng=790..799}] positioned ~ ~-1 ~ facing entity @e[tag=Player,tag=!Corpse,limit=1,sort=nearest,distance=8.6..20] feet positioned ~ ~1 ~ run tp @s ~ ~ ~ facing ^ ^ ^1

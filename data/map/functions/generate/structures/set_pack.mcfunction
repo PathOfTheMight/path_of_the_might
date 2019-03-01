@@ -1,0 +1,10 @@
+scoreboard players operation @s map = #MapID Number
+scoreboard players operation @s PackSizeIncP = #MapPackSizeIncP Number
+scoreboard players operation @s Lvl = #MapLvl Number
+scoreboard players operation @s Exp = #MapExp Number
+scoreboard players operation @s HpH = #MapHpH Number
+scoreboard players operation @s EsH = #MapHpH Number
+scoreboard players operation @s Arm = #MapAcc Number
+scoreboard players operation @s Eva = #MapEva Number
+scoreboard players operation @s Acc = #MapAcc Number
+scoreboard players operation @s Dmg = #MapDmg Number

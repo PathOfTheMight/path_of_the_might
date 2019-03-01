@@ -1,64 +1,48 @@
 #(21 ,13)
-execute positioned ~-32 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~-32 minecraft:structure_block{mode:LOAD,seed:52}
-execute positioned ~-32 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/three_quarter/pattern0","minecraft:double/beach_sea/three_quarter/pattern1","minecraft:double/beach_sea/three_quarter/pattern2","minecraft:double/beach_sea/three_quarter/pattern3","minecraft:double/beach_sea/three_quarter/pattern4","minecraft:double/beach_sea/three_quarter/pattern5","minecraft:double/beach_sea/three_quarter/pattern6","minecraft:double/beach_sea/three_quarter/pattern7"],Air:508}
+execute positioned ~-32 ~ ~-32 run function map:generate/structures/set_seed
 #(21 ,14)
-execute positioned ~-16 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~-16 41 ~-32 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-16 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/beach/full/pattern0","minecraft:single/beach/full/pattern1","minecraft:single/beach/full/pattern2","minecraft:single/beach/full/pattern3","minecraft:single/beach/full/pattern4","minecraft:single/beach/full/pattern5","minecraft:single/beach/full/pattern6","minecraft:single/beach/full/pattern7","minecraft:single/beach/full/pattern8","minecraft:single/beach/full/pattern9","minecraft:single/beach/full/pattern10"],Air:111}
+execute positioned ~-16 ~ ~-32 run function map:generate/structures/set_seed
 #(21 ,15)
-execute positioned ~0 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~0 41 ~-32 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~0 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/beach/full/pattern0","minecraft:single/beach/full/pattern1","minecraft:single/beach/full/pattern2","minecraft:single/beach/full/pattern3","minecraft:single/beach/full/pattern4","minecraft:single/beach/full/pattern5","minecraft:single/beach/full/pattern6","minecraft:single/beach/full/pattern7","minecraft:single/beach/full/pattern8","minecraft:single/beach/full/pattern9","minecraft:single/beach/full/pattern10"],Air:111}
+execute positioned ~0 ~ ~-32 run function map:generate/structures/set_seed
 #(21 ,16)
-execute positioned ~16 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~16 41 ~-32 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~16 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/beach/full/pattern0","minecraft:single/beach/full/pattern1","minecraft:single/beach/full/pattern2","minecraft:single/beach/full/pattern3","minecraft:single/beach/full/pattern4","minecraft:single/beach/full/pattern5","minecraft:single/beach/full/pattern6","minecraft:single/beach/full/pattern7","minecraft:single/beach/full/pattern8","minecraft:single/beach/full/pattern9","minecraft:single/beach/full/pattern10"],Air:111}
+execute positioned ~16 ~ ~-32 run function map:generate/structures/set_seed
 #(22 ,13)
-execute positioned ~-32 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~-16 minecraft:structure_block{mode:LOAD,seed:63}
-execute positioned ~-32 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/parallel/pattern0","minecraft:double/beach_sea/parallel/pattern1","minecraft:double/beach_sea/parallel/pattern2","minecraft:double/beach_sea/parallel/pattern3","minecraft:double/beach_sea/parallel/pattern4","minecraft:double/beach_sea/parallel/pattern5","minecraft:double/beach_sea/parallel/pattern6","minecraft:double/beach_sea/parallel/pattern7","minecraft:double/beach_sea/parallel/pattern8","minecraft:double/beach_sea/parallel/pattern9"],Air:610}
+execute positioned ~-32 ~ ~-16 run function map:generate/structures/set_seed
 #(22 ,14)
-execute positioned ~-16 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~-16 41 ~-16 minecraft:structure_block{mode:LOAD,seed:112}
-execute positioned ~-16 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/three_quarter/pattern0","minecraft:double/beach_sea/three_quarter/pattern1","minecraft:double/beach_sea/three_quarter/pattern2","minecraft:double/beach_sea/three_quarter/pattern3","minecraft:double/beach_sea/three_quarter/pattern4","minecraft:double/beach_sea/three_quarter/pattern5","minecraft:double/beach_sea/three_quarter/pattern6","minecraft:double/beach_sea/three_quarter/pattern7"],Air:1108}
+execute positioned ~-16 ~ ~-16 run function map:generate/structures/set_seed
 #(22 ,15)
-execute positioned ~0 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~0 41 ~-16 minecraft:structure_block{mode:LOAD,seed:43}
-execute positioned ~0 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/parallel/pattern0","minecraft:double/beach_sea/parallel/pattern1","minecraft:double/beach_sea/parallel/pattern2","minecraft:double/beach_sea/parallel/pattern3","minecraft:double/beach_sea/parallel/pattern4","minecraft:double/beach_sea/parallel/pattern5","minecraft:double/beach_sea/parallel/pattern6","minecraft:double/beach_sea/parallel/pattern7","minecraft:double/beach_sea/parallel/pattern8","minecraft:double/beach_sea/parallel/pattern9"],Air:410}
+execute positioned ~0 ~ ~-16 run function map:generate/structures/set_seed
 #(22 ,16)
-execute positioned ~16 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~16 41 ~-16 minecraft:structure_block{mode:LOAD,seed:52}
-execute positioned ~16 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/three_quarter/pattern0","minecraft:double/beach_sea/three_quarter/pattern1","minecraft:double/beach_sea/three_quarter/pattern2","minecraft:double/beach_sea/three_quarter/pattern3","minecraft:double/beach_sea/three_quarter/pattern4","minecraft:double/beach_sea/three_quarter/pattern5","minecraft:double/beach_sea/three_quarter/pattern6","minecraft:double/beach_sea/three_quarter/pattern7"],Air:508}
+execute positioned ~16 ~ ~-16 run function map:generate/structures/set_seed
 #(23 ,13)
-execute positioned ~-32 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~0 minecraft:structure_block{mode:LOAD,seed:63}
-execute positioned ~-32 41 ~0 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/quarter/pattern0","minecraft:double/beach_sea/quarter/pattern1","minecraft:double/beach_sea/quarter/pattern2","minecraft:double/beach_sea/quarter/pattern3","minecraft:double/beach_sea/quarter/pattern4","minecraft:double/beach_sea/quarter/pattern5","minecraft:double/beach_sea/quarter/pattern6","minecraft:double/beach_sea/quarter/pattern7"],Air:508}
+execute positioned ~-32 ~ ~0 run function map:generate/structures/set_seed
 #(23 ,14)
-execute positioned ~-16 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~-16 41 ~0 minecraft:structure_block{mode:LOAD,seed:103}
-execute positioned ~-16 41 ~0 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/quarter/pattern0","minecraft:double/beach_sea/quarter/pattern1","minecraft:double/beach_sea/quarter/pattern2","minecraft:double/beach_sea/quarter/pattern3","minecraft:double/beach_sea/quarter/pattern4","minecraft:double/beach_sea/quarter/pattern5","minecraft:double/beach_sea/quarter/pattern6","minecraft:double/beach_sea/quarter/pattern7"],Air:1108}
+execute positioned ~-16 ~ ~0 run function map:generate/structures/set_seed
 #(23 ,15)
-execute positioned ~0 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~0 41 ~0 minecraft:structure_block{mode:LOAD,seed:75}
-execute positioned ~0 41 ~0 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/quarter/pattern0","minecraft:double/beach_sea/quarter/pattern1","minecraft:double/beach_sea/quarter/pattern2","minecraft:double/beach_sea/quarter/pattern3","minecraft:double/beach_sea/quarter/pattern4","minecraft:double/beach_sea/quarter/pattern5","minecraft:double/beach_sea/quarter/pattern6","minecraft:double/beach_sea/quarter/pattern7"],Air:708}
+execute positioned ~0 ~ ~0 run function map:generate/structures/set_seed
 #(23 ,16)
-execute positioned ~16 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~16 41 ~0 minecraft:structure_block{mode:LOAD,seed:24}
-execute positioned ~16 41 ~0 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/cross/pattern0","minecraft:double/beach_sea/cross/pattern1","minecraft:double/beach_sea/cross/pattern2","minecraft:double/beach_sea/cross/pattern3","minecraft:double/beach_sea/cross/pattern4","minecraft:double/beach_sea/cross/pattern5","minecraft:double/beach_sea/cross/pattern6","minecraft:double/beach_sea/cross/pattern7"],Air:208}
+execute positioned ~16 ~ ~0 run function map:generate/structures/set_seed
 #(24 ,13)
-execute positioned ~-32 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~16 minecraft:structure_block{mode:LOAD,seed:63}
-execute positioned ~-32 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/sea/full/pattern0","minecraft:single/sea/full/pattern1","minecraft:single/sea/full/pattern2","minecraft:single/sea/full/pattern3"],Air:104}
+execute positioned ~-32 ~ ~16 run function map:generate/structures/set_seed
 #(24 ,14)
-execute positioned ~-16 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~-16 41 ~16 minecraft:structure_block{mode:LOAD,seed:103}
-execute positioned ~-16 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/sea/full/pattern0","minecraft:single/sea/full/pattern1","minecraft:single/sea/full/pattern2","minecraft:single/sea/full/pattern3"],Air:104}
+execute positioned ~-16 ~ ~16 run function map:generate/structures/set_seed
 #(24 ,15)
-execute positioned ~0 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~0 41 ~16 minecraft:structure_block{mode:LOAD,seed:63}
-execute positioned ~0 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/parallel/pattern0","minecraft:double/beach_sea/parallel/pattern1","minecraft:double/beach_sea/parallel/pattern2","minecraft:double/beach_sea/parallel/pattern3","minecraft:double/beach_sea/parallel/pattern4","minecraft:double/beach_sea/parallel/pattern5","minecraft:double/beach_sea/parallel/pattern6","minecraft:double/beach_sea/parallel/pattern7","minecraft:double/beach_sea/parallel/pattern8","minecraft:double/beach_sea/parallel/pattern9"],Air:610}
+execute positioned ~0 ~ ~16 run function map:generate/structures/set_seed
 #(24 ,16)
-execute positioned ~16 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~16 41 ~16 minecraft:structure_block{mode:LOAD,seed:92}
-execute positioned ~16 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/beach_sea/three_quarter/pattern0","minecraft:double/beach_sea/three_quarter/pattern1","minecraft:double/beach_sea/three_quarter/pattern2","minecraft:double/beach_sea/three_quarter/pattern3","minecraft:double/beach_sea/three_quarter/pattern4","minecraft:double/beach_sea/three_quarter/pattern5","minecraft:double/beach_sea/three_quarter/pattern6","minecraft:double/beach_sea/three_quarter/pattern7"],Air:908}
+execute positioned ~16 ~ ~16 run function map:generate/structures/set_seed

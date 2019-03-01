@@ -1,64 +1,48 @@
 #(13 ,25)
-execute positioned ~-32 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~-32 minecraft:structure_block{mode:LOAD,seed:10001}
-execute positioned ~-32 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/river_grass/three_quarter/pattern0","minecraft:double/river_grass/three_quarter/pattern1","minecraft:double/river_grass/three_quarter/pattern2","minecraft:double/river_grass/three_quarter/pattern3"],Air:704}
+execute positioned ~-32 ~ ~-32 run function map:generate/structures/set_seed
+execute positioned ~-32 ~ ~-32 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(13 ,26)
-#execute positioned ~-16 41 ~-32 run function map:generate/structures/reset_chunk
-#setblock ~-16 41 ~-32 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~-16 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/river_grass/parallel/pattern0","minecraft:double/river_grass/parallel/pattern1","minecraft:double/river_grass/parallel/pattern2","minecraft:double/river_grass/parallel/pattern3"],Air:1004}
+execute positioned ~-16 ~ ~-32 run function map:generate/structures/set_seed
+execute positioned ~-16 ~ ~-32 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(13 ,27)
-#execute positioned ~0 41 ~-32 run function map:generate/structures/reset_chunk
-#setblock ~0 41 ~-32 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~0 41 ~-32 run function map:generate/structures/set_seed
-#(13 ,28)
-#execute positioned ~16 41 ~-32 run function map:generate/structures/reset_chunk
-#setblock ~16 41 ~-32 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~16 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~0 ~ ~-32 run function map:generate/structures/set_seed
+execute positioned ~0 ~ ~-32 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(14 ,25)
-execute positioned ~-32 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~-16 minecraft:structure_block{mode:LOAD,seed:10001}
-execute positioned ~-32 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/river/full/pattern0"],Air:101}
+execute positioned ~-32 ~ ~-16 run function map:generate/structures/set_seed
+execute positioned ~-32 ~ ~-16 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(14 ,26)
-#execute positioned ~-16 41 ~-16 run function map:generate/structures/reset_chunk
-#setblock ~-16 41 ~-16 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~-16 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/river_grass/parallel/pattern0","minecraft:double/river_grass/parallel/pattern1","minecraft:double/river_grass/parallel/pattern2","minecraft:double/river_grass/parallel/pattern3"],Air:1004}
+execute positioned ~-16 ~ ~-16 run function map:generate/structures/set_seed
+execute positioned ~-16 ~ ~-16 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(14 ,27)
-#execute positioned ~0 41 ~-16 run function map:generate/structures/reset_chunk
-#setblock ~0 41 ~-16 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~0 41 ~-16 run function map:generate/structures/set_seed
-#(14 ,28)
-#execute positioned ~16 41 ~-16 run function map:generate/structures/reset_chunk
-#setblock ~16 41 ~-16 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~16 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~0 ~ ~-16 run function map:generate/structures/set_seed
+execute positioned ~0 ~ ~-16 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(15 ,25)
-execute positioned ~-32 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~0 minecraft:structure_block{mode:LOAD,seed:53002}
-execute positioned ~-32 41 ~0 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/river_grass/three_quarter/pattern0","minecraft:double/river_grass/three_quarter/pattern1","minecraft:double/river_grass/three_quarter/pattern2","minecraft:double/river_grass/three_quarter/pattern3"],Air:1104}
+execute positioned ~-32 ~ ~0 run function map:generate/structures/set_seed
+execute positioned ~-32 ~ ~0 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(15 ,26)
-#execute positioned ~-16 41 ~0 run function map:generate/structures/reset_chunk
-#setblock ~-16 41 ~0 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~-16 41 ~0 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/river_grass/quarter/pattern0"],Air:1101}
+execute positioned ~-16 ~ ~0 run function map:generate/structures/set_seed
+execute positioned ~-16 ~ ~0 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(15 ,27)
-#execute positioned ~0 41 ~0 run function map:generate/structures/reset_chunk
-#setblock ~0 41 ~0 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~0 41 ~0 run function map:generate/structures/set_seed
-#(15 ,28)
-#execute positioned ~16 41 ~0 run function map:generate/structures/reset_chunk
-#setblock ~16 41 ~0 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~16 41 ~0 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~0 ~ ~0 run function map:generate/structures/set_seed
+execute positioned ~0 ~ ~0 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(16 ,25)
-execute positioned ~-32 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~16 minecraft:structure_block{mode:LOAD,seed:53005}
-execute positioned ~-32 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:double/river_grass/parallel/pattern0","minecraft:double/river_grass/parallel/pattern1","minecraft:double/river_grass/parallel/pattern2","minecraft:double/river_grass/parallel/pattern3"],Air:1004}
+execute positioned ~-32 ~ ~16 run function map:generate/structures/set_seed
+execute positioned ~-32 ~ ~16 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(16 ,26)
-#execute positioned ~-16 41 ~16 run function map:generate/structures/reset_chunk
-#setblock ~-16 41 ~16 minecraft:structure_block{mode:LOAD,seed:53002}
-#execute positioned ~-16 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~-16 ~ ~16 run function map:generate/structures/set_seed
+execute positioned ~-16 ~ ~16 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]
 #(16 ,27)
-#execute positioned ~0 41 ~16 run function map:generate/structures/reset_chunk
-#setblock ~0 41 ~16 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~0 41 ~16 run function map:generate/structures/set_seed
-#(16 ,28)
-#execute positioned ~16 41 ~16 run function map:generate/structures/reset_chunk
-#setblock ~16 41 ~16 minecraft:structure_block{mode:LOAD,seed:10001}
-#execute positioned ~16 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~0 ~ ~16 run function map:generate/structures/set_seed
+execute positioned ~0 ~ ~16 run kill @e[tag=pack_temp,dx=15,dy=31,dz=15]

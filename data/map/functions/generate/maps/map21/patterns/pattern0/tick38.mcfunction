@@ -1,64 +1,27 @@
 #(17 ,21)
-execute positioned ~-32 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~-32 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-32 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~-32 ~ ~-32 run function map:generate/structures/set_seed
 #(17 ,22)
-execute positioned ~-16 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~-16 41 ~-32 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-16 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~-16 ~ ~-32 run function map:generate/structures/set_seed
 #(17 ,23)
-execute positioned ~0 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~0 41 ~-32 minecraft:structure_block{mode:LOAD,seed:73005}
-execute positioned ~0 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~0 ~ ~-32 run function map:generate/structures/set_seed
 #(17 ,24)
-execute positioned ~16 41 ~-32 run function map:generate/structures/reset_chunk
-setblock ~16 41 ~-32 minecraft:structure_block{mode:LOAD,seed:73002}
-execute positioned ~16 41 ~-32 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~16 ~ ~-32 run function map:generate/structures/set_seed
 #(18 ,21)
-execute positioned ~-32 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~-16 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-32 41 ~-16 run function map:generate/structures/set_seed
-#(18 ,22)
-execute positioned ~-16 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~-16 41 ~-16 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-16 41 ~-16 run function map:generate/structures/set_seed
-#(18 ,23)
-execute positioned ~0 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~0 41 ~-16 minecraft:structure_block{mode:LOAD,seed:53005}
-execute positioned ~0 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~-32 ~ ~-16 run function map:generate/structures/set_seed
 #(18 ,24)
-execute positioned ~16 41 ~-16 run function map:generate/structures/reset_chunk
-setblock ~16 41 ~-16 minecraft:structure_block{mode:LOAD,seed:53002}
-execute positioned ~16 41 ~-16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~16 ~ ~-16 run function map:generate/structures/set_seed
 #(19 ,21)
-execute positioned ~-32 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~0 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-32 41 ~0 run function map:generate/structures/set_seed
-#(19 ,22)
-execute positioned ~-16 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~-16 41 ~0 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-16 41 ~0 run function map:generate/structures/set_seed
-#(19 ,23)
-execute positioned ~0 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~0 41 ~0 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~0 41 ~0 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~-32 ~ ~0 run function map:generate/structures/set_seed
 #(19 ,24)
-execute positioned ~16 41 ~0 run function map:generate/structures/reset_chunk
-setblock ~16 41 ~0 minecraft:structure_block{mode:LOAD,seed:63003}
-execute positioned ~16 41 ~0 run function map:generate/structures/set_seed
-#(20 ,21)
-execute positioned ~-32 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~-32 41 ~16 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-32 41 ~16 run function map:generate/structures/set_seed
-#(20 ,22)
-execute positioned ~-16 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~-16 41 ~16 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~-16 41 ~16 run function map:generate/structures/set_seed
-#(20 ,23)
-execute positioned ~0 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~0 41 ~16 minecraft:structure_block{mode:LOAD,seed:11}
-execute positioned ~0 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~16 ~ ~0 run function map:generate/structures/set_seed
 #(20 ,24)
-execute positioned ~16 41 ~16 run function map:generate/structures/reset_chunk
-setblock ~16 41 ~16 minecraft:structure_block{mode:LOAD,seed:63003}
-execute positioned ~16 41 ~16 run function map:generate/structures/set_seed
+data merge entity 00000000-0000-0000-0000-000000000000 {Tags:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Air:110}
+execute positioned ~16 ~ ~16 run function map:generate/structures/set_seed
