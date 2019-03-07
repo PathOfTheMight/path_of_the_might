@@ -22,23 +22,35 @@ scoreboard objectives add SelectedItem dummy
 
 function main:add_score
 
-scoreboard players set #Rand Number 1
+scoreboard players set #-1 Number -1
+scoreboard players set #0 Number 0
+scoreboard players set #1 Number 1
 scoreboard players set #2 Number 2
 scoreboard players set #3 Number 3
 scoreboard players set #4 Number 4
 scoreboard players set #5 Number 5
+scoreboard players set #6 Number 6
 scoreboard players set #7 Number 7
+scoreboard players set #8 Number 8
+scoreboard players set #9 Number 9
 scoreboard players set #10 Number 10
+scoreboard players set #12 Number 12
+scoreboard players set #16 Number 16
+scoreboard players set #20 Number 20
 scoreboard players set #21 Number 21
-scoreboard players set #60 Number 60
+scoreboard players set #90 Number 90
 scoreboard players set #100 Number 100
+scoreboard players set #120 Number 120
+scoreboard players set #180 Number 180
 scoreboard players set #195 Number 195
+scoreboard players set #2000 Number 2000
 scoreboard players set #4096 Number 4096
-scoreboard players set #100000000 Number 100000000
+scoreboard players set #1000000 Number 1000000
 
 setworldspawn -40896 1 -40960
 #00000000-0000-0000-0000-000000000000 
 summon minecraft:armor_stand -40896 1 -40960 {CustomName:'{"text":"Center"}',Tags:[Center],HandItems:[{id:"minecraft:chest",Count:1b,tag:{Items:[]}},{id:"minecraft:polished_granite",Count:1b,tag:{String:"None"}}],UUIDLeast:0L,UUIDMost:0L}
 #00000000-0000-0001-0000-000000000000 
 summon minecraft:armor_stand -40896 1 -40960 {CustomName:'{"text":"Calc"}',Tags:[Calc],Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,UUIDLeast:0L,UUIDMost:1L}
-setblock -40896 1 -40960 minecraft:oak_sign
+setblock -40896 1 -40960 minecraft:polished_granite keep
+setblock -40896 1 -40960 minecraft:oak_sign keep
