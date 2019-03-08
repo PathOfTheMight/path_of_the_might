@@ -1,0 +1,19 @@
+{
+    "parent":"advancement:act1/awaken",
+    "display": {
+        "icon": {
+          "item": "minecraft:sand"
+        },
+        "title": "漂着",
+        "description": "見知らぬ海岸に流れ着いた",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+      },    
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:impossible"
+        }
+    }   
+}

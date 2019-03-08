@@ -4,7 +4,7 @@
           "item": "minecraft:oak_boat"
         },
         "title": "目覚め",
-        "description": "新しい大地に降り立った",
+        "description": "嵐の中で",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
