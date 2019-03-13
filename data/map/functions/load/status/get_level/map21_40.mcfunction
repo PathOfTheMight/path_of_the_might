@@ -1,5 +1,5 @@
 execute if score @s map matches 21 run scoreboard players set #MapLvl Number 70
-execute if score @s map matches 22 run scoreboard players set #MapLvl Number 2
+execute if score @s map matches 22 run scoreboard players set #MapLvl Number 70
 execute if score @s map matches 23 run scoreboard players set #MapLvl Number 1
 execute if score @s map matches 24 run scoreboard players set #MapLvl Number 1
 execute if score @s map matches 25 run scoreboard players set #MapLvl Number 1
