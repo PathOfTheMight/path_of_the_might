@@ -10,16 +10,13 @@ scoreboard players set #Flag Number 15
 
 #Dur duration(Tick)=基礎duration*duration(_multi)/100
 scoreboard players set #Dur Number 30
-scoreboard players operation #Dur Number *= @s Dur
-scoreboard players operation #Dur Number /= #100 Number
-scoreboard players add #Dur Number 25
-#AoE AoE(*100block)=基礎AoE*AoE(_multi)/100 AoE(_multi)は100~200%まで設定可能
-scoreboard players set #AoE Number 250
-scoreboard players operation #AoE Number *= @s RngIncP
-scoreboard players operation #AoE Number /= #100 Number
+execute unless entity @s[scores={SklDurIncP=0}] run function skill:calc/increase/skill_duration
+#Rng Rng(*100block)=基礎Rng*Rng(_multi)/100 Rng(_multi)は100~200%まで設定可能
+scoreboard players set #Rng Number 400
+execute unless entity @s[scores={RngIncP=0}] run function skill:calc/increase/range
 
 #LnD LnD=基礎LnD*LnD_multi/100
-scoreboard players set #LnD Number 3000
+scoreboard players set #LnD Number 6000
 #scoreboard players operation @e[tag=storm_call0,tag=New,limit=1] LnD *= @s mag_LnD_multi
 #scoreboard players operation @e[tag=storm_call0,tag=New,limit=1] LnD /= #100 Number
 

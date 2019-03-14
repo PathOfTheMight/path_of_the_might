@@ -1,0 +1,1 @@
+execute unless entity 00000000-0000-0001-0000-000000000000 run function main:load_once

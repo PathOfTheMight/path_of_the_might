@@ -193,6 +193,8 @@ scoreboard objectives add EMpGnOnKil dummy
 scoreboard objectives add PMpGnOnAtkHit dummy
 scoreboard objectives add EMpGnOnAtkHit dummy
 scoreboard objectives add PackSizeIncP dummy
+scoreboard objectives add ID dummy
+
 scoreboard objectives add Radius dummy
 scoreboard objectives add Rng dummy
 scoreboard objectives add RngSum1 dummy
@@ -297,18 +299,21 @@ scoreboard objectives add PFiAtkPene dummy
 scoreboard objectives add EFiAtkPene dummy
 scoreboard objectives add FiAtkPene dummy
 scoreboard objectives add FiSplPene dummy
+scoreboard objectives add FiPene dummy
 scoreboard objectives add PCoPene dummy
 scoreboard objectives add ECoPene dummy
 scoreboard objectives add PCoAtkPene dummy
 scoreboard objectives add ECoAtkPene dummy
 scoreboard objectives add CoAtkPene dummy
 scoreboard objectives add CoSplPene dummy
+scoreboard objectives add CoPene dummy
 scoreboard objectives add PLnPene dummy
 scoreboard objectives add ELnPene dummy
 scoreboard objectives add PLnAtkPene dummy
 scoreboard objectives add ELnAtkPene dummy
 scoreboard objectives add LnAtkPene dummy
 scoreboard objectives add LnSplPene dummy
+scoreboard objectives add LnPene dummy
 scoreboard objectives add ProjDIncP dummy
 scoreboard objectives add SklDurIncP dummy
 

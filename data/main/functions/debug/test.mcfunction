@@ -1,1 +1,2 @@
 give @s minecraft:polished_granite{Item:{id:"iron_ingot",Count:1b,tag:{Item:{id:"gold_ingot",Count:1b,tag:{Item:{id:"diamond",Count:1b,tag:{Item:{id:"emerald",Count:1b,tag:{Item:{id:"redstone",Count:1b,tag:{Item:{id:"lapis_lazuli",Count:1b,tag:{Item:{id:"nether_star",Count:1b,tag:{Item:{id:"air",Count:1b}}}}}}}}}}}}}}}}
+give @s minecraft:iron_boots{AttributeModifiers:[{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0,Operation:0,UUIDLeast:609458,UUIDMost:745119}]}
