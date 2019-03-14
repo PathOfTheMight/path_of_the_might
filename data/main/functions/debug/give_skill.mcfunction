@@ -1,5 +1,5 @@
 #デバッグ用 アイテム入手
-give @p minecraft:red_dye{Fireball:1b,HideFlags:17,ench:[{id:0,lvl:1}],display:{Name:'{"text":"ファイアボール\",\"italic\":false,\"color\":\"aqua"}',Lore:["§fタイプ:§b魔法§f・§c火§f・§b投射§f・§b範囲","§f爆発し、周囲の敵にダメージを与える火の球を放つ"]}}
+give @p minecraft:red_dye{Fireball:1b,HideFlags:17,Gem:{Equipment:0b,Slot:0b,Name:"Fireball",Tags:[Active,Spell,Fire,Projectile,Area],Color:0b,Enable:1b,BaseLevel:20,BaseQuality:20,Level:20,Quality:20},ench:[{id:0,lvl:1}],display:{Name:'{"text":"ファイアボール\",\"italic\":false,\"color\":\"aqua"}',Lore:["§fタイプ:§b魔法§f・§c火§f・§b投射§f・§b範囲","§f爆発し、周囲の敵にダメージを与える火の球を放つ"]}}
 give @p minecraft:light_blue_dye{StormCall:1b,HideFlags:17,ench:[{id:0,lvl:1}],display:{Name:'{"text":"ストームコール\",\"italic\":false,\"color\":\"aqua"}',Lore:["§fタイプ:§b魔法§f・§e雷§f・§b範囲§f・§b時間","§fある地点にマーカーをセットする","§f少し後にマーカーに雷が直撃し、周囲にダメージを与える","§fこの時、既に詠唱した他のマーカーにも雷が発生する"]}}
 give @p minecraft:prismarine_shard{IceSpear:1b,HideFlags:17,ench:[{id:0,lvl:1}],display:{Name:'{"text":"アイススピアー\",\"italic\":false,\"color\":\"aqua"}',Lore:["§fタイプ:§b魔法§f・§9氷§f・§b投射","§f近くの敵を貫通し、その後遠くの敵に","§f非常に高いクリティカル率の爆発を起こす氷の槍を放つ"]}}
 give @p minecraft:horn_coral{Arc:1b,HideFlags:17,ench:[{id:0,lvl:1}],display:{Name:'{"text":"アーク\",\"italic\":false,\"color\":\"aqua"}',Lore:["§fタイプ:§b魔法§f・§e雷§f・§b連鎖","§f雷が詠唱者から敵に伸びていき","§f近くにいる追加の敵に連鎖する"]}}
