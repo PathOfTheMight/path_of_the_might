@@ -50,7 +50,7 @@ scoreboard players operation #ID Number = @s ID
 execute positioned -40896 1 -40960 as @e[tag=StatusAEC,distance=..1] if score @s Number = #Slot Number if score @s ID = #ID Number run function skill:calc/act/aec/main
 
 ###ActiveGem
-function skill:calc/act/gem/active/main
+function skill:calc/act/gem/main
 
 ###Buff
 

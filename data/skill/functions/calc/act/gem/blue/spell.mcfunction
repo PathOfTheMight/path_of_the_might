@@ -1,0 +1,1 @@
+execute if score #GemID Number matches 20000 run function skill:act/fireball/act0
