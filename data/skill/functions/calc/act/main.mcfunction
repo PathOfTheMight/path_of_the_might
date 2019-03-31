@@ -11,20 +11,17 @@ execute store result score #Equipment Number run data get entity 00000000-0000-0
 execute store result score #GemID Number run data get entity 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.Gem.GemID 1
 execute store result score #GemLevel Number run data get entity 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.Gem.Level 1
 execute store result score #GemQuality Number run data get entity 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.Gem.Quality 1
+execute store result score #Cost Number run data get entity 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.Gem.Cost 1
 
-###装備ステータスをロード
+#ActiveGemをセット
+function skill:calc/act/gem/main
+
+###装備ステータスを加算
 scoreboard players operation #ID Number = @s ID
 execute as @e[tag=StatusAEC,x=-40896,y=1,z=-40960,distance=..1] if score @s Number = #Equipment Number if score @s ID = #ID Number run function skill:calc/act/load/base/main
 
-###Buff:itemにて個別に適用済み
-
-
-###Active Skill名から個別スキルに分岐
-###itemから必要スコアを交えてステータス計算
-#@s to # , add to # summon AEC as AEC # to @s
-
 ###Damage Roll
-function skill:calc/act/damage_roll/main
+function skill:calc/act/damage/main
 
 ###発動！
 

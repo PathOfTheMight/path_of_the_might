@@ -13,8 +13,7 @@ scoreboard players set #WaitTimeH Number 1200
 #execute unless entity @s[scores={CasSpdIncP=0}] run function skill:calc/increase/cast_speed
 #scoreboard players operation @s WaitTimeH += #WaitTimeH Number
 
-
-function skill:level/active/fireball/main
+function skill:level/act/active/fireball/main
 #RngIncP 爆発時のRng
 #scoreboard players set #Rng Number 300
 #execute unless entity @s[scores={RngIncP=0}] run function skill:calc/increase/range

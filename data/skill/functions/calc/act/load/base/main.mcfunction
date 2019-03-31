@@ -9,5 +9,3 @@ execute if data 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.ActiveGem.T
 execute if data 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.ActiveGem.Tags.Area run function skill:calc/act/load/base/area
 ###Dur
 execute if data 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.ActiveGem.Tags.Duration run function skill:calc/act/load/base/duration
-#ActiveGemを加算
-function skill:calc/act/gem/main
