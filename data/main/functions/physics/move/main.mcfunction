@@ -28,9 +28,9 @@ tag @s[tag=Block,tag=Sticky] remove Move
 execute if entity @s[tag=Block,tag=Reflect] run function main:physics/move/reflect
 
 #スピード *speed/100倍する
-scoreboard players operation @s X0 *= @s SProjSpd
-scoreboard players operation @s Y0 *= @s SProjSpd
-scoreboard players operation @s Z0 *= @s SProjSpd
+scoreboard players operation @s X0 *= @s ProjSpd
+scoreboard players operation @s Y0 *= @s ProjSpd
+scoreboard players operation @s Z0 *= @s ProjSpd
 scoreboard players operation @s X0 /= #100 Number
 scoreboard players operation @s Y0 /= #100 Number
 scoreboard players operation @s Z0 /= #100 Number
@@ -43,9 +43,9 @@ execute store result score @s Z1 run data get entity 00000000-0000-0001-0000-000
 #AEC消去
 tp 00000000-0000-0001-0000-000000000000 -40896 1 -40960
 #AECの座標のスピード補正
-scoreboard players operation @s X1 *= @s SProjSpd
-scoreboard players operation @s Y1 *= @s SProjSpd
-scoreboard players operation @s Z1 *= @s SProjSpd
+scoreboard players operation @s X1 *= @s ProjSpd
+scoreboard players operation @s Y1 *= @s ProjSpd
+scoreboard players operation @s Z1 *= @s ProjSpd
 scoreboard players operation @s X1 /= #100 Number
 scoreboard players operation @s Y1 /= #100 Number
 scoreboard players operation @s Z1 /= #100 Number
@@ -68,9 +68,9 @@ scoreboard players operation @s Z1 += @s Z0
 scoreboard players operation @s X1 *= #100 Number
 scoreboard players operation @s Y1 *= #100 Number
 scoreboard players operation @s Z1 *= #100 Number
-scoreboard players operation @s X1 /= @s SProjSpd
-scoreboard players operation @s Y1 /= @s SProjSpd
-scoreboard players operation @s Z1 /= @s SProjSpd
+scoreboard players operation @s X1 /= @s ProjSpd
+scoreboard players operation @s Y1 /= @s ProjSpd
+scoreboard players operation @s Z1 /= @s ProjSpd
 scoreboard players operation @s X1 -= @s X0
 scoreboard players operation @s Y1 -= @s Y0
 scoreboard players operation @s Z1 -= @s Z0

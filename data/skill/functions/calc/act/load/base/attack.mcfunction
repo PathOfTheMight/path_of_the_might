@@ -1,29 +1,29 @@
 #Add
-scoreboard players operation #PhDMin Number += @s PhAtkDMin
-scoreboard players operation #PhDMax Number += @s PhAtkDMax
-scoreboard players operation #FiDMin Number += @s FiAtkDMin
-scoreboard players operation #FiDMax Number += @s FiAtkDMax
-scoreboard players operation #CoDMin Number += @s CoAtkDMin
-scoreboard players operation #CoDMax Number += @s CoAtkDMax
-scoreboard players operation #LnDMin Number += @s LnAtkDMin
-scoreboard players operation #LnDMax Number += @s LnAtkDMax
-scoreboard players operation #ChDMin Number += @s ChAtkDMin
-scoreboard players operation #ChDMax Number += @s ChAtkDMax
+scoreboard players operation #Temp PhDMin += @s PhAtkDMin
+scoreboard players operation #Temp PhDMax += @s PhAtkDMax
+scoreboard players operation #Temp FiDMin += @s FiAtkDMin
+scoreboard players operation #Temp FiDMax += @s FiAtkDMax
+scoreboard players operation #Temp CoDMin += @s CoAtkDMin
+scoreboard players operation #Temp CoDMax += @s CoAtkDMax
+scoreboard players operation #Temp LnDMin += @s LnAtkDMin
+scoreboard players operation #Temp LnDMax += @s LnAtkDMax
+scoreboard players operation #Temp ChDMin += @s ChAtkDMin
+scoreboard players operation #Temp ChDMax += @s ChAtkDMax
 #Inc
-scoreboard players operation #PhDIncP Number += @s PhAtkDIncP
-scoreboard players operation #FiDIncP Number += @s FiDIncP
-scoreboard players operation #CoDIncP Number += @s CoDIncP
-scoreboard players operation #LnDIncP Number += @s LnDIncP
-scoreboard players operation #ChDIncP Number += @s ChDIncP
+scoreboard players operation #Temp PhDIncP += @s PhAtkDIncP
+scoreboard players operation #Temp FiDIncP += @s FiDIncP
+scoreboard players operation #Temp CoDIncP += @s CoDIncP
+scoreboard players operation #Temp LnDIncP += @s LnDIncP
+scoreboard players operation #Temp ChDIncP += @s ChDIncP
 #Pene
-scoreboard players operation #FiPene Number += @s FiAtkPene
-scoreboard players operation #CoPene Number += @s CoAtkPene
-scoreboard players operation #LnPene Number += @s LnAtkPene
+scoreboard players operation #Temp FiPene += @s FiAtkPene
+scoreboard players operation #Temp CoPene += @s CoAtkPene
+scoreboard players operation #Temp LnPene += @s LnAtkPene
 #Crit
-scoreboard players operation #CritP Number += @s EAtkCriP
-scoreboard players operation #CritIncP Number += @s AtkCritIncP
-scoreboard players operation #CritMultP Number += @s AtkCritMultP
+scoreboard players operation #Temp CritP += @s EAtkCriP
+scoreboard players operation #Temp CritIncP += @s AtkCritIncP
+scoreboard players operation #Temp CritMultP += @s AtkCritMultP
 #Spd
-scoreboard players operation #SpdIncP Number += @s AtkSpdIncP
+scoreboard players operation #Temp SpdIncP += @s AtkSpdIncP
 #Convert
 function skill:calc/act/load/base/convert

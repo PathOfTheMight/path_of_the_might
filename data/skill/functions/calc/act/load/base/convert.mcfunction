@@ -1,27 +1,32 @@
 #追加ロード
-scoreboard players operation #PhConvP Number += @s PhConvP
-scoreboard players operation #PhConvLnP Number += @s PhConvLnP
-scoreboard players operation #PhConvCoP Number += @s PhConvCoP
-scoreboard players operation #PhConvFiP Number += @s PhConvFiP
-scoreboard players operation #PhConvChP Number += @s PhConvChP
-scoreboard players operation #PhExtraLnP Number += @s PhExtraLnP
-scoreboard players operation #PhExtraCoP Number += @s PhExtraCoP
-scoreboard players operation #PhExtraFiP Number += @s PhExtraFiP
-scoreboard players operation #PhExtraChP Number += @s PhExtraChP
+scoreboard players operation #Temp PhConvP += @s PhConvP
+scoreboard players operation #Temp PhConvLnP += @s PhConvLnP
+scoreboard players operation #Temp PhConvCoP += @s PhConvCoP
+scoreboard players operation #Temp PhConvFiP += @s PhConvFiP
+scoreboard players operation #Temp PhConvChP += @s PhConvChP
+scoreboard players operation #Temp PhConvFlag += @s PhConvFlag
+scoreboard players operation #Temp PhExtraLnP += @s PhExtraLnP
+scoreboard players operation #Temp PhExtraCoP += @s PhExtraCoP
+scoreboard players operation #Temp PhExtraFiP += @s PhExtraFiP
+scoreboard players operation #Temp PhExtraChP += @s PhExtraChP
 
-scoreboard players operation #LnConvP Number += @s LnConvP
-scoreboard players operation #LnConvCoP Number += @s LnConvCoP
-scoreboard players operation #LnConvFiP Number += @s LnConvFiP
-scoreboard players operation #LnConvChP Number += @s LnConvChP
-scoreboard players operation #LnExtraCoP Number += @s LnExtraCoP
-scoreboard players operation #LnExtraFiP Number += @s LnExtraFiP
-scoreboard players operation #LnExtraChP Number += @s LnExtraChP
+scoreboard players operation #Temp LnConvP += @s LnConvP
+scoreboard players operation #Temp LnConvCoP += @s LnConvCoP
+scoreboard players operation #Temp LnConvFiP += @s LnConvFiP
+scoreboard players operation #Temp LnConvChP += @s LnConvChP
+scoreboard players operation #Temp LnConvFlag += @s LnConvFlag
+scoreboard players operation #Temp LnExtraCoP += @s LnExtraCoP
+scoreboard players operation #Temp LnExtraFiP += @s LnExtraFiP
+scoreboard players operation #Temp LnExtraChP += @s LnExtraChP
 
-scoreboard players operation #CoConvP Number += @s CoConvP
-scoreboard players operation #CoConvFiP Number += @s CoConvFiP
-scoreboard players operation #CoConvChP Number += @s CoConvChP
-scoreboard players operation #CoExtraFiP Number += @s CoExtraFiP
-scoreboard players operation #CoExtraChP Number += @s CoExtraChP
+scoreboard players operation #Temp CoConvP += @s CoConvP
+scoreboard players operation #Temp CoConvFiP += @s CoConvFiP
+scoreboard players operation #Temp CoConvChP += @s CoConvChP
+scoreboard players operation #Temp CoConvFlag += @s CoConvFlag
+scoreboard players operation #Temp CoExtraFiP += @s CoExtraFiP
+scoreboard players operation #Temp CoExtraChP += @s CoExtraChP
 
-scoreboard players operation #FiConvChP Number += @s FiConvChP
-scoreboard players operation #FiExtraChP Number += @s FiExtraChP
+scoreboard players operation #Temp FiConvP += @s FiConvP
+scoreboard players operation #Temp FiConvChP += @s FiConvChP
+scoreboard players operation #Temp FiConvFlag += @s FiConvFlag
+scoreboard players operation #Temp FiExtraChP += @s FiExtraChP

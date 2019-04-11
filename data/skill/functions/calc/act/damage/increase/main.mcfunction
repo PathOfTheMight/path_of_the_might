@@ -1,4 +1,4 @@
-scoreboard players operation #CurDIncP Number += #OthIncP Number
+scoreboard players operation #CurDIncP Number += #Temp OthDIncP
 scoreboard players add #CurDIncP Number 100
 scoreboard players operation #CurD Number *= #CurDIncP Number
 scoreboard players operation #CurD Number /= #100 Number

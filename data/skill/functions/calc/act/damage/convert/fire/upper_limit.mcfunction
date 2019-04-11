@@ -1,5 +1,5 @@
-scoreboard players operation #FiConvFiP Number *= #100 Number
-scoreboard players operation #FiConvFiP Number /= #FiConvP Number
-scoreboard players operation #FiConvChP Number *= #100 Number
-scoreboard players operation #FiConvChP Number /= #FiConvP Number
-scoreboard players set #FiConvP Number 100
+scoreboard players operation #Temp FiConvFiP *= #100 Number
+scoreboard players operation #Temp FiConvFiP /= #Temp FiConvP
+scoreboard players operation #Temp FiConvChP *= #100 Number
+scoreboard players operation #Temp FiConvChP /= #Temp FiConvP
+scoreboard players set #Temp FiConvP 100

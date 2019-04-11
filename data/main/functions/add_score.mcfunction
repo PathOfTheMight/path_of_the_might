@@ -149,7 +149,7 @@ scoreboard objectives add Pier dummy
 scoreboard objectives add PProjSpdIncP dummy
 scoreboard objectives add EProjSpdIncP dummy
 scoreboard objectives add ProjSpdIncP dummy
-scoreboard objectives add SProjSpd dummy
+scoreboard objectives add ProjSpd dummy
 scoreboard objectives add PCoolRcvSpdIncP dummy
 scoreboard objectives add ECoolRcvSpdIncP dummy
 scoreboard objectives add CoolRcvSpdIncP dummy
@@ -195,6 +195,14 @@ scoreboard objectives add EMpGnOnAtkHit dummy
 scoreboard objectives add PackSizeIncP dummy
 scoreboard objectives add ID dummy
 
+
+
+
+
+
+
+
+
 scoreboard objectives add Radius dummy
 scoreboard objectives add Rng dummy
 scoreboard objectives add RngSum1 dummy
@@ -208,6 +216,8 @@ scoreboard objectives add RngSum8 dummy
 scoreboard objectives add RngFlag dummy
 scoreboard objectives add RngExp dummy
 scoreboard objectives add D dummy
+scoreboard objectives add PhDMin dummy
+scoreboard objectives add PhDMax dummy
 scoreboard objectives add PhD dummy
 scoreboard objectives add EPhDMin dummy
 scoreboard objectives add EPhDMax dummy
@@ -234,6 +244,9 @@ scoreboard objectives add PPhShiAtkDIncP dummy
 scoreboard objectives add EPhDIncP dummy
 scoreboard objectives add PhAtkDIncP dummy
 scoreboard objectives add PhSplDIncP dummy
+scoreboard objectives add PhDIncP dummy
+scoreboard objectives add FiDMin dummy
+scoreboard objectives add FiDMax dummy
 scoreboard objectives add FiD dummy
 scoreboard objectives add EFiDMin dummy
 scoreboard objectives add EFiDMax dummy
@@ -248,6 +261,8 @@ scoreboard objectives add FiSplDMax dummy
 scoreboard objectives add PFiDIncP dummy
 scoreboard objectives add EFiDIncP dummy
 scoreboard objectives add FiDIncP dummy
+scoreboard objectives add CoDMin dummy
+scoreboard objectives add CoDMax dummy
 scoreboard objectives add CoD dummy
 scoreboard objectives add ECoDMin dummy
 scoreboard objectives add ECoDMax dummy
@@ -262,6 +277,8 @@ scoreboard objectives add CoSplDMax dummy
 scoreboard objectives add PCoDIncP dummy
 scoreboard objectives add ECoDIncP dummy
 scoreboard objectives add CoDIncP dummy
+scoreboard objectives add LnDMin dummy
+scoreboard objectives add LnDMax dummy
 scoreboard objectives add LnD dummy
 scoreboard objectives add ELnDMin dummy
 scoreboard objectives add ELnDMax dummy
@@ -276,6 +293,8 @@ scoreboard objectives add LnSplDMax dummy
 scoreboard objectives add PLnDIncP dummy
 scoreboard objectives add ELnDIncP dummy
 scoreboard objectives add LnDIncP dummy
+scoreboard objectives add ChDMin dummy
+scoreboard objectives add ChDMax dummy
 scoreboard objectives add ChD dummy
 scoreboard objectives add EChDMin dummy
 scoreboard objectives add EChDMax dummy
@@ -353,14 +372,32 @@ scoreboard objectives add ESplCriMultP dummy
 scoreboard objectives add AtkCriMultP dummy
 scoreboard objectives add SplCriMultP dummy
 
+scoreboard objectives add PhConvLnP dummy
+scoreboard objectives add PhConvCoP dummy
+scoreboard objectives add PhConvFiP dummy
+scoreboard objectives add PhConvChP dummy
+scoreboard objectives add PhConvP dummy
+scoreboard objectives add LnConvCoP dummy
+scoreboard objectives add LnConvFiP dummy
+scoreboard objectives add LnConvChP dummy
+scoreboard objectives add LnConvP dummy
+scoreboard objectives add CoConvFiP dummy
+scoreboard objectives add CoConvChP dummy
+scoreboard objectives add CoConvP dummy
+scoreboard objectives add FiConvChP dummy
+scoreboard objectives add FiConvP dummy
 
-
-
-
-
-
-
-
-
-
-
+scoreboard objectives add PhExtraLnP dummy
+scoreboard objectives add PhExtraCoP dummy
+scoreboard objectives add PhExtraFiP dummy
+scoreboard objectives add PhExtraChP dummy
+scoreboard objectives add PhConvFlag dummy
+scoreboard objectives add LnExtraCoP dummy
+scoreboard objectives add LnExtraFiP dummy
+scoreboard objectives add LnExtraChP dummy
+scoreboard objectives add LnConvFlag dummy
+scoreboard objectives add CoExtraFiP dummy
+scoreboard objectives add CoExtraChP dummy
+scoreboard objectives add CoConvFlag dummy
+scoreboard objectives add FiExtraChP dummy
+scoreboard objectives add FiConvFlag dummy

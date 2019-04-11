@@ -17,7 +17,7 @@ scoreboard players operation @e[tag=New,limit=1,distance=..1] Dur = @s Dur
 scoreboard players operation @e[tag=New,limit=1,distance=..1] Rng = @s Rng
 #Fireball用
 scoreboard players operation @e[tag=New,limit=1,distance=..1] RngIncP = @s RngIncP
-scoreboard players operation @e[tag=New,limit=1,distance=..1] SProjSpd = @s SProjSpd
+scoreboard players operation @e[tag=New,limit=1,distance=..1] ProjSpd = @s ProjSpd
 scoreboard players operation @e[tag=New,limit=1,distance=..1] PhD = @s PhD
 scoreboard players operation @e[tag=New,limit=1,distance=..1] FiD = @s FiD
 scoreboard players operation @e[tag=New,limit=1,distance=..1] CoD = @s CoD

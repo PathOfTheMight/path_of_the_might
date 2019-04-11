@@ -5,7 +5,7 @@ execute if score #Mult Number matches 2.. run function main:rand
 execute if score #Mult Number matches 2.. run scoreboard players set #Shotgun Number 1
 execute if score #Mult Number matches ..1 run scoreboard players set #Shotgun Number 0
 #Spd
-scoreboard players set #SProjSpd Number 80
+scoreboard players set #ProjSpd Number 80
 execute unless entity @s[scores={ProjSpdIncP=0}] run function skill:calc/projectile/set_speed
 #Pier
 scoreboard players operation #Pier Number = @s Pier

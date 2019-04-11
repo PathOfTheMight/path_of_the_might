@@ -1,3 +1,6 @@
+scoreboard players operation @s ID = #ID Number
+scoreboard players set @s Number 0
+
 ###Atk
 #Add
 scoreboard players operation #PhAtkDMin Number = @s PhAtkDMin

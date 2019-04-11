@@ -1,5 +1,5 @@
-scoreboard players add #FiDMin Number 54
-scoreboard players add #FiDMax Number 81
-scoreboard players add #IgnCha Number 26
-scoreboard players add #MoreIgnD Number 62
-scoreboard players add #Rng Number 260
+scoreboard players add #Temp FiDMin 54
+scoreboard players add #Temp FiDMax 81
+scoreboard players add #Temp IgnCha 26
+scoreboard players add #Temp MoreIgnD 62
+scoreboard players add #Temp Rng 260

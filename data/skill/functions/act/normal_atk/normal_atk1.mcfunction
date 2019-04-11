@@ -18,9 +18,9 @@ execute if score #weapon_effect Number matches 3 run tag @s add blood
 scoreboard players operation @s Rng = #AoE Number
 
 #speed speed(*100block/Tick)=基礎speed*speed(_multi)/100
-#scoreboard players set @s SProjSpd 50
-#scoreboard players operation @s SProjSpd *= #speed Number
-#scoreboard players operation @s SProjSpd /= #100 Number
+#scoreboard players set @s ProjSpd 50
+#scoreboard players operation @s ProjSpd *= #speed Number
+#scoreboard players operation @s ProjSpd /= #100 Number
 
 #dmg dmg=基礎dmg*dmg_multi/100
 scoreboard players set @s PhD 3000

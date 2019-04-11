@@ -1,7 +1,7 @@
-scoreboard players operation #LnConvCoP Number *= #100 Number
-scoreboard players operation #LnConvCoP Number /= #LnConvP Number
-scoreboard players operation #LnConvFiP Number *= #100 Number
-scoreboard players operation #LnConvFiP Number /= #LnConvP Number
-scoreboard players operation #LnConvChP Number *= #100 Number
-scoreboard players operation #LnConvChP Number /= #LnConvP Number
-scoreboard players set #LnConvP Number 100
+scoreboard players operation #Temp LnConvCoP *= #100 Number
+scoreboard players operation #Temp LnConvCoP /= #Temp LnConvP
+scoreboard players operation #Temp LnConvFiP *= #100 Number
+scoreboard players operation #Temp LnConvFiP /= #Temp LnConvP
+scoreboard players operation #Temp LnConvChP *= #100 Number
+scoreboard players operation #Temp LnConvChP /= #Temp LnConvP
+scoreboard players set #Temp LnConvP 100

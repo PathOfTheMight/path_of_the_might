@@ -1,19 +1,23 @@
-#Mult
-execute if score #Mult Number matches 1.. run function skill:calc/shotgun/main
+#Mult Calcいき
+execute if score #Temp Mult matches 1.. run function skill:calc/shotgun/main
 #Spd
-scoreboard players set #SProjSpd Number 100
+scoreboard players set #Temp ProjSpd 100
 #execute unless entity @s[scores={ProjSpdIncP=0}] run function skill:calc/increase/projectile_speed
 
 #Team
-execute if entity @s[tag=Player] run scoreboard players set #Team Number 1
-execute if entity @s[tag=Enemy] run scoreboard players set #Team Number 2
+#execute if entity @s[tag=Player] run scoreboard players set #Team Number 1
+execute if entity @s[tag=Enemy] run scoreboard players set #Temp Number 1
 
 #WaitTimeH WaitTimeH=基礎WaitTimeH(Tick)*100/cast_Spd
-scoreboard players set #WaitTimeH Number 1200
+scoreboard players set #Temp WaitTimeH 1200
 #execute unless entity @s[scores={CasSpdIncP=0}] run function skill:calc/increase/cast_speed
 #scoreboard players operation @s WaitTimeH += #WaitTimeH Number
 
-function skill:level/act/active/fireball/main
+function skill:level/act/active/blue/fireball/allocate/main
+
+#ステータスロード
+function skill:calc/act/load/base/main
+
 #RngIncP 爆発時のRng
 #scoreboard players set #Rng Number 300
 #execute unless entity @s[scores={RngIncP=0}] run function skill:calc/increase/range

@@ -16,7 +16,7 @@ scoreboard players set @s Dur 40
 scoreboard players set @s Rng 100
 
 #Spd
-scoreboard players operation @s SProjSpd = #SProjSpd Number
+scoreboard players operation @s ProjSpd = #ProjSpd Number
 
 #dmg dmg=基礎dmg*dmg_multi/100
 scoreboard players set @s CoD 2000

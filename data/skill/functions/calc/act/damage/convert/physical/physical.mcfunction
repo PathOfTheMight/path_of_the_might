@@ -1,5 +1,7 @@
+scoreboard players operation #CurD Number = #BasePhD Number
+scoreboard players operation #CurDIncP Number = #BasePhDIncP Number
 #Conv
-execute if score #PhConvP Number matches 1.. run function skill:calc/act/damage/convert/physical/base
+execute if score #Temp PhConvP matches 1.. run function skill:calc/act/damage/convert/physical/base
 #Inc
 function skill:calc/act/damage/increase/main
-scoreboard players operation #PhD Number += #CurD Number
+scoreboard players operation #Temp PhD += #CurD Number

@@ -1,1 +1,1 @@
-scoreboard players operation #SklDurIncP Number += @s SklDurIncP
+scoreboard players operation #Temp SklDurIncP += @s SklDurIncP

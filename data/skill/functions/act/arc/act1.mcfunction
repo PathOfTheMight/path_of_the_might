@@ -12,8 +12,8 @@ scoreboard players operation @s Chai = #Chai Number
 scoreboard players set @s Dur 20
 #Rng
 scoreboard players set @s Rng 220
-#SProjSpd
-scoreboard players set @s SProjSpd 150
+#ProjSpd
+scoreboard players set @s ProjSpd 150
 
 #dmg dmg=基礎dmg*dmg_multi/100
 scoreboard players set @s LnD 3500

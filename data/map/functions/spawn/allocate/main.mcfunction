@@ -36,4 +36,4 @@ execute if score @s map matches 381..400 run function map:spawn/allocate/map381_
 kill @s[tag=TempPack]
 tag @s[tag=InfPack] add Spawned
 
-effect give @e[tag=Enemy,distance=..6] minecraft:speed 1000 1 true
+#   effect give @e[tag=Enemy,distance=..6] minecraft:speed 1000 1 true

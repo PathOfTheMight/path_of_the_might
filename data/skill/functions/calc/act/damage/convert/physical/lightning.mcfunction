@@ -1,10 +1,8 @@
-scoreboard players operation #CurD Number = #BasePhD Number
-scoreboard players operation #CurDIncP Number = #BasePhDIncP Number
-scoreboard players operation #CurDIncP Number += #LnDIncP Number
+scoreboard players operation #CurDIncP Number += #Temp LnDIncP
 #Conv
-scoreboard players operation #CurConvP Number = #PhConvLnP Number
+scoreboard players operation #CurConvP Number = #Temp PhConvLnP
 function skill:calc/act/damage/convert/calc
-execute if score #LnConvP Number matches 1.. run function skill:calc/act/damage/convert/lightning/main
+execute if score #Temp LnConvFlag matches 1 run function skill:calc/act/damage/convert/lightning/main
 #Inc
-execute unless score #LnConvP Number matches 1.. run function skill:calc/act/damage/increase/main
-execute unless score #LnConvP Number matches 1.. run scoreboard players operation #LnD Number += #CurD Number
+execute unless score #Temp LnConvFlag matches 1 run function skill:calc/act/damage/increase/main
+execute unless score #Temp LnConvFlag matches 1 run scoreboard players operation #Temp LnD += #CurD Number

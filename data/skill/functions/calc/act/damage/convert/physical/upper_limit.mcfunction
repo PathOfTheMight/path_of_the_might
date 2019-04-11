@@ -1,9 +1,9 @@
-scoreboard players operation #PhConvLnP Number *= #100 Number
-scoreboard players operation #PhConvLnP Number /= #PhConvP Number
-scoreboard players operation #PhConvCoP Number *= #100 Number
-scoreboard players operation #PhConvCoP Number /= #PhConvP Number
-scoreboard players operation #PhConvFiP Number *= #100 Number
-scoreboard players operation #PhConvFiP Number /= #PhConvP Number
-scoreboard players operation #PhConvChP Number *= #100 Number
-scoreboard players operation #PhConvChP Number /= #PhConvP Number
-scoreboard players set #PhConvP Number 100
+scoreboard players operation #Temp PhConvLnP *= #100 Number
+scoreboard players operation #Temp PhConvLnP /= #Temp PhConvP
+scoreboard players operation #Temp PhConvCoP *= #100 Number
+scoreboard players operation #Temp PhConvCoP /= #Temp PhConvP
+scoreboard players operation #Temp PhConvFiP *= #100 Number
+scoreboard players operation #Temp PhConvFiP /= #Temp PhConvP
+scoreboard players operation #Temp PhConvChP *= #100 Number
+scoreboard players operation #Temp PhConvChP /= #Temp PhConvP
+scoreboard players set #Temp PhConvP 100
