@@ -170,7 +170,7 @@ scoreboard objectives add EMovSpdIncP dummy
 scoreboard objectives add MovSpdIncP dummy
 scoreboard objectives add Dur dummy
 scoreboard objectives add Gravity dummy
-
+scoreboard objectives add Shotgun dummy
 
 scoreboard objectives add PAtkDLchHpP dummy
 scoreboard objectives add EAtkDLchHpP dummy
@@ -391,13 +391,13 @@ scoreboard objectives add PhExtraLnP dummy
 scoreboard objectives add PhExtraCoP dummy
 scoreboard objectives add PhExtraFiP dummy
 scoreboard objectives add PhExtraChP dummy
-scoreboard objectives add PhConvFlag dummy
+scoreboard objectives add PhExtraP dummy
 scoreboard objectives add LnExtraCoP dummy
 scoreboard objectives add LnExtraFiP dummy
 scoreboard objectives add LnExtraChP dummy
-scoreboard objectives add LnConvFlag dummy
+scoreboard objectives add LnExtraP dummy
 scoreboard objectives add CoExtraFiP dummy
 scoreboard objectives add CoExtraChP dummy
-scoreboard objectives add CoConvFlag dummy
+scoreboard objectives add CoExtraP dummy
 scoreboard objectives add FiExtraChP dummy
 scoreboard objectives add FiConvFlag dummy

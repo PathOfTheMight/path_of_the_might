@@ -1,1 +1,1 @@
-scoreboard players operation @s HpH -= #ChD Number
+scoreboard players operation @s HpH -= #Temp ChD
