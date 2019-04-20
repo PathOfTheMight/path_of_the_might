@@ -8,5 +8,4 @@ execute if score #RngExp Number matches 186..216 run scoreboard players operatio
 execute if score #RngExp Number matches 217..247 run scoreboard players operation #RngSum Number = @s RngSum8
 
 scoreboard players operation #RngSum Number %= #RngPower+1 Number
-execute if score #RngPower Number <= #RngSum Number run scoreboard players set @s RngFlag 1
-execute unless score #RngPower Number <= #RngSum Number run function skill:calc/range/cancel/add
+execute if score #RngPower Number <= #RngSum Number run tag @s remove Chained

@@ -39,5 +39,3 @@ scoreboard players operation #RngPower+1 Number = #RngPower Number
 scoreboard players operation #RngPower+1 Number *= #2 Number
 
 scoreboard players operation #RngExp Number = @s RngExp
-
-execute as @e[scores={RngFlag=2},distance=..21] run function skill:calc/range/cancel/calc
