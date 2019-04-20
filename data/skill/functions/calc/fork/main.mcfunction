@@ -4,17 +4,13 @@ summon minecraft:armor_stand ~ ~ ~ {Tags:[New],Invisible:1b,Silent:1b,Small:1b,A
 #回転
 tp @s ~ ~ ~ ~60 0
 execute as @e[tag=New,limit=1,distance=..1] run tp @s ~ ~ ~ ~-60 0
-#敵に持っていなければ指数付与
-#execute as @e[scores={RngFlag=2..3},distance=..21] unless score @s RngExp matches 0.. run function skill:calc/range/exp_add/main
-#AoE_sum計算 敵の2^指数の合計をスキルに保存
-execute as @e[tag=New,limit=1,distance=..1] run function skill:calc/range/exp_sum/main
 #scoreboardコピー
-scoreboard players operation @e[tag=New,limit=1,distance=..1] Shotgun = @s Shotgun
 scoreboard players operation @e[tag=New,limit=1,distance=..1] Pier = @s Pier
 scoreboard players operation @e[tag=New,limit=1,distance=..1] Fork = @s Fork
 scoreboard players operation @e[tag=New,limit=1,distance=..1] Chai = @s Chai
 scoreboard players operation @e[tag=New,limit=1,distance=..1] Dur = @s Dur
 scoreboard players operation @e[tag=New,limit=1,distance=..1] Rng = @s Rng
+scoreboard players operation @e[tag=New,limit=1,distance=..1] RngExp = @s RngExp
 #Fireball用
 scoreboard players operation @e[tag=New,limit=1,distance=..1] RngIncP = @s RngIncP
 scoreboard players operation @e[tag=New,limit=1,distance=..1] ProjSpd = @s ProjSpd

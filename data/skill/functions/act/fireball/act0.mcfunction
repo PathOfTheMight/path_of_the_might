@@ -1,8 +1,5 @@
-#Mult Calcいき
-#execute if score #Temp Mult matches 1.. run function skill:calc/shotgun/main
 #Spd
 scoreboard players set #Temp ProjSpd 100
-#execute unless entity @s[scores={ProjSpdIncP=0}] run function skill:calc/increase/projectile_speed
 
 #Team
 #execute if entity @s[tag=Player] run scoreboard players set #Team Number 1

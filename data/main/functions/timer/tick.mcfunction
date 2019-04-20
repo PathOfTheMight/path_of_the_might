@@ -45,13 +45,8 @@ kill @e[tag=VoidKill]
 kill @e[tag=Kill]
 kill @e[tag=Corpse,scores={AoE_count=0}]
 
-#魔法########
-#RngFlag 0:0hit  1:1回でもhit  2:範囲内にいる  3:ダメージ計算する
-#as 魔法 
+#スキル
 execute as @e[tag=Skill] at @s run function skill:calc/tick/main
-#end as 魔法
-#RngFlagスコアが0の敵の指数を消去
-scoreboard players reset @e[scores={RngExp=0..,RngFlag=0}] RngExp
 
 ##########
 scoreboard players remove @a[scores={WaitTimeH=1..}] WaitTimeH 100

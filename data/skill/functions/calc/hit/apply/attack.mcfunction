@@ -1,3 +1,3 @@
 tag @s add Damaged
-scoreboard players set @s RngFlag 2
+scoreboard players reset @s RngFlag
 function skill:calc/evade/main

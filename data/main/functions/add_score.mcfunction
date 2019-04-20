@@ -170,7 +170,7 @@ scoreboard objectives add EMovSpdIncP dummy
 scoreboard objectives add MovSpdIncP dummy
 scoreboard objectives add Dur dummy
 scoreboard objectives add Gravity dummy
-scoreboard objectives add Shotgun dummy
+
 
 scoreboard objectives add PAtkDLchHpP dummy
 scoreboard objectives add EAtkDLchHpP dummy

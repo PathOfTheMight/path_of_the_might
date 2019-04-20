@@ -38,6 +38,7 @@ scoreboard players set #12 Number 12
 scoreboard players set #16 Number 16
 scoreboard players set #20 Number 20
 scoreboard players set #21 Number 21
+scoreboard players set #31 Number 31
 scoreboard players set #90 Number 90
 scoreboard players set #100 Number 100
 scoreboard players set #120 Number 120
