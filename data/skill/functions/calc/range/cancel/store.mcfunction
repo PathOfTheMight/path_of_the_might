@@ -37,5 +37,6 @@ execute if score #RngExp Number matches 30 run scoreboard players set #RngPower 
 
 scoreboard players operation #RngPower+1 Number = #RngPower Number
 scoreboard players operation #RngPower+1 Number *= #2 Number
+execute if score #RngExp Number matches 30 run scoreboard players set #RngPower+1 Number 2147483647
 
 scoreboard players operation #RngExp Number = @s RngExp
