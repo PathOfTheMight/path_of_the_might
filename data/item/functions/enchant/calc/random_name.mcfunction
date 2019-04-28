@@ -210,7 +210,7 @@ execute if score #RandMod Number matches 97 run data modify entity 00000000-0000
 execute if score #RandMod Number matches 98 run data modify entity 00000000-0000-0000-0000-000000000000 HandItems[1].tag.SuffixName set value "ラーメン屋"
 execute if score #RandMod Number matches 99 run data modify entity 00000000-0000-0000-0000-000000000000 HandItems[1].tag.SuffixName set value "サイドカー"
 
-data modify block -40896 1 -40960 Text1 set value "[{\"nbt\":\"HandItems[1].tag.PrefixName\",\"entity\":\"00000000-0000-0000-0000-000000000000\",\"italic\":false,\"color\":\"gold\"},{\"nbt\":\"HandItems[1].tag.SuffixName\",\"entity\":\"00000000-0000-0000-0000-000000000000\",\"italic\":false,\"color\":\"gold\"}]"
-data modify block ~ ~ ~ Items[0].tag.display.Name set from block -40896 1 -40960 Text1
+data modify block -40896 1 -40960 Text1 set value '[{"text":"<< ","color":"yellow","italic":false},{"nbt":"HandItems[1].tag.PrefixName","entity":"00000000-0000-0000-0000-000000000000","color":"gold","bold":true,"italic":false},{"nbt":"HandItems[1].tag.SuffixName","entity":"00000000-0000-0000-0000-000000000000","color":"gold","bold":true,"italic":false},{"text":" >>","color":"yellow","italic":false}]'
+data modify block ~ ~ ~ Items[0].tag.UniqueName set from block -40896 1 -40960 Text1
 
 scoreboard players set #Success Number 1

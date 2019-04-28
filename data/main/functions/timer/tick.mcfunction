@@ -51,7 +51,7 @@ execute as @e[tag=Skill] at @s run function skill:calc/tick/main
 ##########
 scoreboard players remove @a[scores={WaitTimeH=1..}] WaitTimeH 100
 #Workbench
-execute as @e[tag=Workbench] positioned as @s if block ~ ~ ~ minecraft:smoker{Items:[{Slot:0b},{Slot:1b}]} run function item:enchant/main
+execute as @e[tag=Workbench] positioned as @s if data block ~ ~ ~ {Items:[{Slot:0b},{Slot:1b}]} run function item:enchant/main
 
 #Physics
 execute as @e[tag=Move] at @s run function main:physics/move/main

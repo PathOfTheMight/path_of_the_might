@@ -6,5 +6,6 @@ execute if score #RandMod Number matches 0 run scoreboard players set #PAdd Numb
 execute if score #RandMod Number matches 1 run scoreboard players set #SAdd Number 1
 
 data modify block ~ ~ ~ Items[0].tag.Rarity set value "Rare"
+function item:enchant/calc/random_name
 
 scoreboard players set #Success Number 1

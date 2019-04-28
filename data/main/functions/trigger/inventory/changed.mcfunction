@@ -11,5 +11,4 @@ execute unless entity @s[nbt={Inventory:[{Slot:-100b}]}] run function main:trigg
 #オフハンド swap
 execute unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{Offhand:1b}}]}] run function main:trigger/swap
 
-execute if entity @s[tag=inventory_filled] run function main:trigger/inventory/clear
 advancement revoke @s only main:inventory_changed

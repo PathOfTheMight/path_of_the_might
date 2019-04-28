@@ -30,7 +30,7 @@ execute if score @p mana_ratio matches 19 store result entity @p Inventory[40].t
 execute if score @p mana_ratio matches 20 store result entity @p Inventory[40].tag.Damage byte 1 run scoreboard players get #21 Number
 
 clear @p minecraft:light_gray_stained_glass_pane 64
-clear @p minecraft:leather_boots
-clear @p minecraft:leather_leggings
-clear @p minecraft:leather_chestplate
-clear @p minecraft:leather_helmet
+#clear @p minecraft:leather_boots
+#clear @p minecraft:leather_leggings
+#clear @p minecraft:leather_chestplate
+#clear @p minecraft:leather_helmet

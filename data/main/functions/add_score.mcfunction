@@ -400,4 +400,10 @@ scoreboard objectives add CoExtraFiP dummy
 scoreboard objectives add CoExtraChP dummy
 scoreboard objectives add CoExtraP dummy
 scoreboard objectives add FiExtraChP dummy
+scoreboard objectives add FiExtraP dummy
+scoreboard objectives add PhConvFlag dummy
+scoreboard objectives add LnConvFlag dummy
+scoreboard objectives add CoConvFlag dummy
 scoreboard objectives add FiConvFlag dummy
+scoreboard objectives add RedStnThold dummy
+

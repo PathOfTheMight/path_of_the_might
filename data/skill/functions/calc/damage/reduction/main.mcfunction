@@ -3,3 +3,6 @@ execute if score #Temp FiD matches 1.. run function skill:calc/damage/reduction/
 execute if score #Temp CoD matches 1.. run function skill:calc/damage/reduction/cold
 execute if score #Temp LnD matches 1.. run function skill:calc/damage/reduction/lightning
 execute if score #Temp ChD matches 1.. run function skill:calc/damage/reduction/chaos
+
+#stun
+function skill:calc/stun/check
