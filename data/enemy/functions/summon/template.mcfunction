@@ -33,8 +33,8 @@ execute if block ^-5.25 ^ ^-4.57 #main:canspawn run summon minecraft:husk ^-5.25
 
 #base stats
 scoreboard players set #BaseExp Number 100
-scoreboard players set #BaseHpH Number 100
-scoreboard players set #BaseEsH Number 0
+scoreboard players set #BaseHp Number 100
+scoreboard players set #BaseEs Number 0
 scoreboard players set #BaseDmg Number 100
 scoreboard players set #BaseArm Number 100
 scoreboard players set #BaseAccu Number 100

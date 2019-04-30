@@ -1,11 +1,11 @@
 #max Hp
-scoreboard players operation @s MaxHpH = @s BMaxHpH
-scoreboard players operation @s MaxHpH += @s PMaxHpH
-scoreboard players operation @s MaxHpH += @s EMaxHpH
+scoreboard players operation @s MaxHp = @s BMaxHp
+scoreboard players operation @s MaxHp += @s PMaxHp
+scoreboard players operation @s MaxHp += @s EMaxHp
 
 scoreboard players set #MaxHpIncP Number 100
 scoreboard players operation #MaxHpIncP Number += @s PMaxHpIncP
 scoreboard players operation #MaxHpIncP Number += @s EMaxHpIncP
 
-scoreboard players operation @s MaxHpH *= #MaxHpIncP Number
-scoreboard players operation @s MaxHpH /= #100 Number
+scoreboard players operation @s MaxHp *= #MaxHpIncP Number
+scoreboard players operation @s MaxHp /= #100 Number

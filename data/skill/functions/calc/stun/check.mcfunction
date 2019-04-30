@@ -1,5 +1,5 @@
-scoreboard players operation #EffMaxHp Number = @s MaxHpH
-execute if score #Temp RedStnThold matches 1.. run function skill:calc/stun/threshold/main
+scoreboard players operation #EffMaxHp Number = @s MaxHp
+execute if score #Temp RedStnThold matches 1.. run function skill:calc/stun/thrEsold/main
 
 scoreboard players set #StnCha Number 200
 scoreboard players operation #StnCha Number *= #Temp D

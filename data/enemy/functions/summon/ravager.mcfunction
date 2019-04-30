@@ -2,8 +2,8 @@ execute if block ^0.11 ^ ^-0.96 #main:canspawn run summon minecraft:ravager ^0.1
 
 #base stats
 scoreboard players set #BaseExp Number 400
-scoreboard players set #BaseHpH Number 300
-scoreboard players set #BaseEsH Number 0
+scoreboard players set #BaseHp Number 300
+scoreboard players set #BaseEs Number 0
 scoreboard players set #BaseDmg Number 300
 scoreboard players set #BaseArm Number 200
 scoreboard players set #BaseAccu Number 140
@@ -20,8 +20,8 @@ execute if score #PackSizeIncP Number matches 50.. if block ^-2.03 ^ ^4.56 #main
 
 #base stats
 scoreboard players set #BaseExp Number 100
-scoreboard players set #BaseHpH Number 100
-scoreboard players set #BaseEsH Number 0
+scoreboard players set #BaseHp Number 100
+scoreboard players set #BaseEs Number 0
 scoreboard players set #BaseDmg Number 120
 scoreboard players set #BaseArm Number 100
 scoreboard players set #BaseAccu Number 160

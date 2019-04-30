@@ -13,8 +13,8 @@ execute if score #PackSizeIncP Number matches 50.. if block ^-2.03 ^ ^4.56 #main
 
 #base stats
 scoreboard players set #BaseExp Number 100
-scoreboard players set #BaseHpH Number 90
-scoreboard players set #BaseEsH Number 0
+scoreboard players set #BaseHp Number 90
+scoreboard players set #BaseEs Number 0
 scoreboard players set #BaseDmg Number 120
 scoreboard players set #BaseArm Number 50
 scoreboard players set #BaseAccu Number 100

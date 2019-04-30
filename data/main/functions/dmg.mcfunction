@@ -8,9 +8,9 @@
 #scoreboard players operation @s RngSum8 = @s RngSumTemp8
 
 #死亡時
-execute if entity @s[scores={HpH=..0}] at @s run playsound minecraft:entity.experience_orb.pickup master @a[distance=..32] ~ ~ ~ 0.5
+execute if entity @s[scores={Hp=..0}] at @s run playsound minecraft:entity.experience_orb.pickup master @a[distance=..32] ~ ~ ~ 0.5
 
-kill @s[scores={HpH=..0}]
+kill @s[scores={Hp=..0}]
 #被ダメージ演出
-effect give @s minecraft:wither 1 1 true
+effect give @s minecraft:instant_health 1 30 true
 tag @s[tag=Damaged] remove Damaged

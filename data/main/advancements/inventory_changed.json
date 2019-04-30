@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "main:trigger/inventory/changed"
+        "function": "main:trigger/inventory_changed"
     }
 }

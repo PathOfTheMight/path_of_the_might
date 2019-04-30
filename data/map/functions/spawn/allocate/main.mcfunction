@@ -2,8 +2,8 @@
 scoreboard players operation #PackSizeIncP Number = @s PackSizeIncP
 scoreboard players operation #PackLvl Number = @s Lvl
 scoreboard players operation #PackExp Number = @s Exp
-scoreboard players operation #PackHpH Number = @s HpH
-scoreboard players operation #PackEsH Number = @s EsH
+scoreboard players operation #PackHp Number = @s Hp
+scoreboard players operation #PackEs Number = @s Es
 scoreboard players operation #PackArm Number = @s Arm
 scoreboard players operation #PackEva Number = @s Eva
 scoreboard players operation #PackAcc Number = @s Acc
@@ -35,5 +35,3 @@ execute if score @s map matches 381..400 run function map:spawn/allocate/map381_
 
 kill @s[tag=TempPack]
 tag @s[tag=InfPack] add Spawned
-
-#   effect give @e[tag=Enemy,distance=..6] minecraft:speed 1000 1 true

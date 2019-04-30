@@ -9,8 +9,8 @@ execute if score #PackSizeIncP Number matches 38.. if block ^-4.71 ^ ^0.15 #main
 execute if score #PackSizeIncP Number matches 50.. if block ^-2.03 ^ ^4.56 #main:canspawn run summon minecraft:creeper ^-2.03 ^ ^4.56 {CustomName:'{"text":"クリーパー"}',Tags:[New,Husk,Time-,Mob,Enemy,Undead],Attributes:[{Name:generic.maxHealth,Base:1000000},{Name:generic.followRange,Base:48}],Health:1000000.0f,DeathLootTable:"minecraft:empty",DeathTime:19s}
 #base stats
 scoreboard players set #BaseExp Number 100
-scoreboard players set #BaseHpH Number 80
-scoreboard players set #BaseEsH Number 0
+scoreboard players set #BaseHp Number 80
+scoreboard players set #BaseEs Number 0
 scoreboard players set #BaseDmg Number 100
 scoreboard players set #BaseArm Number 100
 scoreboard players set #BaseAccu Number 100
@@ -24,8 +24,8 @@ execute if block ^-1 ^ ^3.28 #main:canspawn run summon minecraft:creeper ^-1 ^ ^
 execute if score #PackSizeIncP Number matches 25.. if block ^-1.83 ^ ^-4.02 #main:canspawn run summon minecraft:creeper ^-1.83 ^ ^-4.02 {CustomName:'{"text":"クリーパー"}',Tags:[New,Husk,Time-,Mob,Enemy,Undead],powered:1b,Attributes:[{Name:generic.maxHealth,Base:1000000},{Name:generic.followRange,Base:48}],Health:1000000.0f,DeathLootTable:"minecraft:empty",DeathTime:19s}
 #base stats
 scoreboard players set #BaseExp Number 120
-scoreboard players set #BaseHpH Number 150
-scoreboard players set #BaseEsH Number 0
+scoreboard players set #BaseHp Number 150
+scoreboard players set #BaseEs Number 0
 scoreboard players set #BaseDmg Number 140
 scoreboard players set #BaseArm Number 100
 scoreboard players set #BaseAccu Number 100

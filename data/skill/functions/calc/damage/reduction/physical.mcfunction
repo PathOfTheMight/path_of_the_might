@@ -5,5 +5,6 @@ scoreboard players operation #Arm+10Ph Number += @s Arm
 scoreboard players operation #Temp PhD *= #Temp PhD
 scoreboard players operation #Temp PhD *= #10 Number
 scoreboard players operation #Temp PhD /= #Arm+10Ph Number
+execute if entity @s[type=minecraft:player] run scoreboard players operation #Temp PhD *= #100 Number
 
 function skill:calc/damage/apply/physical

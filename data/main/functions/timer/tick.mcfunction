@@ -38,12 +38,15 @@ execute as @a[scores={Drop=1..}] at @s run function main:trigger/drop
 execute as @a[scores={SneakTime=1..}] at @s run function main:trigger/sneak_time
 execute as @a[scores={Sprint=1..}] at @s run function main:trigger/sprint
 
+#Status
+execute as @e[tag=Player] at @s run function status:tick/player/main
+execute as @e[tag=Enemy] at @s run function status:tick/enemy/main
+
 #Kill
 tag @e[tag=GroundKill,nbt={OnGround:1b}] add VoidKill
 tp @e[tag=VoidKill] -40960 -60 -40960
 kill @e[tag=VoidKill]
 kill @e[tag=Kill]
-kill @e[tag=Corpse,scores={AoE_count=0}]
 
 #スキル
 execute as @e[tag=Skill] at @s run function skill:calc/tick/main

@@ -1,10 +1,10 @@
 #scoreboard players operation @s map = 
 scoreboard players operation @s Lvl = #BaseLvl Number
 scoreboard players operation @s Exp = #BaseExp Number
-scoreboard players operation @s HpH = #BaseHpH Number
-scoreboard players operation @s MaxHpH = #BaseHpH Number
-scoreboard players operation @s EsH = #BaseEsH Number
-scoreboard players operation @s MaxEsH = #BaseEsH Number
+scoreboard players operation @s Hp = #BaseHp Number
+scoreboard players operation @s MaxHp = #BaseHp Number
+scoreboard players operation @s Es = #BaseEs Number
+scoreboard players operation @s MaxEs = #BaseEs Number
 scoreboard players operation @s Arm = #BaseArm Number
 scoreboard players operation @s Eva = #BaseEva Number
 scoreboard players operation @s Acc = #BaseAcc Number

@@ -1,6 +1,6 @@
 #function scoreboard players operation @s EsRchDur = 
-scoreboard players operation @s EsH -= #Temp CoD
-execute if score @s EsH matches ..-1 run scoreboard players operation @s HpH += @s EsH
-scoreboard players set @s[scores={EsH=..-1}] EsH 0
+scoreboard players operation @s Es -= #Temp CoD
+execute if score @s Es matches ..-1 run scoreboard players operation @s Hp += @s Es
+scoreboard players set @s[scores={Es=..-1}] Es 0
 
 scoreboard players operation #Temp D += #Temp CoD

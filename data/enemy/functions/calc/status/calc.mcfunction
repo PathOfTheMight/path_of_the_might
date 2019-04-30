@@ -1,12 +1,12 @@
 #Exp
 scoreboard players operation #BaseExp Number *= #PackExp Number
 scoreboard players operation #BaseExp Number /= #100 Number
-#HpH
-scoreboard players operation #BaseHpH Number *= #PackHpH Number
-scoreboard players operation #BaseHpH Number /= #100 Number
+#Hp
+scoreboard players operation #BaseHp Number *= #PackHp Number
+scoreboard players operation #BaseHp Number /= #100 Number
 #Es
-scoreboard players operation #BaseEsH Number *= #PackEsH Number
-scoreboard players operation #BaseEsH Number /= #100 Number
+scoreboard players operation #BaseEs Number *= #PackEs Number
+scoreboard players operation #BaseEs Number /= #100 Number
 #Arm
 scoreboard players operation #BaseArm Number *= #PackArm Number
 scoreboard players operation #BaseArm Number /= #100 Number
