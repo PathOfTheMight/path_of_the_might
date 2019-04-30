@@ -8,7 +8,6 @@ execute if data entity 00000000-0000-0000-0000-000000000000 {ArmorItems:[{tag:{G
 execute if data entity 00000000-0000-0000-0000-000000000000 {ArmorItems:[{tag:{Gem:{Name:"ShockNova"}}}]} anchored eyes run function skill:act/shock_nova/act0
 
 execute if data entity 00000000-0000-0000-0000-000000000000 {ArmorItems:[{tag:{Gem:{Name:"Portal"}}}]} run function skill:act/portal/portal0
-#execute if entity @s[scores={WaitTimeH=0}] anchored feet run function skill:act/portal/portal0
 
 tag @s remove Drop
 tag @s remove Swap
