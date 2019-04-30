@@ -10,6 +10,6 @@ scoreboard players set #SAdd Number 2
 execute if score #RandMod Number matches 1..3 run scoreboard players add #PAdd Number 1
 execute if score #RandMod Number matches 2..4 run scoreboard players add #SAdd Number 1
 
-function item:enchant/calc/random_name
+function item:enchant/calc/random_name/main
 
 scoreboard players set #Success Number 1
