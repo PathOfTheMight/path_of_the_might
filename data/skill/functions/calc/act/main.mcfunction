@@ -7,12 +7,16 @@ execute store result score #GemID Number run data get entity 00000000-0000-0000-
 execute store result score #GemLevel Number run data get entity 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.Gem.Level 1
 execute store result score #GemQuality Number run data get entity 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.Gem.Quality 1
 execute store result score #Cost Number run data get entity 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.Gem.Cost 1
+execute store result score #WaitTimeH Number run data get entity 00000000-0000-0000-0000-0000000000 ArmorItems[3].tag.Gem.WaitTimeH 1
 
 ###スコアリセット
 scoreboard players reset #Temp
-###ActiveGemをロード
+#ID
 scoreboard players operation #ID Number = @s ID
-execute as @e[tag=StatusAEC,x=-40896,y=1,z=-40960,distance=..1] if score @s Number = #Equipment Number if score @s ID = #ID Number run function skill:calc/act/gem/main
+#Costチェック
+execute if score #Cost Number <= @s Mp store success score #Temp Mp run scoreboard players operation @s Mp -= #Cost Number
+###ActiveGemをロード
+execute if score #Temp Mp matches 1 run function skill:calc/act/success
 
 tag @s remove Drop
 tag @s remove Swap

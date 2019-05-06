@@ -23,6 +23,8 @@ scoreboard players operation #Temp LnPene += @s LnSplPene
 scoreboard players operation #Temp CritIncP += @s SplCritIncP
 scoreboard players operation #Temp CritMultP += @s SplCritMultP
 #Spd
-scoreboard players operation #Temp SpdIncP += @s CasSpdIncP
+scoreboard players operation #Temp CasSpdIncP += @s CasSpdIncP
+function skill:calc/act/increase/cast_speed
+
 #Convert
 function skill:calc/act/load/base/convert

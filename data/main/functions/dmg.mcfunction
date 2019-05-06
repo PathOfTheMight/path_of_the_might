@@ -13,4 +13,5 @@ execute if entity @s[scores={Hp=..0}] at @s run playsound minecraft:entity.exper
 kill @s[scores={Hp=..0}]
 #被ダメージ演出
 effect give @s minecraft:instant_health 1 30 true
+effect give @s minecraft:instant_damage 1 30 true
 tag @s[tag=Damaged] remove Damaged
