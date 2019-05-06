@@ -5,7 +5,7 @@ data modify block ~ ~ ~ Items[0].tag.display.Lore set value []
 #UniqueName unless data block ~ ~ ~ {Items:[{Slot:0b,tag:{UniqueName:"None"}}]} 
 execute if data block ~ ~ ~ Items[0].tag.UniqueName run function item:lore/unique_name
 #BaseName
-function item:lore/base_name
+function item:lore/base_name/main
 #BaseStats
 function item:lore/base_stats/main
 #Requirements
