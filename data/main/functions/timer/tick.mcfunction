@@ -15,7 +15,7 @@ scoreboard players remove @e[tag=!Player,scores={Dur=1..}] Dur 1
 
 #GenerateTick
 execute if score #GenerateTick Number matches 1..64 as @p[tag=GenerateMap] at @s run function map:generate/check_load
-#Map_control
+#MapControl
 execute as @a positioned as @s if block ~ ~-4 ~ #main:map_control run function map:across/map_control
 #portal
 execute as @a[tag=InPortal] positioned as @s unless entity @e[tag=Portal,limit=1,distance=..2] run tag @s remove InPortal
@@ -24,7 +24,7 @@ execute as @a[tag=!InPortal] positioned as @s if entity @e[tag=Portal,limit=1,di
 execute as @a[scores={Trigger=1..}] at @s run function main:trigger
 
 #fall 落下処理
-execute as @a[tag=!GenerateMap] positioned as @s run function main:fall/check/main
+execute as @a[gamemode=!creative,gamemode=!spectator,tag=!GenerateMap] positioned as @s run function main:fall/check/main
 
 #Pack
 execute as @a[tag=!GenerateMap] at @s rotated ~ 0 positioned ^ ^ ^8 as @e[tag=Pack,tag=!Spawned,distance=..16] positioned as @s run function map:spawn/allocate/main

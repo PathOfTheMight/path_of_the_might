@@ -1,3 +1,5 @@
+scoreboard players reset #SuccessTransfer Number
+
 execute if score @s map matches 0..20 run function map:across/transfer/allocate/map0_20
 execute if score @s map matches 21..40 run function map:across/transfer/allocate/map21_40
 execute if score @s map matches 41..60 run function map:across/transfer/allocate/map41_60
@@ -22,7 +24,7 @@ execute if score @s map matches 341..360 run function map:across/transfer/alloca
 execute if score @s map matches 361..380 run function map:across/transfer/allocate/map361_380
 execute if score @s map matches 381..400 run function map:across/transfer/allocate/map381_400
 
-execute if score #MapAcross Number matches 0 run tellraw @s {"text":"移動先から離れている。"}
-execute if score #MapAcross Number matches 0 run playsound block.dispenser.fail master @s ~ ~ ~ 1 1
+execute unless score #SuccessTransfer Number matches 1 run tellraw @s {"text":"移動先から離れている。"}
+execute unless score #SuccessTransfer Number matches 1 run playsound minecraft:block.dispenser.fail master @s ~ ~ ~ 1 1
 
-execute if score #MapAcross Number matches 1 run function map:across/transfer/success
+execute if score #SuccessTransfer Number matches 1 run function map:across/transfer/success

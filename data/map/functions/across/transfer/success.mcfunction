@@ -1,6 +1,10 @@
-function map:transfer/get_map
-tag @s remove map_control
+tag @s remove MapControl
+execute positioned as @s run playsound minecraft:entity.arrow.hit_player master @s ~ ~ ~ 1 2
 
-execute positioned as @s run playsound entity.arrow.hit_player master @p ~ ~ ~ 1 2
+scoreboard players operation #Map Number = @s map
+function map:across/transfer/get_map
+execute unless score #Map Number = @s map run function map:load/tellraw/allocate/main
 
-execute if entity @s[tag=map_across] run function map:load/map_timer/check/allocate/main
+effect give @s minecraft:levitation 1 255 true
+
+execute if entity @s[tag=MapAcross] run function map:load/map_timer/check/allocate/main

@@ -1,3 +1,6 @@
+title @s times 20 100 20
+execute positioned as @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 0
+
 execute if score @s map matches 0..20 run function map:load/tellraw/allocate/map0_20
 execute if score @s map matches 21..40 run function map:load/tellraw/allocate/map21_40
 execute if score @s map matches 41..60 run function map:load/tellraw/allocate/map41_60

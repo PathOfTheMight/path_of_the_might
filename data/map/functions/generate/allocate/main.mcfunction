@@ -29,10 +29,11 @@ execute positioned ~-32 ~ ~-32 run function map:generate/structures/reset_chunk
 scoreboard players operation #TickMod Number = #GenerateTick Number
 scoreboard players operation #TickMod Number %= #16 Number
 
-execute if score #TickMod Number matches 0 run tp @s ~ ~ ~64
-execute if score #TickMod Number matches 1..7 run tp @s ~64 ~ ~
-execute if score #TickMod Number matches 8 run tp @s ~ ~ ~64
-execute if score #TickMod Number matches 9..15 run tp @s ~-64 ~ ~
+execute if score #TickMod Number matches 0 run tp 0-0-1-0-1 ~ ~ ~64
+execute if score #TickMod Number matches 1..7 run tp 0-0-1-0-1 ~64 ~ ~
+execute if score #TickMod Number matches 8 run tp 0-0-1-0-1 ~ ~ ~64
+execute if score #TickMod Number matches 9..15 run tp 0-0-1-0-1 ~-64 ~ ~
+execute positioned as 0-0-1-0-1 run tp @s ~ ~ ~
 
 scoreboard players add #GenerateTick Number 1
 execute if score #GenerateTick Number matches 65 run function map:generate/exit_generate

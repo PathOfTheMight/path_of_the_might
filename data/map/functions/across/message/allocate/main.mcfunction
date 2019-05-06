@@ -22,4 +22,5 @@ execute if score @s map matches 341..360 run function map:across/message/allocat
 execute if score @s map matches 361..380 run function map:across/message/allocate/map361_380
 execute if score @s map matches 381..400 run function map:across/message/allocate/map381_400
 
-tag @s add map_control
+tag @s add MapControl
+playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 2

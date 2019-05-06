@@ -10,6 +10,7 @@ scoreboard objectives add Y2 dummy
 scoreboard objectives add Z2 dummy
 #ワールド
 scoreboard objectives add map dummy
+scoreboard objectives add MapControl dummy
 #スキル
 scoreboard objectives add WaitTimeH dummy
 #検知

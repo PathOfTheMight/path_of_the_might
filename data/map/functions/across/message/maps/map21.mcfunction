@@ -1,4 +1,4 @@
 #01 ブルーオーシャンへ
-execute if entity @e[tag=across01,distance=..10] run tellraw @s {"text":">>> ブルーオーシャンに進む","clickEvent":{"action":"run_command","value":"/trigger Trigger set 1"}}
+execute positioned -40905 60 -36688 run tellraw @s[distance=..10] {"text":">>> ブルーオーシャンに進む","clickEvent":{"action":"run_command","value":"/trigger Trigger set 1"}}
 #02 クラブコリドーへ
-execute if entity @e[tag=across02,distance=..10] run tellraw @s {"text":">>> クラブコリドーに進む","clickEvent":{"action":"run_command","value":"/trigger Trigger set 2"}}
+execute positioned -40621 61 -36784 run tellraw @s[distance=..10] {"text":">>> クラブコリドーに進む","clickEvent":{"action":"run_command","value":"/trigger Trigger set 2"}}
