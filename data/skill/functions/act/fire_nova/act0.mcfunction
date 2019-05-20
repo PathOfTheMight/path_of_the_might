@@ -1,20 +1,16 @@
-#Team
-execute if entity @s[tag=Player] run scoreboard players set #Team Number 1
-execute if entity @s[tag=Enemy] run scoreboard players set #Team Number 2
-
-#WaitTimeH
-scoreboard players set #WaitTimeH Number 1500
-execute unless entity @s[scores={CasSpdIncP=0}] run function skill:calc/increase/cast_speed
-scoreboard players operation @s WaitTimeH += #WaitTimeH Number
-
 #Rng
-scoreboard players set #Rng Number 400
-execute unless entity @s[scores={RngIncP=0}] run function skill:calc/increase/range
+scoreboard players set #Temp Rng 400
 #Radius Rng/12tick
-scoreboard players operation #RadiusInc Number = #Rng Number
+scoreboard players operation #RadiusInc Number = #Temp Rng
 scoreboard players operation #RadiusInc Number /= #12 Number
-
-scoreboard players remove @s mana 8
+#Effectiveness
+scoreboard players set #Effectiveness Number 120
+#Level
+function skill:level/act/active/blue/fire_nova/allocate/main
+#ステータスロード
+function skill:calc/act/load/base/main
+#ダメージ計算
+function skill:calc/act/damage/main
 
 playsound minecraft:entity.blaze.shoot master @a[distance=..16] ~ ~ ~ 1 1
 playsound minecraft:entity.blaze.shoot master @a[distance=..16] ~ ~ ~ 1 0
