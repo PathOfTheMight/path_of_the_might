@@ -1,0 +1,10 @@
+execute if entity @s[scores={RngMin=1100..1109}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..11.6] RngFlag 1
+execute if entity @s[scores={RngMin=1110..1119}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..11.7] RngFlag 1
+execute if entity @s[scores={RngMin=1120..1129}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..11.8] RngFlag 1
+execute if entity @s[scores={RngMin=1130..1139}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..11.9] RngFlag 1
+execute if entity @s[scores={RngMin=1140..1149}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..12] RngFlag 1
+execute if entity @s[scores={RngMin=1150..1159}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..12.1] RngFlag 1
+execute if entity @s[scores={RngMin=1160..1169}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..12.2] RngFlag 1
+execute if entity @s[scores={RngMin=1170..1179}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..12.3] RngFlag 1
+execute if entity @s[scores={RngMin=1180..1189}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..12.4] RngFlag 1
+execute if entity @s[scores={RngMin=1190..1199}] positioned ~ ~-1 ~ run scoreboard players set @e[tag=Enemy,tag=!Corpse,distance=..12.5] RngFlag 1

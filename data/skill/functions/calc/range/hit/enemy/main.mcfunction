@@ -13,3 +13,5 @@ execute if entity @s[scores={Rng=1100..1199}] run function skill:calc/range/hit/
 execute if entity @s[scores={Rng=1200..1299}] run function skill:calc/range/hit/enemy/range12
 execute if entity @s[scores={Rng=1300..1399}] run function skill:calc/range/hit/enemy/range13
 execute if entity @s[scores={Rng=1400..}] run function skill:calc/range/hit/enemy/range14
+
+execute if entity @s[tag=Donut] run function skill:calc/range/donut/enemy/main

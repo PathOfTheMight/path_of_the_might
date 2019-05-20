@@ -12,7 +12,8 @@ scoreboard objectives add Z2 dummy
 scoreboard objectives add map dummy
 scoreboard objectives add MapControl dummy
 #スキル
-scoreboard objectives add WaitTimeH dummy
+scoreboard objectives add AITime dummy
+scoreboard objectives add RngMin dummy
 #検知
 scoreboard objectives add Trigger trigger
 #scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick
@@ -45,6 +46,7 @@ scoreboard players set #100 Number 100
 scoreboard players set #120 Number 120
 scoreboard players set #180 Number 180
 scoreboard players set #195 Number 195
+scoreboard players set #1000 Number 1000
 scoreboard players set #2000 Number 2000
 scoreboard players set #4096 Number 4096
 scoreboard players set #1000000 Number 1000000
