@@ -1,24 +1,10 @@
-execute if score #Shotgun Number matches 1 run scoreboard players operation @s Shotgun = #Rand Number
-#Team
-execute if score #Team Number matches 1 run tag @s add SkillP
-execute if score #Team Number matches 2 run tag @s add SkillE
-#Pier
-scoreboard players operation @s Pier = #Pier Number
-#Fork
-scoreboard players operation @s Fork = #Fork Number
-#Chai
-scoreboard players operation @s Chai = #Chai Number
-
 #Dur
-scoreboard players set @s Dur 40
+scoreboard players set @s Dur 14
+#Rng
+scoreboard players set @s Rng 70
+#Diffuse
+function main:physics/diffuse/x
 
-#AoE
-scoreboard players set @s Rng 100
-
-#Spd
-scoreboard players operation @s ProjSpd = #ProjSpd Number
-
-#dmg dmg=基礎dmg*dmg_multi/100
-scoreboard players set @s CoD 2000
+function skill:calc/act/apply/main
 
 tag @s remove New

@@ -1,31 +1,19 @@
-#Mult
-scoreboard players operation #Mult Number = @s Mult
-scoreboard players add #Mult Number 1
-execute if score #Mult Number matches 2.. run function main:rand
-execute if score #Mult Number matches 2.. run scoreboard players set #Shotgun Number 1
-execute if score #Mult Number matches ..1 run scoreboard players set #Shotgun Number 0
 #Spd
-scoreboard players set #ProjSpd Number 80
-execute unless entity @s[scores={ProjSpdIncP=0}] run function skill:calc/projectile/set_speed
-#Pier
-scoreboard players operation #Pier Number = @s Pier
-scoreboard players add #Pier Number 10000
-#Fork
-scoreboard players operation #Fork Number = @s Fork
-#Chai
-scoreboard players operation #Chai Number = @s Chai
-#Team
-execute if entity @s[tag=Player] run scoreboard players set #Team Number 1
-execute if entity @s[tag=Enemy] run scoreboard players set #Team Number 2
-
-#WaitTimeH WaitTimeH=基礎WaitTimeH(Tick)*100/TCasSpdH
-scoreboard players set #WaitTimeH Number 1000
-execute unless entity @s[scores={CasSpdIncP=0}] run function skill:calc/increase/cast_speed
-scoreboard players operation @s WaitTimeH += #WaitTimeH Number
-
-scoreboard players remove @s mana 8
+scoreboard players set #Temp ProjSpd 240
+#Effectiveness
+scoreboard players set #Effectiveness Number 80
+#Level
+function skill:level/act/active/blue/fireball/allocate/main
+#ステータスロード
+function skill:calc/act/load/base/main
+#ショットガンあり
+scoreboard players set #Temp RngExp -1
+#ダメージ計算
+function skill:calc/act/damage/main
+#Diffuse
+scoreboard players set #DiffuseX Number 5
 
 playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 0.5 0
 
+execute positioned as @s run tp @s ~ ~ ~ ~ ~
 function skill:act/ice_spear/act1
-

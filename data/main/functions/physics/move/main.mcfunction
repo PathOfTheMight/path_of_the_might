@@ -1,6 +1,3 @@
-#拡散 tag=diffuse/diffuseX/diffuseY
-execute if entity @s[tag=Diffuse] run function main:physics/move/diffuse
-
 #座標取得
 execute store result score @s X0 run data get entity @s Pos[0] 100
 execute store result score @s Y0 run data get entity @s Pos[1] 100
@@ -16,9 +13,9 @@ execute unless entity @s[scores={Y1=-2147483647..}] run scoreboard players set @
 execute unless entity @s[scores={Z1=-2147483647..}] run scoreboard players set @s Z1 0
 #ブロックに当たる tag=block 次Tickに除去
 tag @s[tag=Block] remove Block
-execute unless entity @s[scores={X1=-10..10}] run tag @s add Block
-execute unless entity @s[scores={Y1=-10..10}] run tag @s add Block
-execute unless entity @s[scores={Z1=-10..10}] run tag @s add Block
+execute unless entity @s[scores={X1=-10..10},tag=!ChangeMoving] run tag @s add Block
+execute unless entity @s[scores={Y1=-10..10},tag=!ChangeMoving] run tag @s add Block
+execute unless entity @s[scores={Z1=-10..10},tag=!ChangeMoving] run tag @s add Block
 #ブロックに当たると消える tag=unslide
 tag @s[tag=Block,tag=Unslide] add Kill
 #ブロックに当たるとくっつく tag=sticky
