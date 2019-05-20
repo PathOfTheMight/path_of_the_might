@@ -4,5 +4,6 @@ execute if score #Temp CoD matches 1.. run function skill:calc/damage/reduction/
 execute if score #Temp LnD matches 1.. run function skill:calc/damage/reduction/lightning
 execute if score #Temp ChD matches 1.. run function skill:calc/damage/reduction/chaos
 
+execute if score #DebugHp Number matches 1 run tellraw @a [{"text":"Hp"},{"score":{"name":"@s","objective":"Hp"}}]
 #stun
-function skill:calc/stun/check
+execute unless entity @s[type=minecraft:player] run function skill:calc/stun/check

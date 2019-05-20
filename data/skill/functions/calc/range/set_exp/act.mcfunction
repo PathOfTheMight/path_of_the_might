@@ -5,7 +5,6 @@ execute if score #CurRngExp Number matches 248.. run scoreboard players set #Cur
 scoreboard players operation * RngExp -= #CurRngExp Number
 execute unless entity @e[scores={RngExp=0},distance=..21,limit=1] run scoreboard players set #Temp RngExp 0
 scoreboard players operation * RngExp += #CurRngExp Number
-execute unless score #Temp RngExp = #CurRngExp Number run function skill:calc/range/set_exp/main
 #RngSumリセット
 scoreboard players operation #TempRngExp Number %= #31 Number
 execute if score #TempRngExp Number matches 0 run function skill:calc/range/set_exp/reset_sum

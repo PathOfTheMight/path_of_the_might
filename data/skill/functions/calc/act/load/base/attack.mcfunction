@@ -24,6 +24,7 @@ scoreboard players operation #Temp CritP += @s EAtkCriP
 scoreboard players operation #Temp CritIncP += @s AtkCritIncP
 scoreboard players operation #Temp CritMultP += @s AtkCritMultP
 #Spd
-scoreboard players operation #Temp SpdIncP += @s AtkSpdIncP
+scoreboard players operation #Temp AtkSpdIncP += @s AtkSpdIncP
+function skill:calc/act/increase/attack_speed
 #Convert
 function skill:calc/act/load/base/convert

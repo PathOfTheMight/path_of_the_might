@@ -4,6 +4,8 @@ execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem
 execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Spell]}}}]} run function skill:calc/act/apply/spell
 ###Proj
 execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Projectile]}}}]} run function skill:calc/act/apply/projectile
+###Single
+execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Single]}}}]} run function skill:calc/act/apply/single
 ###Area
 execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Area]}}}]} run function skill:calc/act/apply/range
 ###Dur
@@ -11,3 +13,6 @@ execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem
 
 ###RngExp
 scoreboard players operation @s RngExp = #Temp RngExp
+#Team
+execute unless score #Temp Number matches 1 run tag @s add SkillP
+execute if score #Temp Number matches 1 run tag @s add SkillE

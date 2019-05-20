@@ -1,11 +1,8 @@
 #ダメージロール
-scoreboard players set #RandMod Number 2000
-function main:rand
-scoreboard players operation #CurD Number = #Temp FiDMax
-scoreboard players operation #CurD Number -= #Temp FiDMin
-scoreboard players operation #CurD Number *= #RandMod Number
-scoreboard players operation #CurD Number /= #2000 Number
-scoreboard players operation #CurD Number += #Temp FiDMin
+execute if entity @s[tag=Player] run function skill:calc/act/damage/roll/fire/player
+execute if entity @s[tag=Enemy] run function skill:calc/act/damage/calc/range25
+#Effectiveness
+function skill:calc/act/damage/calc/effectiveness
 #Inc
 scoreboard players operation #CurDIncP Number = #Temp FiDIncP
 #コンバート
