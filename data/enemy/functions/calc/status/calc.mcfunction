@@ -19,4 +19,3 @@ scoreboard players operation #BaseAcc Number /= #100 Number
 #Dmg
 scoreboard players operation #BaseDmg Number *= #PackDmg Number
 scoreboard players operation #BaseDmg Number /= #100 Number
-

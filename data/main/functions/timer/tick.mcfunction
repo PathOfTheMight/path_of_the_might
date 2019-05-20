@@ -1,14 +1,12 @@
 #常に実行するfunction・コマンド
 
 #1sec timer
-scoreboard players add #tick Number 1
-execute if score #tick Number matches 21 store success score #tick Number run function main:timer/second
+scoreboard players add #Tick Number 1
+execute if score #Tick Number matches 21 store success score #Tick Number run function main:timer/second
 
-#time
-scoreboard players add @e[tag=Time] Time 1
-scoreboard players remove @e[tag=Time-,scores={Time=1..}] Time 1
+#Dur
 tag @e[tag=!Player,scores={Dur=0}] add Kill
-scoreboard players remove @e[tag=!Player,scores={Dur=1..}] Dur 1
+scoreboard players remove * Dur 1
 
 #delayed_task
 #execute as @e[tag=delayed_task] run function main:timer/delayed_task
@@ -37,7 +35,8 @@ execute as @e[tag=Damaged] run function main:dmg
 execute as @a[scores={Drop=1..}] at @s run function main:trigger/drop
 execute as @a[scores={SneakTime=1..}] at @s run function main:trigger/sneak_time
 execute as @a[scores={Sprint=1..}] at @s run function main:trigger/sprint
-
+#敵AI
+execute as @e[tag=Enemy,scores={AITime=..4,WaitTimeH=..0}] anchored eyes at @s anchored feet run function enemy:ai/main
 #Status
 execute as @e[tag=Player] at @s run function status:tick/player/main
 execute as @e[tag=Enemy] at @s run function status:tick/enemy/main
@@ -52,10 +51,11 @@ kill @e[tag=Kill]
 execute as @e[tag=Skill] at @s run function skill:calc/tick/main
 
 ##########
-scoreboard players remove @a[scores={WaitTimeH=1..}] WaitTimeH 100
+scoreboard players remove * WaitTimeH 100
 #Workbench
 execute as @e[tag=Workbench] positioned as @s if data block ~ ~ ~ {Items:[{Slot:0b},{Slot:1b}]} run function item:enchant/main
 
 #Physics
 execute as @e[tag=Move] at @s run function main:physics/move/main
 execute as @e[tag=Rotate] at @s run function main:physics/rotate/main
+execute as @e[tag=Pose] run function main:physics/pose/main
