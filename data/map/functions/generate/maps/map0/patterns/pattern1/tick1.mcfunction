@@ -1,6 +1,6 @@
 #(1 ,1)
 #execute positioned ~-32 41 ~-32 run function map:generate/structures/reset_chunk
-data merge entity 00000000-0000-0000-0000-000000000000 {Tags:[A,B,C],Air:1111}
+data merge block -40691 1 -40700 {RecordItem:{tag:{StructureName:[A,B,C],Seed:1111}}}
 #setblock ~-32 41 ~-32 minecraft:structure_block{mode:LOAD,name:"minecraft:single/grass/full/pattern",seed:1}
 execute positioned ~-32 ~ ~-32 run function map:generate/structures/set_seed
 #(1 ,2)

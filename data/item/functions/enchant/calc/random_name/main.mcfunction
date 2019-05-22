@@ -40,7 +40,7 @@ execute if score #RandMod Number matches 300..324 run function item:enchant/calc
 execute if score #RandMod Number matches 325..349 run function item:enchant/calc/random_name/suffix/325_349
 execute if score #RandMod Number matches 350..374 run function item:enchant/calc/random_name/suffix/350_374
 
-data modify block -40896 1 -40960 Text1 set value '[{"text":"<< ","color":"yellow","italic":false},{"nbt":"HandItems[1].tag.PrefixName","entity":"00000000-0000-0000-0000-000000000000","color":"gold","bold":true,"italic":false},{"nbt":"HandItems[1].tag.SuffixName","entity":"00000000-0000-0000-0000-000000000000","color":"gold","bold":true,"italic":false},{"text":" >>","color":"yellow","italic":false}]'
-data modify block ~ ~ ~ Items[0].tag.UniqueName set from block -40896 1 -40960 Text1
+data modify block -40692 1 -40700 Text1 set value '[{"text":"<< ","color":"yellow","italic":false},{"nbt":"RecordItem.tag.PrefixName","block":"-40691 1 -40700","color":"gold","bold":true,"italic":false},{"nbt":"RecordItem.tag.SuffixName","block":"-40691 1 -40700","color":"gold","bold":true,"italic":false},{"text":" >>","color":"yellow","italic":false}]'
+data modify block ~ ~ ~ Items[0].tag.UniqueName set from block -40692 1 -40700 Text1
 
 scoreboard players set #Success Number 1

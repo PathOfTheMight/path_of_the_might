@@ -1,7 +1,6 @@
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,Lightning,Single]}}}}
 #Effectiveness
 scoreboard players set #Effectiveness Number 80
-#Level
-function skill:level/act/active/blue/arc/allocate/main
 #ステータスロード
 function skill:calc/act/load/base/main
 #Chai

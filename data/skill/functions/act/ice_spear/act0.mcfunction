@@ -1,9 +1,8 @@
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,Cold,Projectile,Single]}}}}
 #Spd
 scoreboard players set #Temp ProjSpd 240
 #Effectiveness
 scoreboard players set #Effectiveness Number 80
-#Level
-function skill:level/act/active/blue/fireball/allocate/main
 #ステータスロード
 function skill:calc/act/load/base/main
 #ショットガンあり

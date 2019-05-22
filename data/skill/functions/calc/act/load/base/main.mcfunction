@@ -1,16 +1,16 @@
 #基本をロード
 ###Atk
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Attack]}}}]} run function skill:calc/act/load/base/attack
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Attack]}}}} run function skill:calc/act/load/base/attack
 ###Spl
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Spell]}}}]} run function skill:calc/act/load/base/spell
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Spell]}}}} run function skill:calc/act/load/base/spell
 ###Proj
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Projectile]}}}]} run function skill:calc/act/load/base/projectile
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Projectile]}}}} run function skill:calc/act/load/base/projectile
 ###Single
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Single]}}}]} run function skill:calc/act/load/base/single
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Single]}}}} run function skill:calc/act/load/base/single
 ###Area
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Area]}}}]} run function skill:calc/act/load/base/range
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Area]}}}} run function skill:calc/act/load/base/range
 ###Dur
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Duration]}}}]} run function skill:calc/act/load/base/duration
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Duration]}}}} run function skill:calc/act/load/base/duration
 #Team
 #execute unless entity @s[tag=Player] run scoreboard players set #Temp Number 1
 execute if entity @s[tag=Enemy] run scoreboard players set #Temp Number 1

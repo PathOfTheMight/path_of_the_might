@@ -1,1 +1,1 @@
-execute if score #GemID Number matches 30000 run function skill:act/normal_attack/act0
+execute if score #GemID Number matches 30000 run function skill:level/act/active/white/normal_attack/allocate/main

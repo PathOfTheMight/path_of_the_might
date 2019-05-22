@@ -26,7 +26,7 @@ setblock ~ ~1 ~ minecraft:air
 setblock ~ ~ ~ minecraft:structure_block{mode:LOAD,name:"",ignoreEntities:0b} replace
 
 #Seed取得
-execute store result score #Seed Number run data get entity 00000000-0000-0000-0000-000000000000 Air 1
+execute store result score #Seed Number run data get block -40691 1 -40700 RecordItem.tag.Seed 1
 
 ### SeedからSetting割り当て
 #乱数生成
@@ -91,17 +91,17 @@ scoreboard players operation #RandMod Number = #Seed Number
 function main:rand
 
 #structure名取得
-execute if score #RandMod Number matches 0 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[0]
-execute if score #RandMod Number matches 1 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[1]
-execute if score #RandMod Number matches 2 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[2]
-execute if score #RandMod Number matches 3 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[3]
-execute if score #RandMod Number matches 4 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[4]
-execute if score #RandMod Number matches 5 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[5]
-execute if score #RandMod Number matches 6 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[6]
-execute if score #RandMod Number matches 7 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[7]
-execute if score #RandMod Number matches 8 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[8]
-execute if score #RandMod Number matches 9 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[9]
-execute if score #RandMod Number matches 10 run data modify block ~ ~ ~ name set from entity 00000000-0000-0000-0000-000000000000 Tags[10]
+execute if score #RandMod Number matches 0 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[0]
+execute if score #RandMod Number matches 1 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[1]
+execute if score #RandMod Number matches 2 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[2]
+execute if score #RandMod Number matches 3 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[3]
+execute if score #RandMod Number matches 4 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[4]
+execute if score #RandMod Number matches 5 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[5]
+execute if score #RandMod Number matches 6 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[6]
+execute if score #RandMod Number matches 7 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[7]
+execute if score #RandMod Number matches 8 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[8]
+execute if score #RandMod Number matches 9 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[9]
+execute if score #RandMod Number matches 10 run data modify block ~ ~ ~ name set from block -40691 1 -40700 RecordItem.tag.StructureName[10]
 
 #ロード
 setblock ~ ~1 ~ minecraft:redstone_block

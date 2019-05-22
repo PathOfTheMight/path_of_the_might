@@ -1,9 +1,8 @@
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,Lightning,Area]}}}}
 #AoE 放電AoE=44*8*RngIncP リングAoE_max=44*7*RngIncP リングAoE_min=44*5*RngIncP
 scoreboard players set #Temp Rng 54
 #Effectiveness
 scoreboard players set #Effectiveness Number 120
-#Level
-function skill:level/act/active/blue/shock_nova/allocate/main
 #ステータスロード
 function skill:calc/act/load/base/main
 #ダメージ計算

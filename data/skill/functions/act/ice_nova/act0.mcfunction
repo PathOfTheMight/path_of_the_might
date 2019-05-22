@@ -1,3 +1,4 @@
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,Cold,Area]}}}}
 #Rng
 scoreboard players set #Temp Rng 400
 #Radius Rng/12tick
@@ -5,8 +6,6 @@ scoreboard players operation #RadiusInc Number = #Temp Rng
 scoreboard players operation #RadiusInc Number /= #12 Number
 #Effectiveness
 scoreboard players set #Effectiveness Number 120
-#Level
-function skill:level/act/active/blue/fire_nova/allocate/main
 #ステータスロード
 function skill:calc/act/load/base/main
 #ダメージ計算

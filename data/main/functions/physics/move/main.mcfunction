@@ -32,13 +32,13 @@ scoreboard players operation @s X0 /= #100 Number
 scoreboard players operation @s Y0 /= #100 Number
 scoreboard players operation @s Z0 /= #100 Number
 #ベクトル計算
-execute rotated as @s run tp 00000000-0000-0001-0000-000000000000 ^ ^ ^1
+execute rotated as @s run tp 0-0-1-0-0 ^ ^ ^1
 #AECの座標取得
-execute store result score @s X1 run data get entity 00000000-0000-0001-0000-000000000000 Pos[0] 100
-execute store result score @s Y1 run data get entity 00000000-0000-0001-0000-000000000000 Pos[1] 100
-execute store result score @s Z1 run data get entity 00000000-0000-0001-0000-000000000000 Pos[2] 100
+execute store result score @s X1 run data get entity 0-0-1-0-0 Pos[0] 100
+execute store result score @s Y1 run data get entity 0-0-1-0-0 Pos[1] 100
+execute store result score @s Z1 run data get entity 0-0-1-0-0 Pos[2] 100
 #AEC消去
-tp 00000000-0000-0001-0000-000000000000 -40896 1 -40960
+tp 0-0-1-0-0 -40692 1 -40700
 #AECの座標のスピード補正
 scoreboard players operation @s X1 *= @s ProjSpd
 scoreboard players operation @s Y1 *= @s ProjSpd

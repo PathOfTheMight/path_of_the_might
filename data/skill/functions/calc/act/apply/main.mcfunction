@@ -1,15 +1,15 @@
 ###Atk
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Attack]}}}]} run function skill:calc/act/apply/attack
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Attack]}}}} run function skill:calc/act/apply/attack
 ###Spl
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Spell]}}}]} run function skill:calc/act/apply/spell
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Spell]}}}} run function skill:calc/act/apply/spell
 ###Proj
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Projectile]}}}]} run function skill:calc/act/apply/projectile
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Projectile]}}}} run function skill:calc/act/apply/projectile
 ###Single
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Single]}}}]} run function skill:calc/act/apply/single
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Single]}}}} run function skill:calc/act/apply/single
 ###Area
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Area]}}}]} run function skill:calc/act/apply/range
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Area]}}}} run function skill:calc/act/apply/range
 ###Dur
-execute if data entity 00000000-0000-0000-0000-0000000000 {ArmorItems:[{tag:{Gem:{Tags:[Duration]}}}]} run function skill:calc/act/apply/duration
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Duration]}}}} run function skill:calc/act/apply/duration
 
 ###RngExp
 scoreboard players operation @s RngExp = #Temp RngExp

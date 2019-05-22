@@ -1,6 +1,6 @@
 #エンチャント付与時
 #Lore更新
-function item:lore/main
+function item:lore/equipment/main
 #Currency個数-1
 execute store result score #Count Number run data get block ~ ~ ~ Items[1].Count
 scoreboard players remove #Count Number 1

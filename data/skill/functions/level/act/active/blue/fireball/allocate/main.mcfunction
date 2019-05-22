@@ -6,3 +6,5 @@ execute if score #GemLevel Number matches 21..25 run function skill:level/act/ac
 execute if score #GemLevel Number matches 26..30 run function skill:level/act/active/blue/fireball/allocate/level26_30
 execute if score #GemLevel Number matches 31..35 run function skill:level/act/active/blue/fireball/allocate/level31_35
 execute if score #GemLevel Number matches 36..40 run function skill:level/act/active/blue/fireball/allocate/level36_40
+
+function skill:act/fireball/act0
