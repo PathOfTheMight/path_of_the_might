@@ -17,3 +17,5 @@ execute if entity @s[tag=ReflectZ] run scoreboard players operation #RotationZ N
 execute if score #RotationZ Number matches 0.. run scoreboard players add #RotationZ Number 18000
 execute if score #RotationZ Number matches ..-1 run scoreboard players remove #RotationZ Number 18000
 execute store result entity @s[tag=ReflectZ] Rotation[0] float 0.01 run scoreboard players get #RotationZ Number
+
+execute at @s run tp @s ~ ~0.01 ~ ~ ~

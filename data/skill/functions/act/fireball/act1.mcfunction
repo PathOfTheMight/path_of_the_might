@@ -1,4 +1,4 @@
-summon minecraft:armor_stand ^ ^1 ^0.5 {Tags:[Skill,Spell,Single,KillOnFin,Fireball,Move,Unslide,New,NewMult],ArmorItems:[{},{},{},{id:"minecraft:brick",Count:1b}],Invisible:1b,Silent:1b,Small:1b,ActiveEffects:[{Id:28b,Amplifier:0b,Duration:200000000,ShowParticles:0b}]}
+summon minecraft:armor_stand ^ ^1 ^0.5 {Tags:[Skill,Spell,Single,KillOnFin,Fireball,UniqueTick,Move,Unslide,New,NewMult],ArmorItems:[{},{},{},{id:"minecraft:brick",Count:1b}],Invisible:1b,Silent:1b,Small:1b,ActiveEffects:[{Id:28b,Amplifier:0b,Duration:200000000,ShowParticles:0b}]}
 tp @e[tag=Fireball,tag=NewMult,distance=..2,limit=1] ^ ^1 ^0.5 facing ^ ^1 ^100
 
 #Temp Mult>1なら全体(NewMult)を右にx回転、直前(NewMultLast)から左に2x回転した向きに次を召喚
