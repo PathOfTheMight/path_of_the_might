@@ -1,6 +1,6 @@
 #ダメージロール
-execute if entity @s[tag=Player] run function skill:calc/act/damage/roll/physical/player
-execute if entity @s[tag=Enemy] run function skill:calc/act/damage/calc/range25
+execute unless score #Temp PhDMin = #Temp PhDMax run function skill:calc/act/damage/roll/physical/roll
+execute if score #Temp PhDMin = #Temp PhDMax run scoreboard players operation #CurD Number = #Temp PhDMin
 #Effectiveness
 function skill:calc/act/damage/calc/effectiveness
 #Inc

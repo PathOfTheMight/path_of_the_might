@@ -1,4 +1,4 @@
-data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,Lightning,Duration,Projectile,Single]}}}}
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,TypeLightning,BaseLightning,Duration,Projectile,Single]}}}}
 #Dur
 scoreboard players set #Temp Dur 40
 #Mult

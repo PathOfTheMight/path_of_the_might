@@ -1,4 +1,5 @@
 ###Damage Roll
+execute if entity @s[tag=Enemy] run function skill:calc/act/damage/roll/enemy
 execute if score #Temp PhDMin matches 1.. run function skill:calc/act/damage/roll/physical/main
 execute if score #Temp FiDMin matches 1.. run function skill:calc/act/damage/roll/fire/main
 execute if score #Temp CoDMin matches 1.. run function skill:calc/act/damage/roll/cold/main

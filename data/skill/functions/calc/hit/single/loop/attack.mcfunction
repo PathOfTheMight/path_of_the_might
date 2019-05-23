@@ -6,4 +6,4 @@ scoreboard players remove @s[scores={Pier=0..}] Pier 1
 
 execute if entity @s[scores={Pier=-1,Fork=0,Chai=0}] run function skill:calc/hit/single/loop/finish
 execute if entity @s[tag=UniqueHit] run function skill:calc/hit/unique
-execute unless entity @s[scores={Pier=-1,Fork=0,Chai=0}] if entity @e[scores={RngFlag=2},distance=..21,limit=1,sort=nearest] run function skill:calc/hit/single/loop/spell
+execute unless entity @s[scores={Pier=-1,Fork=0,Chai=0}] if entity @e[scores={RngFlag=2},distance=..21,limit=1,sort=nearest] run function skill:calc/hit/single/loop/attack

@@ -7,4 +7,4 @@ scoreboard players operation @s Es = #MapHp Number
 scoreboard players operation @s Arm = #MapAcc Number
 scoreboard players operation @s Eva = #MapEva Number
 scoreboard players operation @s Acc = #MapAcc Number
-scoreboard players operation @s Dmg = #MapDmg Number
+scoreboard players operation @s D = #MapDmg Number

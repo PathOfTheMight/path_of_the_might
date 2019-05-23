@@ -58,4 +58,4 @@ summon minecraft:armor_stand -40696 1 -40696 {CustomName:'{"text":"Center"}',Tag
 summon minecraft:armor_stand -40696 1 -40696 {CustomName:'{"text":"Calc"}',Tags:[Calc],Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,UUIDLeast:0L,UUIDMost:1L}
 setblock -40691 1 -40700 minecraft:jukebox{RecordItem:{id:"stone",Count:1b}} keep
 setblock -40692 1 -40700 minecraft:oak_sign keep
-setblock -40693 1 -40700 minecraft:end_gateway{ExitPortal:{X:-40696,Y:1,Z:-40696}} keep
+setblock -40693 1 -40700 minecraft:end_gateway{ExitPortal:{X:-40696,Y:1,Z:-40696},ExactTeleport:1b} keep

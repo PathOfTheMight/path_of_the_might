@@ -1,4 +1,4 @@
-data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,Fire,Projectile,Area]}}}}
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,TypeFire,BaseFire,Projectile,Area]}}}}
 #Spd
 scoreboard players set #Temp ProjSpd 80
 #Effectiveness

@@ -1,4 +1,4 @@
-data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Attack,Single]}}}}
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Attack,BasePhysical,Single]}}}}
 
 execute positioned as @s run tp @s ~ ~ ~ ~ ~
 

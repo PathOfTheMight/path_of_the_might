@@ -1,6 +1,6 @@
 #ダメージロール
-execute if entity @s[tag=Player] run function skill:calc/act/damage/roll/chaos/player
-execute if entity @s[tag=Enemy] run function skill:calc/act/damage/calc/range25
+execute unless score #Temp ChDMin = #Temp ChDMax run function skill:calc/act/damage/roll/chaos/roll
+execute if score #Temp ChDMin = #Temp ChDMax run scoreboard players operation #CurD Number = #Temp ChDMin
 #Effectiveness
 function skill:calc/act/damage/calc/effectiveness
 #Inc
