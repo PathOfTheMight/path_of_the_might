@@ -20,6 +20,6 @@ scoreboard players remove @s mana 8
 playsound minecraft:entity.player.attack.crit master @a[distance=..16] ~ ~ ~ 1 1
 playsound minecraft:entity.generic.explode master @a[distance=..16] ~ ~ ~ 0.6 1
 
-execute rotated ~ 0 run summon minecraft:armor_stand ^ ^0.5 ^1.2 {Tags:[Skill,Attack,Area,Stamp,New],Invisible:1b,Silent:1b,Small:1b,Marker:1b}
+execute rotated ~ 0 run summon minecraft:armor_stand ^ ^0.5 ^1.2 {Tags:[Skill,Attack,AreaTarget,Stamp,New],Invisible:1b,Silent:1b,Small:1b,Marker:1b}
 
 execute as @e[tag=Stamp,tag=New,limit=1] run function skill:act/stamp/act1

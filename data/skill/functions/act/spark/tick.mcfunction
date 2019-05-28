@@ -1,3 +1,4 @@
-#particle minecraft:flame ~ ~-1 ~ 0.1 0.1 0.1 0.005 1 force
-execute if entity @s[tag=Kill] run particle minecraft:flame ~ ~-1 ~ 0 0.2 0 0.2 20 force
-execute if entity @s[tag=Kill] run playsound minecraft:entity.generic.explode master @a[distance=..16] ~ ~-1 ~ 0.7 1 0.05
+scoreboard players operation #Dur Number = @s Dur
+scoreboard players operation #Dur Number %= #13 Number
+execute if score #Dur Number matches 0 run function skill:act/spark/update_exp0
+execute if score #Dur Number matches 1 run tag @s remove UpdateExp

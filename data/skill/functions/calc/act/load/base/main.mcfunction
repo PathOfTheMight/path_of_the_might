@@ -5,8 +5,8 @@ execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Attack]}}}}
 execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Spell]}}}} run function skill:calc/act/load/base/spell
 ###Proj
 execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Projectile]}}}} run function skill:calc/act/load/base/projectile
-###Single
-execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Single]}}}} run function skill:calc/act/load/base/single
+###SingleTarget
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[SingleTarget]}}}} run function skill:calc/act/load/base/single
 ###Area
 execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Area]}}}} run function skill:calc/act/load/base/range
 ###Dur

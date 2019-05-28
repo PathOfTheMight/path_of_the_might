@@ -1,4 +1,4 @@
-tp @s ^ ^0.01 ^0.5 facing ^ ^0.01 ^1
+tp @s ^ ^0.51 ^0.5 facing ^ ^0.51 ^1
 #Diffuse
 function main:physics/diffuse/xy
 

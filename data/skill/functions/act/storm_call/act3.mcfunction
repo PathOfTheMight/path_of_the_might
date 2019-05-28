@@ -1,5 +1,5 @@
 #Dur=10000のとき
-summon minecraft:armor_stand ~ ~10 ~ {Tags:[Skill,Spell,Area,StormCall,StormCall2,New],NoGravity:1b,Invisible:1b,Silent:1b,Small:1b,Marker:1b}
+summon minecraft:armor_stand ~ ~10 ~ {Tags:[Skill,Spell,AreaTarget,StormCall,StormCall2,New],NoGravity:1b,Invisible:1b,Silent:1b,Small:1b,Marker:1b}
 
 #Team
 execute if entity @s[tag=SkillP0] run scoreboard players set #Team Number 1
