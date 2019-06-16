@@ -7,7 +7,7 @@ scoreboard players operation #PackEs Number = @s Es
 scoreboard players operation #PackArm Number = @s Arm
 scoreboard players operation #PackEva Number = @s Eva
 scoreboard players operation #PackAcc Number = @s Acc
-scoreboard players operation #PackDmg Number = @s D
+scoreboard players operation #PackD Number = @s D
 
 execute if score @s map matches 0..20 run function map:spawn/allocate/map0_20
 execute if score @s map matches 21..40 run function map:spawn/allocate/map21_40
