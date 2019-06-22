@@ -15,6 +15,6 @@ playsound minecraft:entity.blaze.shoot master @a[distance=..16] ~ ~ ~ 1 1
 playsound minecraft:entity.blaze.shoot master @a[distance=..16] ~ ~ ~ 1 0
 playsound minecraft:block.fire.ambient master @a[distance=..16] ~ ~ ~ 1 0
 
-summon minecraft:armor_stand ~ ~ ~ {Tags:[Skill,Spell,AreaTarget,FireNova,UniqueTick,Rotate,Rotate37,New],Invisible:1b,Silent:1b,Small:1b,Marker:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:[Skill,Spell,AreaTarget,FireNova,UniqueTick,Physics,Rotate,Rotate37,New],Invisible:1b,Silent:1b,Small:1b,Marker:1b}
 
 execute as @e[tag=FireNova,tag=New,distance=..1,limit=1] run function skill:act/fire_nova/act1

@@ -19,3 +19,8 @@ execute if score #RotationZ Number matches ..-1 run scoreboard players remove #R
 execute store result entity @s[tag=ReflectZ] Rotation[0] float 0.01 run scoreboard players get #RotationZ Number
 
 execute at @s run tp @s ~ ~0.01 ~ ~ ~
+
+#反射タグ除去
+tag @s[tag=ReflectX] remove ReflectX
+tag @s[tag=ReflectY] remove ReflectY
+tag @s[tag=ReflectZ] remove ReflectZ

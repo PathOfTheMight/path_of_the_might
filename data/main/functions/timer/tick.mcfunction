@@ -56,6 +56,4 @@ scoreboard players remove * WaitTimeH 100
 execute as @e[tag=Workbench] positioned as @s if data block ~ ~ ~ {Items:[{Slot:0b},{Slot:1b}]} run function item:enchant/main
 
 #Physics
-execute as @e[tag=Move] at @s run function main:physics/move/main
-execute as @e[tag=Rotate] at @s run function main:physics/rotate/main
-execute as @e[tag=Pose] run function main:physics/pose/main
+execute as @e[tag=Physics] at @s run function main:physics/main

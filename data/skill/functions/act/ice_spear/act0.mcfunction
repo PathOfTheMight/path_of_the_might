@@ -1,6 +1,6 @@
 data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,TypeCold,BaseCold,Projectile,SingleTarget]}}}}
 #Spd
-scoreboard players set #Temp ProjSpd 240
+scoreboard players set #Temp ProjSpd 80
 #Effectiveness
 scoreboard players set #Effectiveness Number 80
 #ステータスロード

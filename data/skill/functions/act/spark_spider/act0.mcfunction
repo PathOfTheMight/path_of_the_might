@@ -15,9 +15,8 @@ function skill:calc/act/load/base/main
 function skill:calc/act/damage/main
 #Diffuse
 scoreboard players set #DiffuseX Number 60
-scoreboard players set #DiffuseY Number 2
 
-playsound minecraft:entity.blaze.shoot master @a[distance=..16] ^ ^ ^ 0.8 1
+playsound minecraft:entity.blaze.shoot master @a[distance=..16] ^ ^ ^ 2 1
 
 execute positioned as @s run tp @s ~ ~ ~ ~ ~
-function skill:act/spark/act1
+function skill:act/spark_spider/act1

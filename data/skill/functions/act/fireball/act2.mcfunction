@@ -7,6 +7,6 @@ scoreboard players operation @s RngIncP = #Temp Rng
 function skill:calc/act/apply/main
 
 #Rng
-scoreboard players set @s Rng 50
+scoreboard players set @s Rng 10
 
 tag @s remove New

@@ -1,7 +1,7 @@
 #Dur
 scoreboard players set @s Dur 18
 #Rng
-scoreboard players set @s Rng 70
+scoreboard players set @s Rng 30
 #Diffuse
 function main:physics/diffuse/x
 

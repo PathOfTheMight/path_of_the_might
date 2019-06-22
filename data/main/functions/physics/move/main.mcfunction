@@ -12,18 +12,11 @@ execute unless entity @s[scores={X1=-2147483647..}] run scoreboard players set @
 execute unless entity @s[scores={Y1=-2147483647..}] run scoreboard players set @s Y1 0
 execute unless entity @s[scores={Z1=-2147483647..}] run scoreboard players set @s Z1 0
 #ブロックに当たる tag=block 次Tickに除去
+execute unless entity @s[scores={X1=-10..10}] run tag @s add Block
+execute unless entity @s[scores={Y1=-10..10}] run tag @s add Block
+execute unless entity @s[scores={Z1=-10..10}] run tag @s add Block
+execute if entity @s[tag=Block,tag=!ChangeMoving,tag=!CorrectModel] run function main:physics/move/block
 tag @s[tag=Block] remove Block
-execute unless entity @s[scores={X1=-10..10},tag=!ChangeMoving] run tag @s add Block
-execute unless entity @s[scores={Y1=-10..10},tag=!ChangeMoving] run tag @s add Block
-execute unless entity @s[scores={Z1=-10..10},tag=!ChangeMoving] run tag @s add Block
-#ブロックに当たると消える tag=unslide
-tag @s[tag=Block,tag=Unslide] add Kill
-#ブロックに当たるとくっつく tag=sticky
-data merge entity @s[tag=Block,tag=Sticky] {NoGravity:1b}
-tag @s[tag=Block,tag=Sticky] remove Move
-#ブロックに当たると反射 tag=Reflect
-execute if entity @s[tag=Block,tag=Reflect] run function main:physics/move/reflect
-
 #スピード *speed/100倍する
 scoreboard players operation @s X0 *= @s ProjSpd
 scoreboard players operation @s Y0 *= @s ProjSpd
@@ -73,7 +66,3 @@ scoreboard players operation @s Y1 -= @s Y0
 scoreboard players operation @s Z1 -= @s Z0
 #重力補正
 execute if entity @s[tag=Gravity] run function main:physics/move/gravity1
-#反射タグ除去
-tag @s[tag=ReflectX] remove ReflectX
-tag @s[tag=ReflectY] remove ReflectY
-tag @s[tag=ReflectZ] remove ReflectZ
