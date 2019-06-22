@@ -1,4 +1,8 @@
-execute if entity @s[scores={Rng=0..49}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=1.1..20] add Chained
+execute if entity @s[scores={Rng=0..9}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=0.7..20] add Chained
+execute if entity @s[scores={Rng=10..19}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=0.8..20] add Chained
+execute if entity @s[scores={Rng=20..29}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=0.9..20] add Chained
+execute if entity @s[scores={Rng=30..39}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=1.0..20] add Chained
+execute if entity @s[scores={Rng=40..49}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=1.1..20] add Chained
 execute if entity @s[scores={Rng=50..59}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=1.2..20] add Chained
 execute if entity @s[scores={Rng=60..69}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=1.3..20] add Chained
 execute if entity @s[scores={Rng=70..79}] positioned ~ ~-1 ~ run tag @e[tag=Enemy,tag=!Corpse,distance=1.4..20] add Chained
