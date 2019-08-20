@@ -1,4 +1,4 @@
-data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,Area,TypeFire,BaseFire,Projectile,SingleTarget]}}}}
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,TypeFire,BaseFire,Projectile,SingleTarget]}}}}
 #Spd
 scoreboard players set #Temp ProjSpd 80
 #Effectiveness
@@ -10,4 +10,4 @@ function skill:calc/act/damage/main
 
 playsound minecraft:entity.blaze.shoot master @a[distance=..16] ^ ^ ^ 0.8 1
 
-function skill:act/fireball/act1
+function skill:act/fireball/projectile/act1
