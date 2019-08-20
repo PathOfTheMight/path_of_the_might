@@ -30,15 +30,3 @@ execute if block ^-3.96 ^ ^-5.73 #main:canspawn positioned ^-3.96 ^ ^-5.73 run f
 execute if block ^-5.25 ^ ^-4.57 #main:canspawn positioned ^-5.25 ^ ^-4.57 run function enemy:summon/monster/group/template
 
 #if score #PackSizeIncP Number matches 10.. 
-
-#base stats
-scoreboard players set #BaseExp Number 100
-scoreboard players set #BaseHp Number 100
-scoreboard players set #BaseEs Number 0
-scoreboard players set #BaseDmg Number 100
-scoreboard players set #BaseArm Number 100
-scoreboard players set #BaseAccu Number 100
-scoreboard players set #BaseEva Number 100
-
-function enemy:calc/status/calc
-execute as @e[tag=New,distance=..6] run function enemy:calc/status/apply
