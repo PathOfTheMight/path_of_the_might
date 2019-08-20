@@ -7,6 +7,6 @@ execute if score #GlobalTier Number matches 1 run function item:enchant/roll/pre
 
 scoreboard players set #LoreCount Number 2
 
-data modify block -40691 1 -40700 RecordItem.tag.AffixName set value "IncArmor/StunRecovery"
+data modify block -40691 1 -40700 RecordItem.tag.AffixName set value "IncArmor_StunRecovery"
 data modify block -40692 1 -40700 Text1 set value '[{"text":"⬤ ","color":"red","italic":false},{"text":"+","color":"aqua","italic":false},{"score":{"name":"#AffixValue","objective":"Number"},"color":"aqua","italic":false},{"text":"%","color":"aqua","italic":false},{"text":" アーマー","color":"gray","italic":false},{"nbt":"RecordItem.tag.TierStar","block":"-40691 1 -40700","color":"dark_gray","italic":false}]'
 data modify block -40692 1 -40700 Text2 set value '[{"text":"   ","color":"red","italic":false},{"text":"+","color":"aqua","italic":false},{"score":{"name":"#AffixValue2","objective":"Number"},"color":"aqua","italic":false},{"text":"%","color":"aqua","italic":false},{"text":" スタン回復速度","color":"gray","italic":false}]'

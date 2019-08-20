@@ -1,5 +1,5 @@
 #スニーク時
-
+execute unless score @s[tag=Dead] WaitTimeH matches 1.. run function main:respawn
 #Drop
 execute unless score @s[tag=Drop] WaitTimeH matches 1.. run data modify block -40691 1 -40700 RecordItem set from entity @s EnderItems[0]
 #Swap

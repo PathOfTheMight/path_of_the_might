@@ -12,3 +12,8 @@ scoreboard players add @s BMaxMp 4000
 scoreboard players set @s BEva 3
 scoreboard players operation @s BEva *= @s Lvl
 scoreboard players add @s BEva 53
+
+#Attributes
+scoreboard players set @s BStr 20 
+scoreboard players set @s BDex 20
+scoreboard players set @s BInt 20
