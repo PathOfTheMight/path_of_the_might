@@ -1,5 +1,5 @@
 #(9 ,21)
-data merge block -40691 1 -40700 {RecordItem:{tag:{StructureName:["minecraft:single/grass/full/pattern0","minecraft:single/grass/full/pattern1","minecraft:single/grass/full/pattern2","minecraft:single/grass/full/pattern3","minecraft:single/grass/full/pattern4","minecraft:single/grass/full/pattern5","minecraft:single/grass/full/pattern6","minecraft:single/grass/full/pattern7","minecraft:single/grass/full/pattern8","minecraft:single/grass/full/pattern9"],Seed:110}}}
+data merge block -40691 1 -40700 {RecordItem:{tag:{StructureName:["minecraft:double/forestwall_grass/quarter/pattern0","minecraft:double/forestwall_grass/quarter/pattern1","minecraft:double/forestwall_grass/quarter/pattern2","minecraft:double/forestwall_grass/quarter/pattern3"],Seed:1104}}}
 execute positioned ~-32 ~ ~-32 run function map:generate/structures/set_seed
 #(9 ,22)
 data merge block -40691 1 -40700 {RecordItem:{tag:{StructureName:["minecraft:double/grasspath_grass/quarter/pattern0"],Seed:701}}}
