@@ -1,10 +1,10 @@
-execute if entity @s[scores={RngMin=300..309}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..3.6] RngFlag 1
-execute if entity @s[scores={RngMin=310..319}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..3.7] RngFlag 1
-execute if entity @s[scores={RngMin=320..329}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..3.8] RngFlag 1
-execute if entity @s[scores={RngMin=330..339}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..3.9] RngFlag 1
-execute if entity @s[scores={RngMin=340..349}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..4] RngFlag 1
-execute if entity @s[scores={RngMin=350..359}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..4.1] RngFlag 1
-execute if entity @s[scores={RngMin=360..369}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..4.2] RngFlag 1
-execute if entity @s[scores={RngMin=370..379}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..4.3] RngFlag 1
-execute if entity @s[scores={RngMin=380..389}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..4.4] RngFlag 1
-execute if entity @s[scores={RngMin=390..399}] positioned ~ ~-1.2 ~ run scoreboard players set @e[tag=Player,tag=!Corpse,distance=..4.5] RngFlag 1
+execute if entity @s[scores={RngMin=300..309}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..3.6] RngFlag
+execute if entity @s[scores={RngMin=310..319}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..3.7] RngFlag
+execute if entity @s[scores={RngMin=320..329}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..3.8] RngFlag
+execute if entity @s[scores={RngMin=330..339}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..3.9] RngFlag
+execute if entity @s[scores={RngMin=340..349}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..4] RngFlag
+execute if entity @s[scores={RngMin=350..359}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..4.1] RngFlag
+execute if entity @s[scores={RngMin=360..369}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..4.2] RngFlag
+execute if entity @s[scores={RngMin=370..379}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..4.3] RngFlag
+execute if entity @s[scores={RngMin=380..389}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..4.4] RngFlag
+execute if entity @s[scores={RngMin=390..399}] positioned ~ ~-1.2 ~ run scoreboard players reset @e[tag=Player,tag=!Corpse,distance=..4.5] RngFlag

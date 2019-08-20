@@ -1,3 +1,4 @@
-#execute if entity @s[tag=Fireball] run function skill:act/fireball/hit
 execute if entity @s[tag=Arc] run function skill:act/arc/hit
-#execute if entity @s[tag=WeaponEffect] run function skill:act/normal_atk/hit
+execute if entity @s[tag=IceShot] run function skill:act/ice_shot/arrow/hit
+execute if entity @s[tag=Cyclone] run function skill:act/cyclone/hit
+execute if entity @s[tag=ShieldCharge] run function skill:act/shield_charge/hit
