@@ -7,6 +7,9 @@ function skill:calc/act/load/base/main
 scoreboard players operation #Temp Chai += @s Chai
 #ダメージ計算
 function skill:calc/act/damage/main
+#Diffuse
+scoreboard players set #DiffuseX Number 15
+scoreboard players set #DiffuseY Number 5
 
 playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..16] ~ ~ ~ 0.3 2 0.6
 

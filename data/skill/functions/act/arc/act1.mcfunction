@@ -14,5 +14,7 @@ scoreboard players set @s Dur 20
 scoreboard players set @s Rng 220
 #ProjSpd
 scoreboard players set @s ProjSpd 150
+#Diffuse
+function main:physics/diffuse/xy
 
 tag @s remove New
