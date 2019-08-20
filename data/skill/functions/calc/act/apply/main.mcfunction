@@ -16,3 +16,5 @@ scoreboard players operation @s RngExp = #Temp RngExp
 #Team
 execute unless score #Temp Number matches 1 run tag @s add SkillP
 execute if score #Temp Number matches 1 run tag @s add SkillE
+#ID
+scoreboard players operation @s ID = #Temp ID

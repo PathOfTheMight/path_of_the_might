@@ -1,4 +1,6 @@
 #基本をロード
+###Movement
+execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Movement]}}}} run function skill:calc/act/load/base/movement
 ###Atk
 execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Attack]}}}} run function skill:calc/act/load/base/attack
 ###Spl
@@ -14,6 +16,8 @@ execute if data block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Duration]}}
 #Team
 #execute unless entity @s[tag=Player] run scoreboard players set #Temp Number 1
 execute if entity @s[tag=Enemy] run scoreboard players set #Temp Number 1
+#ID
+scoreboard players operation #Temp ID = @s ID
 
 ###RngExp
 execute if score #Temp Mult matches 1.. run function skill:calc/range/set_exp/act

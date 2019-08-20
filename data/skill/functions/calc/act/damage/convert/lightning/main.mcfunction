@@ -3,10 +3,6 @@ scoreboard players operation #BaseLnD Number = #CurD Number
 scoreboard players operation #BaseLnDIncP Number = #CurDIncP Number
 #Conv上限補正
 execute if score #Temp LnConvP matches 101.. run function skill:calc/act/damage/convert/lightning/upper_limit
-#Extra加算
-scoreboard players operation #Temp LnConvCoP += #Temp LnExtraCoP
-scoreboard players operation #Temp LnConvFiP += #Temp LnExtraFiP
-scoreboard players operation #Temp LnConvChP += #Temp LnExtraChP
 #Cold
 execute if score #Temp LnConvCoP matches 1.. run function skill:calc/act/damage/convert/lightning/cold
 #Fire

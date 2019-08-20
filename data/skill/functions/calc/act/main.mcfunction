@@ -10,8 +10,9 @@ execute store result score #Cost Number run data get block -40691 1 -40700 Recor
 execute store result score #Temp WaitTimeH run data get block -40691 1 -40700 RecordItem.tag.Skill.WaitTimeH 1
 #ID
 scoreboard players operation #ID Number = @s ID
-#Costチェック
-execute if score #Cost Number <= @s Mp store success score #Temp Mp run scoreboard players operation @s Mp -= #Cost Number
+#プレイヤーはCostチェック、Mp消費
+execute if entity @s[tag=Player] if score @s Mp >= #Cost Number store success score #Temp Mp run scoreboard players operation @s Mp -= #Cost Number
+execute unless entity @s[tag=Player] run scoreboard players set #Temp Mp 1
 ###ActiveGemをロード
 execute if score #Temp Mp matches 1 run function skill:calc/act/success
 

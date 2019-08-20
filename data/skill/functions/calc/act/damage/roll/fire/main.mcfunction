@@ -6,7 +6,7 @@ function skill:calc/act/damage/calc/effectiveness
 #Inc
 scoreboard players operation #CurDIncP Number = #Temp FiDIncP
 #コンバート
-execute if score #Temp FiConvFlag matches 1 run function skill:calc/act/damage/convert/fire/main
+execute unless score #Temp FiConvFlag matches -1 run function skill:calc/act/damage/convert/fire/main
 #Inc
-execute unless score #Temp FiConvFlag matches 1 run function skill:calc/act/damage/increase/main
-execute unless score #Temp FiConvFlag matches 1 run scoreboard players operation #Temp FiD += #CurD Number
+execute if score #Temp FiConvFlag matches -1 run function skill:calc/act/damage/increase/main
+execute if score #Temp FiConvFlag matches -1 run scoreboard players operation #Temp FiD += #CurD Number

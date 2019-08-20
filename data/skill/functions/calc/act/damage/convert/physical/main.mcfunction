@@ -3,11 +3,6 @@ scoreboard players operation #BasePhD Number = #CurD Number
 scoreboard players operation #BasePhDIncP Number = #CurDIncP Number
 #Conv上限補正
 execute if score #Temp PhConvP matches 101.. run function skill:calc/act/damage/convert/physical/upper_limit
-#Extra加算
-scoreboard players operation #Temp PhConvLnP += #Temp PhExtraLnP
-scoreboard players operation #Temp PhConvCoP += #Temp PhExtraCoP
-scoreboard players operation #Temp PhConvFiP += #Temp PhExtraFiP
-scoreboard players operation #Temp PhConvChP += #Temp PhExtraChP
 #Light
 execute if score #Temp PhConvLnP matches 1.. run function skill:calc/act/damage/convert/physical/lightning
 #Cold
