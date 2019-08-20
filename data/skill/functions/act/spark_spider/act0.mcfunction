@@ -3,8 +3,6 @@ data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,Typ
 scoreboard players set #Temp Dur 40
 #Mult
 scoreboard players set #Temp Mult 6
-#Pier
-scoreboard players set #Temp Pier 10000
 #ProjSpd
 scoreboard players set #Temp ProjSpd 50
 #Effectiveness
