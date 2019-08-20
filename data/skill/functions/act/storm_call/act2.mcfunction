@@ -1,12 +1,10 @@
-execute if score #Team Number matches 1 run tag @s add SkillP0
-execute if score #Team Number matches 2 run tag @s add SkillE0
+#PosY += Dur/2
+summon minecraft:armor_stand ~ ~ ~ {Tags:[Skill,StormCall,StormCallFall,UniqueTick,New],NoGravity:1b,Invisible:1b,Silent:1b,Small:1b,Marker:1b}
+scoreboard players operation #ID Number = @s ID
+scoreboard players operation #Dur Number = @s Dur
+execute store result score #Y0 Number run data get entity @s Pos[1] 2
+scoreboard players operation #Y0 Number += #Dur Number
 
-#LnD 引き継ぎ
-scoreboard players operation @s LnD = #LnD Number
-#Rng 引き継ぎ
-scoreboard players operation @s Rng = #Rng Number
-scoreboard players operation @s Radius = #Rng Number
-#Dur 引き継ぎ
-scoreboard players operation @s Dur = #Dur Number
+execute as @e[tag=StormCallFall,tag=New,distance=..1,limit=1] run function skill:act/storm_call/act3
 
-tag @s remove New
+tag @s remove StormCallWait
