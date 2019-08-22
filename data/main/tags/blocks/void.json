@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "void_air",
+    "#main:solid_block"
+  ]
+}
