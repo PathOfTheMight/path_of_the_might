@@ -1,4 +1,4 @@
-data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,TypeCold,BaseCold,AreaTarget]}}}}
+data merge block -40691 1 -40700 {RecordItem:{tag:{Skill:{Tags:[Active,Spell,TypeCold,BaseCold,Area]}}}}
 #Rng
 scoreboard players set #Temp Rng 400
 #Radius Rng/12tick

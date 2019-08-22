@@ -17,6 +17,7 @@ execute unless entity @s[scores={Y1=-10..10}] run tag @s add Block
 execute unless entity @s[scores={Z1=-10..10}] run tag @s add Block
 execute if entity @s[tag=Block,tag=!ChangeMoving,tag=!CorrectModel] run function main:physics/move/block
 tag @s[tag=Block] remove Block
+tag @s[tag=ChangeMoving] remove ChangeMoving
 #スピード *speed/100倍する
 scoreboard players operation @s X0 *= @s ProjSpd
 scoreboard players operation @s Y0 *= @s ProjSpd
@@ -25,13 +26,11 @@ scoreboard players operation @s X0 /= #100 Number
 scoreboard players operation @s Y0 /= #100 Number
 scoreboard players operation @s Z0 /= #100 Number
 #ベクトル計算
-execute rotated as @s run tp 0-0-1-0-0 ^ ^ ^1
+execute rotated as @s store success score #ReturnCalc Number run tp 0-0-1-0-0 ^ ^ ^1
 #AECの座標取得
 execute store result score @s X1 run data get entity 0-0-1-0-0 Pos[0] 100
 execute store result score @s Y1 run data get entity 0-0-1-0-0 Pos[1] 100
 execute store result score @s Z1 run data get entity 0-0-1-0-0 Pos[2] 100
-#AEC消去
-tp 0-0-1-0-0 -40692 1 -40700
 #AECの座標のスピード補正
 scoreboard players operation @s X1 *= @s ProjSpd
 scoreboard players operation @s Y1 *= @s ProjSpd

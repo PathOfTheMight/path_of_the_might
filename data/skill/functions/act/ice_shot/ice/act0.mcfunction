@@ -10,6 +10,8 @@ function skill:calc/act/load/base/main
 #ダメージ計算
 function skill:calc/act/damage/main
 
+particle minecraft:firework ~ ~ ~ 0 0 0 0.3 9 force
+playsound minecraft:block.glass.break master @a[distance=..16] ~ ~ ~ 1 0.6
 playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 0.5 0
 
 #氷召喚

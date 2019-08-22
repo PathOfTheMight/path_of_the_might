@@ -11,6 +11,9 @@ scoreboard players remove * Dur 1
 #delayed_task
 #execute as @e[tag=delayed_task] run function main:timer/delayed_task
 
+#UI
+execute as @e[tag=UI] at @s run function item:ui/tick
+
 #GenerateTick
 execute if score #GenerateTick Number matches 1..64 as @p[tag=GenerateMap] at @s run function map:generate/check_load
 #MapControl
@@ -30,22 +33,15 @@ execute as @a[tag=!GenerateMap] at @s rotated ~ 0 positioned ^ ^ ^8 as @e[tag=Pa
 #ダメージ計算
 execute as @e[tag=Damaged] run function main:dmg
 
-#トリガー
-#scoreboard players reset @a[scores={SneakTime=0}] WaitTimeH
-execute as @a[scores={Drop=1..}] at @s run function main:trigger/drop
-execute as @a[scores={SneakTime=1..}] at @s run function main:trigger/sneak_time
-execute as @a[scores={Sprint=1..}] at @s run function main:trigger/sprint
 #敵AI
 execute as @e[tag=Enemy,scores={AITime=..4,WaitTimeH=..0}] anchored eyes at @s anchored feet run function enemy:ai/main
 #Status
 execute as @e[tag=Player] at @s run function status:tick/player/main
 execute as @e[tag=Enemy] at @s run function status:tick/enemy/main
 
-#Kill
-tag @e[tag=GroundKill,nbt={OnGround:1b}] add VoidKill
-tp @e[tag=VoidKill] -40960 -60 -40960
-kill @e[tag=VoidKill]
-kill @e[tag=Kill]
+#Physics
+execute as @e[tag=Physics] at @s run function main:physics/main
+execute if score #ReturnCalc Number matches 1 run tp 0-0-1-0-0 -40696 1 -40696
 
 #スキル
 execute as @e[tag=Skill] at @s run function skill:calc/tick/main
@@ -55,5 +51,14 @@ scoreboard players remove * WaitTimeH 100
 #Workbench
 execute as @e[tag=Workbench] positioned as @s if data block ~ ~ ~ {Items:[{Slot:0b},{Slot:1b}]} run function item:enchant/main
 
-#Physics
-execute as @e[tag=Physics] at @s run function main:physics/main
+#トリガー
+#scoreboard players reset @a[scores={SneakTime=0}] WaitTimeH
+execute as @a[scores={Drop=1..}] at @s run function main:trigger/drop
+execute as @a[scores={SneakTime=1..}] at @s run function main:trigger/sneak_time
+execute as @a[scores={Sprint=1..}] at @s run function main:trigger/sprint
+
+#Kill
+#tag @e[tag=GroundKill,nbt={OnGround:1b}] add VoidKill
+tp @e[tag=VoidKill] -40696 -60 -40696
+kill @e[tag=VoidKill]
+execute as @e[tag=Kill] at @s run function main:kill/main

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "no_hold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{NoHold:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:trigger/no_hold"
+  }
+}

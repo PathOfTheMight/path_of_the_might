@@ -7,4 +7,4 @@ execute if entity @s[tag=IceNova] run scoreboard players operation @s Radius += 
 execute if entity @s[tag=SparkSpider] run function skill:act/spark_spider/tick
 execute if entity @s[tag=Cyclone] run function skill:act/cyclone/tick
 execute if entity @s[tag=Dash] run function skill:act/dash/tick
-execute if entity @s[tag=ShieldCharge] run function skill:act/shield_charge/tick
+execute if entity @s[tag=ShieldCharge] run function skill:act/shield_charge/charge/tick

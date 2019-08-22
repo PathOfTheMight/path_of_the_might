@@ -1,7 +1,7 @@
 #単位ベクトル取得
 execute store result score #X2 Number run data get entity @s Pos[0] 100
 execute store result score #Z2 Number run data get entity @s Pos[2] 100
-tp 0-0-1-0-0 ^ ^ ^1
+execute store success score #ReturnCalc Number run tp 0-0-1-0-0 ^ ^ ^1
 execute store result score #X1 Number run data get entity 0-0-1-0-0 Pos[0] 100
 execute store result score #Z1 Number run data get entity 0-0-1-0-0 Pos[2] 100
 scoreboard players operation #X1 Number -= #X2 Number
@@ -32,7 +32,5 @@ execute at 0-0-1-0-0 run function main:physics/rotate/particle
 #270度
 execute rotated ~90 0 positioned ^1000 ^ ^ facing entity 0-0-1-0-0 feet positioned ^ ^ ^-1000 rotated as @s rotated 90 0 positioned ^-2000 ^ ^ run function main:physics/rotate/particle
 
-tp 0-0-1-0-0 -40692 1 -40700
 tp @s[tag=Rotate3] ~ ~ ~ ~3 ~
 tp @s[tag=Rotate37] ~ ~ ~ ~37 ~
-

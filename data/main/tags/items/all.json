@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bow",
+    "minecraft:cod",
+    "minecraft:iron_sword",
+    "minecraft:golden_sword",
+    "minecraft:iron_boots"
+  ]
+}
