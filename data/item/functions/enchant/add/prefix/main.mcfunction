@@ -11,8 +11,8 @@ scoreboard players add #AffixLevel Number 1
 #prefixカウント
 function item:enchant/calc/count_prefix
 #タイプ分岐
-execute if data block ~ ~ ~ {Items:[{Slot:0b,tag:{SubType:"Helmet"}}]} run function item:enchant/add/prefix/type/helmet/main
-execute if data block ~ ~ ~ {Items:[{Slot:0b,tag:{SubType:"Chestplate"}}]} run function item:enchant/add/prefix/type/chestplate/main
+execute if data block -40691 2 -40700 RecordItem.tag.Helmet run function item:enchant/add/prefix/type/helmet/main
+execute if data block -40691 2 -40700 RecordItem.tag.Chestplate run function item:enchant/add/prefix/type/chestplate/main
 #apply
 execute if score #GlobalTier Number matches 1.. run function item:enchant/add/prefix/apply/main
 #再帰処理

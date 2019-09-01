@@ -1,2 +1,2 @@
-execute store result score #IncArmorTemp Number run data get block ~ ~ ~ Items[0].tag.Prefix[{Name:"IncArmor/EnergyShield"}].AffixValue
+execute store result score #IncArmorTemp Number run data get block -40691 2 -40700 RecordItem.tag.Prefix[{Name:"IncArmor/EnergyShield"}].AffixValue
 scoreboard players operation #IncArmor Number += #IncArmorTemp Number

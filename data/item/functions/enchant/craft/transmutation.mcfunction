@@ -5,6 +5,6 @@ function main:rand
 execute if score #RandMod Number matches 0..2 run scoreboard players set #PAdd Number 1
 execute if score #RandMod Number matches 1..3 run scoreboard players set #SAdd Number 1
 
-data modify block ~ ~ ~ Items[0].tag.Rarity set value "Magic"
+data modify block -40691 2 -40700 RecordItem.tag.Rarity set value "Magic"
 
 scoreboard players set #Success Number 1

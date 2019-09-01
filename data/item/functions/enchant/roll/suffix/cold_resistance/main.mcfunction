@@ -8,4 +8,4 @@ execute if score #GlobalTier Number matches 2 run function item:enchant/roll/suf
 execute if score #GlobalTier Number matches 1 run function item:enchant/roll/suffix/cold_resistance/tier1
 
 data modify block -40691 1 -40700 RecordItem.tag.AffixName set value "ColdResistance"
-data modify block -40692 1 -40700 Text1 set value '[{"text":"⬤ ","color":"blue","italic":false},{"text":"+","color":"white","italic":false},{"score":{"name":"#AffixValue","objective":"Number"},"color":"white","italic":false},{"text":"%","color":"white","italic":false},{"text":" 氷耐性","color":"gray","italic":false},{"nbt":"RecordItem.tag.TierStar","block":"-40691 1 -40700","color":"dark_gray","italic":false}]'
+data modify block -40692 1 -40700 Text1 set value '[{"text":"✦ ","color":"blue","italic":false},{"text":"+","color":"white","italic":false},{"score":{"name":"#AffixValue","objective":"Number"},"color":"white","italic":false},{"text":"%","color":"white","italic":false},{"text":" 氷耐性","color":"gray","italic":false},{"nbt":"RecordItem.tag.TierStar","block":"-40691 1 -40700","color":"dark_gray","italic":false}]'

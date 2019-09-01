@@ -48,8 +48,6 @@ execute as @e[tag=Skill] at @s run function skill:calc/tick/main
 
 ##########
 scoreboard players remove * WaitTimeH 100
-#Workbench
-execute as @e[tag=Workbench] positioned as @s if data block ~ ~ ~ {Items:[{Slot:0b},{Slot:1b}]} run function item:enchant/main
 
 #トリガー
 #scoreboard players reset @a[scores={SneakTime=0}] WaitTimeH
