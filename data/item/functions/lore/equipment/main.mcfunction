@@ -8,7 +8,7 @@ function item:lore/equipment/base_name/main
 #BaseStats
 function item:lore/equipment/base_stats/main
 #Requirements
-function item:lore/equipment/requirements
+function item:lore/equipment/requirements/main
 #Prefix
 function item:lore/equipment/prefix
 #Suffix
