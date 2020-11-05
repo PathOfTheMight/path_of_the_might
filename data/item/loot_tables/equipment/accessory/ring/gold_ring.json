@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:301080,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u30b4\u30fc\u30eb\u30c9\u30ea\u30f3\u30b0\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:20}},Implicit:{AffixName:\"ItemRarity\",Suffix:1b,Range:{Min:6,Max:15}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:100080,Equipment:1b,Weapon:1b,Mace1H:1b,Melee:1b,Mace:1b,1H:1b,WeaponType:'{\"text\":\"\u7247\u624b\u30e1\u30a4\u30b9\",\"color\":\"green\",\"bold\":true,\"italic\":false}',BaseName:\"\u6226\u69cc\",Rarity:\"Normal\",MaxSocket:3,Requirements:{Level:{Base:44},Str:{Base:143}},BaseStats:{PhysicalDamageMin:{Base:25},PhysicalDamageMax:{Base:59},CriticalStrikeChance:{Base:5},AttackSpeed:{Base:1.4},WeaponRange:{Base:11}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

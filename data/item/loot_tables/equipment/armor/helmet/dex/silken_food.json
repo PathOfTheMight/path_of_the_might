@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:201060,Equipment:1b,Armor:1b,Helmet:1b,BaseName:\"\u30b7\u30eb\u30af\u306e\u30d5\u30fc\u30c9\",Rarity:\"Normal\",MaxSocket:4,Requirements:{Type:\"Dex\",Level:{Base:60},Dex:{Base:138}},BaseStats:{Evasion:{Base:346},}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
