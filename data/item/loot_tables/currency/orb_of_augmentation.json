@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"増大のオーブ\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"マジック\",\"color\":\"aqua\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"アイテムに新たなエンチャントを追加する\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}']},Type:\"Currency\",Augmentation:1b,CustomModelData:3}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

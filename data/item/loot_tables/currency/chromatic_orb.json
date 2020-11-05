@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"彩色のオーブ\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"アイテムのソケットカラーをリロールする\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},Type:\"Currency\",Chromatic:1b,CustomModelData:16}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

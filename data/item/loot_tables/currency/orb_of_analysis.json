@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"解析のオーブ\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"アイテムのエンチャントの振れ幅を表示する\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},Type:\"Currency\",Analysis:1b,CustomModelData:13}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"機会のオーブ\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"ノーマル\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"アイテムをランダムなレアリティに改造する\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}']},Type:\"Currency\",Alteration:1b,CustomModelData:10}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

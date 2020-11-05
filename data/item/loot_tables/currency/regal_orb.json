@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"壮麗なオーブ\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"マジック\",\"color\":\"aqua\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"アイテムを\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"レア\",\"color\":\"gold\",\"italic\":false},{\"text\":\"アイテムに改良する\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}']},Type:\"Currency\",Regal:1b,CustomModelData:4}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

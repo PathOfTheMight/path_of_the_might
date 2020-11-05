@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"神聖なオーブ\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"アイテムのランダムエンチャントの数値を振り直す\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},Type:\"Currency\",Divine:1b,CustomModelData:11}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

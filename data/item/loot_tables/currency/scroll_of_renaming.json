@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"名前の巻物\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"レア\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"アイテムの名前を作り直す\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}']},Type:\"Currency\",Rename:1b,CustomModelData:14}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

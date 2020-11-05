@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"洗浄のオーブ\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"アイテムのエンチャントを全て取り除く\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}']},Type:\"Currency\",Scouring:1b,CustomModelData:9}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
