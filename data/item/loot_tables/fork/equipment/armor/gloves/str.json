@@ -1,0 +1,145 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str/iron_gauntlets",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str/plated_gauntlets",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 11,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str/bronze_gauntlets",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 23,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str/steel_gauntlets",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 35,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str/goliath_gauntlets",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 47,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str/avarca_gauntlets",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 53,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str/titan_gauntlets",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 63,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str/spiked_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 69,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

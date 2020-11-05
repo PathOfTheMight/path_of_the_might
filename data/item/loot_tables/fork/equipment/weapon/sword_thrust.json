@@ -1,0 +1,264 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/rusted_spike",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/whalebone_rapier",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 5,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/basket_rapier",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 10,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/elegant_foil",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 15,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/thorn_rapier",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 20,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/small_sword",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 28,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/estoc",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 32,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/serrated_foil",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 38,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/courtesan_sword",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 44,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/dragonbone_rapier",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 50,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/spiraled_sword",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 53,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/avarca_rapier",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 58,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/jewelled_foil",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 62,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/harpy_rapier",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 66,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/sword_thrust/dragoon_sword",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 70,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

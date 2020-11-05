@@ -1,0 +1,145 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str_int/chain_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 7,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str_int/ringmail_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 19,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str_int/mesh_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 32,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str_int/riveted_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 37,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str_int/zealot_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 43,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str_int/soldier_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 51,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str_int/legion_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 57,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/gloves/str_int/crusader_gloves",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 66,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

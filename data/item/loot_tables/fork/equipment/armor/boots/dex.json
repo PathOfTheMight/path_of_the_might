@@ -1,0 +1,145 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/boots/dex/rawhide_boots",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 3,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/boots/dex/goathide_boots",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 12,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/boots/dex/deerskin_boots",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 22,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/boots/dex/nubuck_boots",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 34,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/boots/dex/eelskin_boots",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 44,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/boots/dex/shagreen_boots",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 55,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/boots/dex/stealth_boots",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 62,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/armor/boots/dex/slink_boots",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 69,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

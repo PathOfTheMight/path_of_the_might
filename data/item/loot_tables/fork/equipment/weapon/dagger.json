@@ -1,0 +1,264 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/glass_shank",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/skinning_knife",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 5,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/copper_kris",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 10,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/stiletto",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 15,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/skean",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 20,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/butcher_knife",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 28,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/imp_dagger",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 32,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/poignard",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 38,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/ender_dagger",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 44,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/trisula",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 50,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/flaying_knife",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 53,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/platinum_kris",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 58,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/inperial_skean",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 62,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/demon_dagger",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 66,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:equipment/weapon/dagger/sai",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Number": {
+                                    "min": 70,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

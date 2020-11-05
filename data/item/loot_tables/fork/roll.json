@@ -1,0 +1,357 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 16,
+                                    "max": 1000000
+                                }
+                            }
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.015625
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 32,
+                                    "max": 1000000
+                                }
+                            }
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.03125
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 64,
+                                    "max": 1000000
+                                }
+                            }
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0625
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 128,
+                                    "max": 1000000
+                                }
+                            }
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.125
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 256,
+                                    "max": 1000000
+                                }
+                            }
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.25
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 512,
+                                    "max": 1000000
+                                }
+                            }
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 1024,
+                                    "max": 1000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 2048,
+                                    "max": 1000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 4096,
+                                    "max": 1000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 8
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 8192,
+                                    "max": 1000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 8,
+                "max": 16
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 16384,
+                                    "max": 1000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 16,
+                "max": 32
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 32768,
+                                    "max": 1000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 32,
+                "max": 64
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 65536,
+                                    "max": 1000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 64,
+                "max": 128
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/main",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "IIQ": {
+                                    "min": 131072,
+                                    "max": 1000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

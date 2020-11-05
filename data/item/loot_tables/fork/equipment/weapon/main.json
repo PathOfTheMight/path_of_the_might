@@ -1,0 +1,68 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/axe_1h"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/axe_2h"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/bow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/claw"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/dagger"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/mace_1h"
+                },{
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/mace_2h"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/scepter"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/staff"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/sword_1h"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/sword_2h"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/weapon/wand"
+                }
+            ]
+        }
+    ]
+}

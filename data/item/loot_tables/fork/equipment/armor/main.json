@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/armor/helmet/main"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/armor/chestplate/main"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/armor/gloves/main"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "name": "item:fork/equipment/armor/boots/main"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 80,
+                    "name": "item:fork/equipment/armor/shield/main"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "name": "item:fork/equipment/armor/quiver"
+                }
+            ]
+        }
+    ]
+}
