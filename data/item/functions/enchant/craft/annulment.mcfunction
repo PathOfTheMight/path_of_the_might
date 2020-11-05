@@ -1,13 +1,10 @@
-scoreboard players set #RandMod Number 2
+#remove 1 mod from magic or rare
+scoreboard players operation #RandMod Number = #PCount Number
+scoreboard players operation #RandMod Number += #SCount Number
 function main:rand
+scoreboard players operation #CraftRand Number = #RandMod Number
 
-##Pあり:-P Sあり:-S PSあり:1/2:-P 1/2:-S
-execute if score #PTotal Number matches 1.. if score #STotal Number matches 0 run scoreboard players set #PRemove Number 1
-execute if score #PTotal Number matches 0 if score #STotal Number matches 1.. run scoreboard players set #SRemove Number 1
-execute if score #PTotal Number matches 1.. if score #STotal Number matches 1.. if score #RandMod Number matches 0 run scoreboard players set #PRemove Number 1
-execute if score #PTotal Number matches 1.. if score #STotal Number matches 1.. if score #RandMod Number matches 1 run scoreboard players set #SRemove Number 1
-#個数計算
-scoreboard players operation #PTotal Number -= #PRemove Number
-scoreboard players operation #STotal Number -= #SRemove Number
+execute if score #PCount Number > #CraftRand Number run function item:enchant/remove/prefix/one
+execute unless score #PCount Number > #CraftRand Number run function item:enchant/remove/suffix/one
 
 scoreboard players set #Success Number 1

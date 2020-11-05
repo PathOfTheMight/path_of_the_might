@@ -1,0 +1,2493 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmor\",Name:\"\u6f06\u5857\u308a\u306e\",Level:1,MinValue1:3,MaxValue1:10,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<3-10>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u6f06\u5857\u308a\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmor\",Name:\"\u30b9\u30d1\u30a4\u30af\",Level:18,MinValue1:11,MaxValue1:35,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<11-35>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b9\u30d1\u30a4\u30af\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 18,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmor\",Name:\"\u30ea\u30d6\u4ed8\u304d\",Level:30,MinValue1:36,MaxValue1:60,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<36-60>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ea\u30d6\u4ed8\u304d\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmor+Life\",Name:\"\u7261\u8823\u306e\",Level:30,MinValue1:14,MaxValue1:20,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<14-20>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u7261\u8823\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:18,MaxValue2:23,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<18-23>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmor+Life\",Name:\"\u30a6\u30cb\u306e\",Level:46,MinValue1:21,MaxValue1:42,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<21-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a6\u30cb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:24,MaxValue2:28,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<24-28>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 46,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmorAndEnergyShield\",Name:\"Blessed\",Level:1,MinValue1:3,MaxValue1:7,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<3-7>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Blessed\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:3,MaxValue2:4,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cb\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value2\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<3-4>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmorAndEnergyShield\",Name:\"Anointed\",Level:18,MinValue1:9,MaxValue1:25,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<9-25>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Anointed\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:9,MaxValue2:12,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cb\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value2\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<9-12>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 18,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmorAndEnergyShield\",Name:\"Sanctified\",Level:30,MinValue1:27,MaxValue1:45,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-45>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Sanctified\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:18,MaxValue2:22,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cb\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value2\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<18-22>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmorAndEvasion\",Name:\"\u66f2\u304c\u308a\u3084\u3059\u3044\",Level:1,MinValue1:3,MaxValue1:7,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<3-7>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u66f2\u304c\u308a\u3084\u3059\u3044\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmorAndEvasion\",Name:\"\u3057\u306a\u3084\u304b\u306a\",Level:18,MinValue1:9,MaxValue1:25,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<9-25>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u3057\u306a\u3084\u304b\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 18,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalArmorAndEvasion\",Name:\"\u67d4\u8edf\u306a\",Level:30,MinValue1:27,MaxValue1:45,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-45>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u67d4\u8edf\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEnergyShield+Life\",Name:\"\u50e7\u4fb6\u306e\",Level:30,MinValue1:8,MaxValue1:10,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<8-10>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u50e7\u4fb6\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:18,MaxValue2:23,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<18-23>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEnergyShield+Life\",Name:\"\u4fee\u9053\u9662\u9577\u306e\",Level:46,MinValue1:11,MaxValue1:15,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<11-15>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u4fee\u9053\u9662\u9577\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:24,MaxValue2:28,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<24-28>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 46,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEnergyShield+Mana\",Name:\"\u4f8d\u8005\u306e\",Level:30,MinValue1:8,MaxValue1:10,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<8-10>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u4f8d\u8005\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:11,MaxValue2:15,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<11-15>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEnergyShield+Mana\",Name:\"\u52a9\u796d\u306e\",Level:46,MinValue1:11,MaxValue1:15,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<11-15>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u52a9\u796d\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:16,MaxValue2:19,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<16-19>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 46,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEvasion+Life\",Name:\"Flea_s\",Level:30,MinValue1:14,MaxValue1:20,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<14-20>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Flea_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:18,MaxValue2:23,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<18-23>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEvasion+Life\",Name:\"Fawn_s\",Level:46,MinValue1:21,MaxValue1:42,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<21-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Fawn_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:24,MaxValue2:28,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<24-28>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 46,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor\",Name:\"Reinforced\",Level:3,MinValue1:15,MaxValue1:26,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<15-26>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Reinforced\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 3,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor\",Name:\"Layered\",Level:17,MinValue1:27,MaxValue1:42,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Layered\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 17,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor\",Name:\"Lobstered\",Level:29,MinValue1:43,MaxValue1:55,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<43-55>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Lobstered\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 29,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor\",Name:\"Buttressed\",Level:42,MinValue1:56,MaxValue1:67,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<56-67>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Buttressed\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 42,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor\",Name:\"Thickened\",Level:60,MinValue1:68,MaxValue1:79,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<68-79>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Thickened\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 60,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor\",Name:\"Girded\",Level:72,MinValue1:80,MaxValue1:91,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<80-91>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Girded\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 72,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor\",Name:\"Impregnable\",Level:84,MinValue1:92,MaxValue1:100,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<92-100>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Impregnable\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 84,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor+IncStunRecovery\",Name:\"\u30ab\u30d6\u30c8\u30e0\u30b7\u306e\",Level:1,MinValue1:6,MaxValue1:13,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<6-13>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ab\u30d6\u30c8\u30e0\u30b7\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:6,MaxValue2:7,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<6-7>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor+IncStunRecovery\",Name:\"\u30ab\u30cb\u306e\",Level:17,MinValue1:14,MaxValue1:20,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<14-20>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ab\u30cb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:8,MaxValue2:9,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<8-9>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 17,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor+IncStunRecovery\",Name:\"\u30a2\u30eb\u30de\u30b8\u30ed\u306e\",Level:29,MinValue1:21,MaxValue1:26,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<21-26>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30eb\u30de\u30b8\u30ed\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:10,MaxValue2:11,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<10-11>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 29,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor+IncStunRecovery\",Name:\"\u30b5\u30a4\u306e\",Level:42,MinValue1:27,MaxValue1:32,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-32>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b5\u30a4\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:12,MaxValue2:13,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<12-13>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 42,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor+IncStunRecovery\",Name:\"\u8c61\u306e\",Level:60,MinValue1:33,MaxValue1:38,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<33-38>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8c61\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:14,MaxValue2:15,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<14-15>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 60,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmor+IncStunRecovery\",Name:\"\u30de\u30f3\u30e2\u30b9\u306e\",Level:78,MinValue1:39,MaxValue1:42,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<39-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30de\u30f3\u30e2\u30b9\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:16,MaxValue2:17,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<16-17>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 78,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmor+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield\",Name:\"Infixed\",Level:3,MinValue1:15,MaxValue1:26,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<15-26>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Infixed\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 3,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield\",Name:\"Ingrained\",Level:19,MinValue1:27,MaxValue1:42,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Ingrained\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 19,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield\",Name:\"Instilled\",Level:30,MinValue1:43,MaxValue1:55,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<43-55>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Instilled\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield\",Name:\"Infused\",Level:44,MinValue1:56,MaxValue1:67,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<56-67>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Infused\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 44,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield\",Name:\"Inculcated\",Level:60,MinValue1:68,MaxValue1:79,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<68-79>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Inculcated\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 60,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield\",Name:\"Interpolated\",Level:72,MinValue1:80,MaxValue1:91,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<80-91>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Interpolated\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 72,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield\",Name:\"Inspired\",Level:84,MinValue1:92,MaxValue1:100,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<92-100>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Inspired\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 84,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield+IncStunRecovery\",Name:\"Pixie_s\",Level:3,MinValue1:6,MaxValue1:13,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<6-13>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Pixie_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:6,MaxValue2:7,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<6-7>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 3,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield+IncStunRecovery\",Name:\"Gremlin_s\",Level:18,MinValue1:14,MaxValue1:20,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<14-20>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Gremlin_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:8,MaxValue2:9,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<8-9>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 18,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield+IncStunRecovery\",Name:\"Boggart_s\",Level:30,MinValue1:21,MaxValue1:26,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<21-26>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Boggart_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:10,MaxValue2:11,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<10-11>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield+IncStunRecovery\",Name:\"Naga_s\",Level:44,MinValue1:27,MaxValue1:32,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-32>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Naga_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:12,MaxValue2:13,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<12-13>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 44,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield+IncStunRecovery\",Name:\"Djinn_s\",Level:60,MinValue1:33,MaxValue1:38,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<33-38>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Djinn_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:14,MaxValue2:15,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<14-15>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 60,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEnergyShield+IncStunRecovery\",Name:\"Seraphim_s\",Level:78,MinValue1:39,MaxValue1:42,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<39-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Seraphim_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:16,MaxValue2:17,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<16-17>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 78,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEnergyShield+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion\",Name:\"Scrapper_s\",Level:3,MinValue1:15,MaxValue1:26,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<15-26>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Scrapper_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 3,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion\",Name:\"Brawler_s\",Level:19,MinValue1:27,MaxValue1:42,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Brawler_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 19,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion\",Name:\"Fencer_s\",Level:30,MinValue1:43,MaxValue1:55,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<43-55>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Fencer_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion\",Name:\"Gladiator_s\",Level:44,MinValue1:56,MaxValue1:67,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<56-67>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Gladiator_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 44,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion\",Name:\"Duelist_s\",Level:60,MinValue1:68,MaxValue1:79,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<68-79>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Duelist_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 60,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion\",Name:\"Hero_s\",Level:72,MinValue1:80,MaxValue1:91,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<80-91>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Hero_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 72,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion\",Name:\"Legend_s\",Level:84,MinValue1:92,MaxValue1:100,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<92-100>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Legend_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 84,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion+IncStunRecovery\",Name:\"\u30ab\u30d6\u30c8\u30e0\u30b7\u306e\",Level:2,MinValue1:6,MaxValue1:13,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<6-13>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ab\u30d6\u30c8\u30e0\u30b7\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:6,MaxValue2:7,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<6-7>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 2,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion+IncStunRecovery\",Name:\"\u30ab\u30cb\u306e\",Level:19,MinValue1:14,MaxValue1:20,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<14-20>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ab\u30cb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:8,MaxValue2:9,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<8-9>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 19,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion+IncStunRecovery\",Name:\"\u30a2\u30eb\u30de\u30b8\u30ed\u306e\",Level:30,MinValue1:21,MaxValue1:26,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<21-26>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30eb\u30de\u30b8\u30ed\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:10,MaxValue2:11,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<10-11>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion+IncStunRecovery\",Name:\"\u30b5\u30a4\u306e\",Level:44,MinValue1:27,MaxValue1:32,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-32>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b5\u30a4\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:12,MaxValue2:13,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<12-13>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 44,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion+IncStunRecovery\",Name:\"\u8c61\u306e\",Level:60,MinValue1:33,MaxValue1:38,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<33-38>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8c61\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:14,MaxValue2:15,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<14-15>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 60,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"IncLocalArmorAndEvasion+IncStunRecovery\",Name:\"\u30de\u30f3\u30e2\u30b9\u306e\",Level:78,MinValue1:39,MaxValue1:42,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\uff06\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<39-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30de\u30f3\u30e2\u30b9\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:16,MaxValue2:17,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<16-17>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 78,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalArmorAndEvasion+IncStunRecovery\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30d9\u30ea\u30eb\u306e\",Level:1,MinValue1:15,MaxValue1:19,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<15-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d9\u30ea\u30eb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30b3\u30d0\u30eb\u30c8\u306e\",Level:11,MinValue1:20,MaxValue1:24,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-24>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b3\u30d0\u30eb\u30c8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 11,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30a2\u30ba\u30e9\u30a4\u30c8\u306e\",Level:17,MinValue1:25,MaxValue1:29,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<25-29>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30ba\u30e9\u30a4\u30c8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 17,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30b5\u30d5\u30a1\u30a4\u30a2\u306e\",Level:23,MinValue1:30,MaxValue1:34,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<30-34>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b5\u30d5\u30a1\u30a4\u30a2\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 23,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30bb\u30eb\u30ea\u30a2\u30f3\u306e\",Level:29,MinValue1:35,MaxValue1:39,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<35-39>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30bb\u30eb\u30ea\u30a2\u30f3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 29,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30a2\u30af\u30a2\u30de\u30ea\u30f3\u306e\",Level:35,MinValue1:40,MaxValue1:44,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<40-44>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30af\u30a2\u30de\u30ea\u30f3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 35,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30aa\u30d1\u30fc\u30eb\u306e\",Level:42,MinValue1:45,MaxValue1:49,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<45-49>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30aa\u30d1\u30fc\u30eb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 42,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30ea\u30f3\u30c9\u30a6\u306e\",Level:51,MinValue1:50,MaxValue1:54,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-54>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ea\u30f3\u30c9\u30a6\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 51,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30aa\u30aa\u30bb\u30a4\u30dc\u30a6\u306e\",Level:60,MinValue1:55,MaxValue1:59,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<55-59>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30aa\u30aa\u30bb\u30a4\u30dc\u30a6\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 60,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u7460\u7483\u306e\",Level:69,MinValue1:60,MaxValue1:64,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<60-64>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u7460\u7483\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 69,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u9752\u306e\",Level:75,MinValue1:65,MaxValue1:68,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<65-68>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9752\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 75,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u5449\u9808\u306e\",Level:81,MinValue1:69,MaxValue1:73,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<69-73>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5449\u9808\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 81,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,7 +1,9 @@
-scoreboard players set #PRemove Number 3
-scoreboard players set #SRemove Number 3
+#to normal
+#remove all mods
+function item:enchant/remove/prefix/all
+function item:enchant/remove/suffix/all
 
-data modify block -40691 2 -40700 RecordItem.tag.Rarity set value "Normal"
-data remove block -40691 2 -40700 RecordItem.tag.UniqueName
+data modify storage item: Item.tag.Rarity set value "Normal"
+data remove storage item: Item.tag.UniqueName
 
 scoreboard players set #Success Number 1

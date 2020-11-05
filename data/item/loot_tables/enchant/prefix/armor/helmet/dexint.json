@@ -1,0 +1,231 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEnergyShield+Life\",Name:\"\u5927\u4fee\u9053\u9662\u9577\u306e\",Level:62,MinValue1:16,MaxValue1:25,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<16-25>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5927\u4fee\u9053\u9662\u9577\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:29,MaxValue2:33,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<29-33>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 62,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEnergyShield+Mana\",Name:\"\u795e\u5b98\u306e\",Level:62,MinValue1:16,MaxValue1:25,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<16-25>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u795e\u5b98\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:20,MaxValue2:22,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<20-22>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 62,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEvasion+Life\",Name:\"Ram_s\",Level:62,MinValue1:43,MaxValue1:95,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<43-95>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Ram_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:29,MaxValue2:33,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cf\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore2:'{\"text\":\"<29-33>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 62,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasion+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalArmor+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Life\"]}"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEnergyShield+Mana\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Prefix\",ID:\"AddLocalEvasionAndEnergyShield\",Name:\"Cherub_s\",Level:46,MinValue1:46,MaxValue1:103,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u654f\u6377\u6027\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<46-103>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" Cherub_s\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]',MinValue2:30,MaxValue2:36,MainLore2:'[{\"text\":\".\",\"color\":\"black\",\"italic\":false},{\"text\":\"\u25cb\",\"color\":\"red\",\"italic\":false},{\"text\":\". \",\"color\":\"black\",\"italic\":false},,{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value2\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore2:'{\"text\":\"<30-36>\",\"color\":\"dark_gray\",\"italic\":false}'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 46,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddLocalEvasionAndEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

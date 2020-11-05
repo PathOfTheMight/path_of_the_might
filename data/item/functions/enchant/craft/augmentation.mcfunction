@@ -1,6 +1,12 @@
-#P空き:P S空き:S
-execute if score #PTotal Number matches 0 run scoreboard players set #PAdd Number 1
-execute if score #STotal Number matches 0 run scoreboard players set #SAdd Number 1
+#add 1 mod to magic
+scoreboard players set #RandMod Number 2
+function main:rand
+scoreboard players operation #CraftRand Number = #RandMod Number
 
-execute if score #PAdd Number matches 1 run scoreboard players set #Success Number 1
-execute if score #SAdd Number matches 1 run scoreboard players set #Success Number 1
+execute if score #PCount Number matches 1 run scoreboard players set #CraftRand Number 1
+execute if score #SCount Number matches 1 run scoreboard players set #CraftRand Number 0
+
+execute if score #CraftRand Number matches 0 run function item:enchant/add/prefix/main
+execute if score #CraftRand Number matches 1 run function item:enchant/add/suffix/main
+
+scoreboard players set #Success Number 1
