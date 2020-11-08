@@ -125,7 +125,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 100,
-                    "name": "item:equipment/weapon/sword_1h/",
+                    "name": "item:equipment/weapon/sword_1h/gladius",
                     "conditions": [
                         {
                             "condition": "entity_scores",

@@ -125,7 +125,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 100,
-                    "name": "item:equipment/armor/shield/dex_int/supreme",
+                    "name": "item:equipment/armor/shield/dex_int/supreme_spiked_shield",
                     "conditions": [
                         {
                             "condition": "entity_scores",
