@@ -1099,270 +1099,6 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Suffix\",ID:\"IncAttackSpeed\",Name:\"of Skill\",Level:1,MinValue1:5,MaxValue1:7,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<5-7>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Skill\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 1,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"IncAttackSpeed\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Suffix\",ID:\"IncAttackSpeed\",Name:\"of Ease\",Level:11,MinValue1:8,MaxValue1:10,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<8-10>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Ease\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 11,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"IncAttackSpeed\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Suffix\",ID:\"IncAttackSpeed\",Name:\"of Mastery\",Level:22,MinValue1:11,MaxValue1:13,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<11-13>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Mastery\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 22,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"IncAttackSpeed\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Suffix\",ID:\"IncAttackSpeed\",Name:\"of Renown\",Level:30,MinValue1:14,MaxValue1:16,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<14-16>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Renown\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 30,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"IncAttackSpeed\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Suffix\",ID:\"IncAttackSpeed\",Name:\"of Acclaim\",Level:37,MinValue1:17,MaxValue1:19,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<17-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Acclaim\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 37,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"IncAttackSpeed\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Suffix\",ID:\"IncAttackSpeed\",Name:\"of Fame\",Level:45,MinValue1:20,MaxValue1:22,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-22>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Fame\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 45,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"IncAttackSpeed\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Suffix\",ID:\"IncAttackSpeed\",Name:\"of Infamy\",Level:60,MinValue1:23,MaxValue1:25,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<23-25>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Infamy\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 60,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"IncAttackSpeed\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Suffix\",ID:\"IncAttackSpeed\",Name:\"of Celebration\",Level:77,MinValue1:26,MaxValue1:27,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<26-27>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Celebration\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 77,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"IncAttackSpeed\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
                             "tag": "{Prefix:\"Suffix\",ID:\"IncCastSpeed\",Name:\"of Talent\",Level:2,MinValue1:8,MaxValue1:11,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u8a60\u5531\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<8-11>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Talent\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
@@ -1582,6 +1318,270 @@
                                 "entity": "this",
                                 "predicate": {
                                     "nbt": "{Tags:[\"IncCastSpeed\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Suffix\",ID:\"IncLocalAttackSpeed\",Name:\"of Skill\",Level:1,MinValue1:5,MaxValue1:7,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<5-7>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Skill\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalAttackSpeed\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Suffix\",ID:\"IncLocalAttackSpeed\",Name:\"of Ease\",Level:11,MinValue1:8,MaxValue1:10,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<8-10>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Ease\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 11,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalAttackSpeed\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Suffix\",ID:\"IncLocalAttackSpeed\",Name:\"of Mastery\",Level:22,MinValue1:11,MaxValue1:13,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<11-13>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Mastery\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 22,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalAttackSpeed\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Suffix\",ID:\"IncLocalAttackSpeed\",Name:\"of Renown\",Level:30,MinValue1:14,MaxValue1:16,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<14-16>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Renown\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 30,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalAttackSpeed\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Suffix\",ID:\"IncLocalAttackSpeed\",Name:\"of Acclaim\",Level:37,MinValue1:17,MaxValue1:19,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<17-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Acclaim\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 37,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalAttackSpeed\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Suffix\",ID:\"IncLocalAttackSpeed\",Name:\"of Fame\",Level:45,MinValue1:20,MaxValue1:22,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-22>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Fame\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 45,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalAttackSpeed\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Suffix\",ID:\"IncLocalAttackSpeed\",Name:\"of Infamy\",Level:60,MinValue1:23,MaxValue1:25,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<23-25>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Infamy\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 60,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalAttackSpeed\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:\"Suffix\",ID:\"IncLocalAttackSpeed\",Name:\"of Celebration\",Level:77,MinValue1:26,MaxValue1:27,MainLore1:'[{\"text\":\"\u2727 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<26-27>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Celebration\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 77,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"IncLocalAttackSpeed\"]}"
                                 }
                             }
                         }
