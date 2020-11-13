@@ -1,2 +1,2 @@
-execute store result score #PhDIncPTemp Number run data get block -40691 2 -40700 RecordItem.tag.Prefix[{Name:"IncPhysicalLocalDamage"}].AffixValue
-scoreboard players operation #PhDIncP Number += #PhDIncPTemp Number
+execute store result score #Temp Number run data get storage item: Item.tag.Prefix[{ID:"IncPhysicalLocalDamage"}].Value1
+scoreboard players operation #PhDIncP Number += #Temp Number

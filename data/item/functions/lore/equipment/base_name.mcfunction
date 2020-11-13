@@ -1,0 +1,9 @@
+#BaseName
+#Rarityで色分け
+execute if data storage item: {Item:{tag:{Rarity:"Normal"}}} run data modify block 2 4 2 Text1 set value '[{"translate":"< %s >","color":"yellow","italic":false,"with":[{"nbt":"Item.tag.BaseName","storage":"item:","bold":true,"color":"white"}]},{"translate":" Lv%s","color":"dark_gray","italic":false,"with":[{"nbt":"Item.tag.ItemLevel","storage":"item:"}]}]'
+execute if data storage item: {Item:{tag:{Rarity:"Magic"}}} run data modify block 2 4 2 Text1 set value '[{"translate":"< %s%s%s >","color":"yellow","italic":false,"with":[{"nbt":"Item.tag.Prefix[0].Name","storage":"item:","bold":true,"color":"aqua"},{"nbt":"Item.tag.Suffix[0].Name","storage":"item:","bold":true,"color":"aqua"},{"nbt":"Item.tag.BaseName","storage":"item:","bold":true,"color":"aqua"}]},{"translate":" Lv%s","color":"dark_gray","italic":false,"with":[{"nbt":"Item.tag.ItemLevel","storage":"item:"}]}]'
+execute if data storage item: {Item:{tag:{Rarity:"Rare"}}} run data modify block 2 4 2 Text1 set value '[{"translate":"< %s >","color":"yellow","italic":false,"with":[{"nbt":"Item.tag.BaseName","storage":"item:","bold":true,"color":"gold"}]},{"translate":" Lv%s","color":"dark_gray","italic":false,"with":[{"nbt":"Item.tag.ItemLevel","storage":"item:"}]}]'
+execute if data storage item: {Item:{tag:{Rarity:"Unique"}}} run data modify block 2 4 2 Text1 set value '[{"translate":"< %s >","color":"yellow","italic":false,"with":[{"nbt":"Item.tag.BaseName","storage":"item:","bold":true,"color":"light_purple"}]},{"translate":" Lv%s","color":"dark_gray","italic":false,"with":[{"nbt":"Item.tag.ItemLevel","storage":"item:"}]}]'
+#UniqueName有無で分類
+execute if data storage item: Item.tag.UniqueName run data modify storage item: Item.tag.display.Lore append from block 2 4 2 Text1
+execute unless data storage item: Item.tag.UniqueName run data modify storage item: Item.tag.display.Name set from block 2 4 2 Text1

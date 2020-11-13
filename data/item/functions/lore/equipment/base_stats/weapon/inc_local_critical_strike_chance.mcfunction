@@ -1,2 +1,2 @@
-execute store result score #CriIncPTemp Number run data get block -40691 2 -40700 RecordItem.tag.Prefix[{Name:"IncLocalCriticalStrikeChance "}].AffixValue
-scoreboard players operation #CriIncP Number += #CriIncPTemp Number
+execute store result score #Temp Number run data get storage item: Item.tag.Suffix[{ID:"IncLocalCriticalStrikeChance"}].Value1
+scoreboard players operation #CriIncP Number += #Temp Number
