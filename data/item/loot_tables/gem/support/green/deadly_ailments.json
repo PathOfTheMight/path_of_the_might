@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1006003,GemID:60030,Gem:1b,Support:1b,Color:\"Green\",Name:\"\u30c7\u30c3\u30c9\u30ea\u30fc\u30a8\u30a4\u30eb\u30e1\u30f3\u30c8\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,Tags:[Hit],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u30d2\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['[{\"translate\":\"\u00d7%s%% \",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"AilDMoreP\"}}]},{\"text\":\"\u72b6\u614b\u7570\u5e38\u30c0\u30e1\u30fc\u30b8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]','[{\"translate\":\"\u00d7%s%% \",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"HitDMoreP\"}}]},{\"text\":\"\u30d2\u30c3\u30c8\u30c0\u30e1\u30fc\u30b8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]'],display:{Name:'{\"text\":\"\u30c7\u30c3\u30c9\u30ea\u30fc\u30a8\u30a4\u30eb\u30e1\u30f3\u30c8\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

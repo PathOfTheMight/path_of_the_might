@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1002002,GemID:20020,Gem:1b,Active:1b,Color:\"Green\",Name:\"\u30c0\u30c3\u30b7\u30e5\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,WaitTimeH:300,Tags:[Spell,Movement],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u9b54\u6cd5\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u79fb\u52d5\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['{\"text\":\"\u524d\u65b9\u306b\u7d20\u65e9\u304f\u30c0\u30c3\u30b7\u30e5\u3059\u308b\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],display:{Name:'{\"text\":\"\u30c0\u30c3\u30b7\u30e5\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

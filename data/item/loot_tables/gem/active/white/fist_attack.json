@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1004003,GemID:40030,Gem:1b,Active:1b,Color:\"White\",Name:\"\u901a\u5e38\u653b\u6483\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,AttackSpeedEffectiveness:100,Tags:[Attack,Hit,Melee],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u6280\u80fd\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u30d2\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u8fd1\u63a5\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['{\"text\":\"\u62f3\u3067\u653b\u6483\u3059\u308b\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],display:{Name:'{\"text\":\"\u901a\u5e38\u653b\u6483\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

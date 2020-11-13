@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1007008,GemID:70080,Gem:1b,Support:1b,Color:\"Blue\",Name:\"\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30da\u30cd\u30c8\u30ec\u30a4\u30b7\u30e7\u30f3\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,Tags:[Hit],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u30d2\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['[{\"translate\":\"+%s%% \",\"color\":\"white\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"LnPene\"}}]},{\"text\":\"\u96f7\u8010\u6027\u8cab\u901a\",\"color\":\"white\",\"bold\":true,\"italic\":false}]'],display:{Name:'{\"text\":\"\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30da\u30cd\u30c8\u30ec\u30a4\u30b7\u30e7\u30f3\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

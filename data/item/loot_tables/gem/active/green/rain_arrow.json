@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1002001,GemID:20010,Gem:1b,Active:1b,Color:\"Green\",Name:\"\u30ec\u30a4\u30f3\u30a2\u30ed\u30fc\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,Tags:[Attack,Hit,Bow,Projectile],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u6280\u80fd\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u30d2\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u5f13\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u6295\u5c04\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['{\"text\":\"\u8996\u7dda\u5148\u306b\u5411\u3051\u3066\u77e2\u3092\u5c71\u306a\u308a\u306b\u964d\u308a\u6ce8\u304c\u305b\u308b\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],display:{Name:'{\"text\":\"\u30ec\u30a4\u30f3\u30a2\u30ed\u30fc\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

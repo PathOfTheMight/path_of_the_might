@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:2003003,SkillID:330030,Skill:1b,WaitTimeH:1400,display:{Name:'{\"text\":\"\u30d5\u30a1\u30a4\u30a2\u30ce\u30f4\u30a1\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}',Lore:['{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u9b54\u6cd5\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u30d2\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u706b\",\"color\":\"red\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u7bc4\u56f2\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

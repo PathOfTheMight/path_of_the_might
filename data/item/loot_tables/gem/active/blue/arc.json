@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1003002,GemID:30020,Gem:1b,Active:1b,Color:\"Blue\",Name:\"\u30a2\u30fc\u30af\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,WaitTimeH:1400,Tags:[Spell,Hit,Lightning,Chain],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u9b54\u6cd5\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u30d2\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u96f7\",\"color\":\"yellow\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u9023\u9396\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['{\"text\":\"\u96f7\u304c\u8a60\u5531\u8005\u304b\u3089\u6575\u306b\u4f38\u3073\u3066\u3044\u304d\",\"color\":\"white\",\"bold\":true,\"italic\":false}','{\"text\":\"\u8fd1\u304f\u306b\u3044\u308b\u6575\u306b\u9023\u9396\u3059\u308b\",\"color\":\"white\",\"bold\":true,\"italic\":false}','[{\"text\":\"\u96f7\u30c0\u30e1\u30fc\u30b8: \",\"color\":\"gray\",\"bold\":true,\"italic\":false},{\"translate\":\"%s-%s\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"LnSplDMin\"}},{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"LnSplDMax\"}}]}]','[{\"translate\":\"+%s \",\"color\":\"white\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"Chai\"}}]},{\"text\":\"\u9023\u9396\",\"color\":\"white\",\"bold\":true,\"italic\":false}]'],display:{Name:'{\"text\":\"\u30a2\u30fc\u30af\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

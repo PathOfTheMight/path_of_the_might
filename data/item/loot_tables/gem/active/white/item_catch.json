@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1004005,GemID:40050,Gem:1b,Active:1b,Color:\"White\",Name:\"\u30a2\u30a4\u30c6\u30e0\u30ad\u30e3\u30c3\u30c1\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,WaitTimeH:400,Tags:[],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[]}',Description:['{\"text\":\"\u6700\u5bc4\u308a\u306e\u30a2\u30a4\u30c6\u30e0\u3092\u62fe\u3046\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],display:{Name:'{\"text\":\"\u30a2\u30a4\u30c6\u30e0\u30ad\u30e3\u30c3\u30c1\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

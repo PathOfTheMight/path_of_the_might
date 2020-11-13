@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1003006,GemID:30060,Gem:1b,Active:1b,Color:\"Blue\",Name:\"\u30b9\u30c8\u30fc\u30e0\u30b3\u30fc\u30eb\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,WaitTimeH:1000,Tags:[Spell,Hit,Lightning,Area,Duration],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u9b54\u6cd5\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u30d2\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u96f7\",\"color\":\"yellow\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u7bc4\u56f2\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u6642\u9593\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['{\"text\":\"\u8996\u7dda\u5148\u306b\u30de\u30fc\u30ab\u30fc\u3092\u30bb\u30c3\u30c8\u3059\u308b\",\"color\":\"white\",\"bold\":true,\"italic\":false}','{\"text\":\"\u30b3\u30fc\u30eb\u30c9\u30da\u30cd\u30c8\u30ec\u30a4\u30b7\u30e7\u30f3\",\"color\":\"white\",\"bold\":true,\"italic\":false}','{\"text\":\"\u4ed6\u306e\u30de\u30fc\u30ab\u30fc\u306b\u3082\u96f7\u304c\u767a\u751f\u3059\u308b\",\"color\":\"white\",\"bold\":true,\"italic\":false}','[{\"text\":\"\u96f7\u30c0\u30e1\u30fc\u30b8: \",\"color\":\"gray\",\"bold\":true,\"italic\":false},{\"translate\":\"%s-%s\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"LnSplDMin\"}},{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"LnSplDMax\"}}]}]'],display:{Name:'{\"text\":\"\u30b9\u30c8\u30fc\u30e0\u30b3\u30fc\u30eb\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

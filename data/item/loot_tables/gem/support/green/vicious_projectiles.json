@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1006006,GemID:60060,Gem:1b,Support:1b,Color:\"Green\",Name:\"\u30f4\u30a3\u30b7\u30e3\u30b9\u30d7\u30ed\u30b8\u30a7\u30af\u30bf\u30a4\u30eb\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,Tags:[Projectile,Attack],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u6295\u5c04\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u6280\u80fd\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['[{\"translate\":\"\u00d7%s%% \",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"ChDOTMoreP\"}}]},{\"text\":\"\u6301\u7d9a\u6df7\u6c8c\u30c0\u30e1\u30fc\u30b8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]','[{\"translate\":\"\u00d7%s%% \",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"PhDOTMoreP\"}}]},{\"text\":\"\u6301\u7d9a\u7269\u7406\u30c0\u30e1\u30fc\u30b8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]','[{\"translate\":\"\u00d7%s%% \",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"PhDMoreP\"}}]},{\"text\":\"\u7269\u7406\u30c0\u30e1\u30fc\u30b8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]','[{\"text\":\"\u00d790% \",\"color\":\"gold\",\"bold\":false,\"italic\":false},{\"text\":\"\u653b\u6483\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]'],display:{Name:'{\"text\":\"\u30f4\u30a3\u30b7\u30e3\u30b9\u30d7\u30ed\u30b8\u30a7\u30af\u30bf\u30a4\u30eb\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

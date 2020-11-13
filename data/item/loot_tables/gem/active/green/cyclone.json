@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1002003,GemID:20030,Gem:1b,Active:1b,Color:\"Green\",Name:\"\u30b5\u30a4\u30af\u30ed\u30f3\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,AttackSpeedEffectiveness:300,Tags:[Attack,Hit,Melee,Area,Movement],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u6280\u80fd\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u30d2\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u8fd1\u63a5\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u7bc4\u56f2\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u79fb\u52d5\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['{\"text\":\"\u6b66\u5668\u3092\u632f\u308a\u56de\u3057\u3066\u5468\u56f2\u306e\u6575\u3092\u653b\u6483\u3059\u308b\",\"color\":\"white\",\"bold\":true,\"italic\":false}','[{\"text\":\"\u7269\u7406\u30c0\u30e1\u30fc\u30b8: \",\"color\":\"gray\",\"bold\":true,\"italic\":false},{\"translate\":\"%s-%s\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"PhAtkDMin\"}},{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"PhAtkDMax\"}}]}]'],display:{Name:'{\"text\":\"\u30b5\u30a4\u30af\u30ed\u30f3\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

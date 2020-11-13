@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1006002,GemID:60020,Gem:1b,Support:1b,Color:\"Green\",Name:\"\u30b0\u30ec\u30fc\u30bf\u30fc\u30de\u30eb\u30c1\u30d7\u30eb\",BaseLevel:1,BaseQuality:0,Level:1,Quality:0,Exp:0,Tags:[Projectile],TagsLore:'{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u6295\u5c04\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}',Description:['[{\"translate\":\"\u00d7%s%% \",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"ProjDMoreP\"}}]},{\"text\":\"\u6295\u5c04\u30c0\u30e1\u30fc\u30b8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]','[{\"translate\":\"+%s \",\"color\":\"white\",\"bold\":false,\"italic\":false,\"with\":[{\"score\":{\"name\":\"0-0-0-0-0\",\"objective\":\"Mult\"}}]},{\"text\":\"\u5f3e\u6570\",\"color\":\"white\",\"bold\":true,\"italic\":false}]'],display:{Name:'{\"text\":\"\u30b0\u30ec\u30fc\u30bf\u30fc\u30de\u30eb\u30c1\u30d7\u30eb\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cake",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:2002002,SkillID:20020,Skill:1b,WaitTimeH:300,display:{Name:'{\"text\":\"\u30c0\u30c3\u30b7\u30e5\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}',Lore:['{\"text\":\"\u30bf\u30b0\uff1a \",\"bold\":true,\"italic\":false,\"color\":\"gray\",\"extra\":[{\"text\":\"\u9b54\u6cd5\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"\u30fb\",\"bold\":false,\"italic\":false,\"color\":\"gray\"},{\"text\":\"\u79fb\u52d5\",\"color\":\"white\",\"bold\":true,\"italic\":false}]}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

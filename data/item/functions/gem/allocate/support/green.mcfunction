@@ -1,0 +1,17 @@
+execute if score #GemID Number matches 60000 run function item:gem/support/green/added_cold_damage
+execute if score #GemID Number matches 60010 run function item:gem/support/green/faster_projectiles
+execute if score #GemID Number matches 60020 run function item:gem/support/green/greater_multiple_projectiles
+execute if score #GemID Number matches 60030 run function item:gem/support/green/deadly_ailments
+execute if score #GemID Number matches 60040 run function item:gem/support/green/poison
+execute if score #GemID Number matches 60050 run function item:gem/support/green/swift_afflicition
+execute if score #GemID Number matches 60060 run function item:gem/support/green/vicious_projectiles
+execute if score #GemID Number matches 60070 run function item:gem/support/green/void_manipulation
+execute if score #GemID Number matches 60080 run function item:gem/support/green/lesser_poison
+execute if score #GemID Number matches 60090 run function item:gem/support/green/lesser_multiple_projectiles
+execute if score #GemID Number matches 60100 run function item:gem/support/green/pierce
+execute if score #GemID Number matches 60110 run function item:gem/support/green/chain
+execute if score #GemID Number matches 60120 run function item:gem/support/green/fork
+execute if score #GemID Number matches 60130 run function item:gem/support/green/cold_penetration
+execute if score #GemID Number matches 60140 run function item:gem/support/green/faster_attacks
+execute if score #GemID Number matches 60150 run function item:gem/support/green/lesser_volley
+execute if score #GemID Number matches 60160 run function item:gem/support/green/greater_volley
