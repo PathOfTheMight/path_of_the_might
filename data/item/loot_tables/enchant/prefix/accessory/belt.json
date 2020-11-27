@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"AddArmor\",Name:\"\u6f06\u5857\u308a\u306e\",Level:1,MinValue1:3,MaxValue1:10,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<3-10>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u6f06\u5857\u308a\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddArmor\",Name:\"\u6f06\u5857\u308a\u306e\",Level:1,MinValue1:3,MaxValue1:10,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<3-10>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u6f06\u5857\u308a\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -43,7 +43,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"AddArmor\",Name:\"\u30b9\u30d1\u30a4\u30af\",Level:18,MinValue1:11,MaxValue1:35,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<11-35>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b9\u30d1\u30a4\u30af\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddArmor\",Name:\"\u30b9\u30d1\u30a4\u30af\",Level:18,MinValue1:11,MaxValue1:35,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<11-35>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b9\u30d1\u30a4\u30af\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -76,7 +76,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"AddArmor\",Name:\"\u30ea\u30d6\u4ed8\u304d\",Level:30,MinValue1:36,MaxValue1:60,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<36-60>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ea\u30d6\u4ed8\u304d\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddArmor\",Name:\"\u30ea\u30d6\u4ed8\u304d\",Level:30,MinValue1:36,MaxValue1:60,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<36-60>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ea\u30d6\u4ed8\u304d\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -109,7 +109,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"AddArmor\",Name:\"\u9632\u8b77\u5316\",Level:44,MinValue1:61,MaxValue1:138,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<61-138>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9632\u8b77\u5316\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddArmor\",Name:\"\u9632\u8b77\u5316\",Level:44,MinValue1:61,MaxValue1:138,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<61-138>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9632\u8b77\u5316\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -142,7 +142,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"AddArmor\",Name:\"\u30e1\u30c3\u30ad\u306e\",Level:57,MinValue1:139,MaxValue1:322,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<139-322>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30e1\u30c3\u30ad\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddArmor\",Name:\"\u30e1\u30c3\u30ad\u306e\",Level:57,MinValue1:139,MaxValue1:322,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<139-322>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30e1\u30c3\u30ad\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -175,7 +175,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"AddArmor\",Name:\"\u7532\u76ae\u306e\",Level:71,MinValue1:323,MaxValue1:400,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<323-400>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u7532\u76ae\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddArmor\",Name:\"\u7532\u76ae\u306e\",Level:71,MinValue1:323,MaxValue1:400,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<323-400>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u7532\u76ae\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -208,7 +208,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"AddArmor\",Name:\"\u5305\u307f\u8fbc\u3080\",Level:83,MinValue1:401,MaxValue1:460,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<401-460>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5305\u307f\u8fbc\u3080\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddArmor\",Name:\"\u5305\u307f\u8fbc\u3080\",Level:83,MinValue1:401,MaxValue1:460,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<401-460>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5305\u307f\u8fbc\u3080\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -241,7 +241,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"AddArmor\",Name:\"\u8986\u3044\u3064\u304f\u3059\",Level:86,MinValue1:461,MaxValue1:540,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<461-540>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8986\u3044\u3064\u304f\u3059\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddArmor\",Name:\"\u8986\u3044\u3064\u304f\u3059\",Level:86,MinValue1:461,MaxValue1:540,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9632\u5fa1\u529b\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<461-540>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8986\u3044\u3064\u304f\u3059\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -274,7 +274,403 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u5f37\u58ee\u306a\",Level:1,MinValue1:3,MaxValue1:9,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<3-9>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5f37\u58ee\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u30d4\u30ab\u30d4\u30ab\u306e\",Level:3,MinValue1:1,MaxValue1:3,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<1-3>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d4\u30ab\u30d4\u30ab\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 3,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u706f\u706b\u306e\",Level:11,MinValue1:4,MaxValue1:8,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<4-8>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u706f\u706b\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 11,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u8f1d\u304d\u306e\",Level:17,MinValue1:9,MaxValue1:12,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<9-12>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8f1d\u304d\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 17,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u714c\u3081\u304f\",Level:23,MinValue1:13,MaxValue1:15,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<13-15>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u714c\u3081\u304f\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 23,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u8f1d\u304d\u653e\u3064\",Level:29,MinValue1:16,MaxValue1:19,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<16-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8f1d\u304d\u653e\u3064\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 29,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u9583\u5149\u653e\u3064\",Level:35,MinValue1:20,MaxValue1:22,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-22>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9583\u5149\u653e\u3064\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 35,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u8f1d\u304d\u6e26\u5dfb\u304f\",Level:42,MinValue1:23,MaxValue1:26,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<23-26>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8f1d\u304d\u6e26\u5dfb\u304f\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 42,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u721b\u721b\u306e\",Level:50,MinValue1:27,MaxValue1:31,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<27-31>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u721b\u721b\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 50,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u660e\u661f\u306e\",Level:59,MinValue1:32,MaxValue1:37,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<32-37>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u660e\u661f\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 59,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u767d\u71b1\u8f1d\u304f\",Level:68,MinValue1:38,MaxValue1:43,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<38-43>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u767d\u71b1\u8f1d\u304f\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 68,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u71e6\u7136\u306e\",Level:74,MinValue1:44,MaxValue1:47,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<44-47>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u71e6\u7136\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 74,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"AddEnergyShield\",Name:\"\u5149\u8f1d\u3042\u308b\",Level:80,MinValue1:48,MaxValue1:51,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u9b54\u529b\u969c\u58c1\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<48-51>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5149\u8f1d\u3042\u308b\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 80,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"AddEnergyShield\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u5f37\u58ee\u306a\",Level:1,MinValue1:3,MaxValue1:9,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<3-9>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5f37\u58ee\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -307,7 +703,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u5065\u5eb7\u306a\",Level:5,MinValue1:10,MaxValue1:19,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<10-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5065\u5eb7\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u5065\u5eb7\u306a\",Level:5,MinValue1:10,MaxValue1:19,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<10-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5065\u5eb7\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -340,7 +736,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u8840\u8272\u306e\u3088\u3044\",Level:11,MinValue1:20,MaxValue1:29,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-29>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8840\u8272\u306e\u3088\u3044\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u8840\u8272\u306e\u3088\u3044\",Level:11,MinValue1:20,MaxValue1:29,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-29>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8840\u8272\u306e\u3088\u3044\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -373,7 +769,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u5c48\u5f37\u306a\",Level:18,MinValue1:30,MaxValue1:39,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<30-39>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5c48\u5f37\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u5c48\u5f37\u306a\",Level:18,MinValue1:30,MaxValue1:39,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<30-39>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5c48\u5f37\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -406,7 +802,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u9811\u5065\u306a\",Level:24,MinValue1:40,MaxValue1:49,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<40-49>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9811\u5065\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u9811\u5065\u306a\",Level:24,MinValue1:40,MaxValue1:49,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<40-49>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9811\u5065\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -439,7 +835,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u5f37\u56fa\u306a\",Level:30,MinValue1:50,MaxValue1:59,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-59>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5f37\u56fa\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u5f37\u56fa\u306a\",Level:30,MinValue1:50,MaxValue1:59,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-59>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5f37\u56fa\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -472,7 +868,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u5802\u3005\u305f\u308b\",Level:36,MinValue1:60,MaxValue1:69,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<60-69>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5802\u3005\u305f\u308b\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u5802\u3005\u305f\u308b\",Level:36,MinValue1:60,MaxValue1:69,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<60-69>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5802\u3005\u305f\u308b\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -505,7 +901,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u96c4\u3005\u3057\u3044\",Level:44,MinValue1:70,MaxValue1:79,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<70-79>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u96c4\u3005\u3057\u3044\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u96c4\u3005\u3057\u3044\",Level:44,MinValue1:70,MaxValue1:79,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<70-79>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u96c4\u3005\u3057\u3044\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -538,7 +934,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u30a2\u30b9\u30ea\u30fc\u30c8\u306e\",Level:54,MinValue1:80,MaxValue1:89,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<80-89>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30b9\u30ea\u30fc\u30c8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u30a2\u30b9\u30ea\u30fc\u30c8\u306e\",Level:54,MinValue1:80,MaxValue1:89,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<80-89>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30b9\u30ea\u30fc\u30c8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -571,7 +967,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Life\",Name:\"\u80a5\u6c83\u306a\",Level:64,MinValue1:90,MaxValue1:99,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<90-99>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u80a5\u6c83\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Life\",Name:\"\u80a5\u6c83\u306a\",Level:64,MinValue1:90,MaxValue1:99,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<90-99>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u80a5\u6c83\u306a\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -604,7 +1000,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30d9\u30ea\u30eb\u306e\",Level:1,MinValue1:15,MaxValue1:19,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<15-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d9\u30ea\u30eb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30d9\u30ea\u30eb\u306e\",Level:1,MinValue1:15,MaxValue1:19,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<15-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d9\u30ea\u30eb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -637,7 +1033,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30b3\u30d0\u30eb\u30c8\u306e\",Level:11,MinValue1:20,MaxValue1:24,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-24>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b3\u30d0\u30eb\u30c8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30b3\u30d0\u30eb\u30c8\u306e\",Level:11,MinValue1:20,MaxValue1:24,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-24>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b3\u30d0\u30eb\u30c8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -670,7 +1066,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30a2\u30ba\u30e9\u30a4\u30c8\u306e\",Level:17,MinValue1:25,MaxValue1:29,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<25-29>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30ba\u30e9\u30a4\u30c8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30a2\u30ba\u30e9\u30a4\u30c8\u306e\",Level:17,MinValue1:25,MaxValue1:29,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<25-29>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30ba\u30e9\u30a4\u30c8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -703,7 +1099,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30b5\u30d5\u30a1\u30a4\u30a2\u306e\",Level:23,MinValue1:30,MaxValue1:34,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<30-34>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b5\u30d5\u30a1\u30a4\u30a2\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30b5\u30d5\u30a1\u30a4\u30a2\u306e\",Level:23,MinValue1:30,MaxValue1:34,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<30-34>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b5\u30d5\u30a1\u30a4\u30a2\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -736,7 +1132,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30bb\u30eb\u30ea\u30a2\u30f3\u306e\",Level:29,MinValue1:35,MaxValue1:39,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<35-39>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30bb\u30eb\u30ea\u30a2\u30f3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30bb\u30eb\u30ea\u30a2\u30f3\u306e\",Level:29,MinValue1:35,MaxValue1:39,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<35-39>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30bb\u30eb\u30ea\u30a2\u30f3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -769,7 +1165,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30a2\u30af\u30a2\u30de\u30ea\u30f3\u306e\",Level:35,MinValue1:40,MaxValue1:44,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<40-44>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30af\u30a2\u30de\u30ea\u30f3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30a2\u30af\u30a2\u30de\u30ea\u30f3\u306e\",Level:35,MinValue1:40,MaxValue1:44,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<40-44>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a2\u30af\u30a2\u30de\u30ea\u30f3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -802,7 +1198,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30aa\u30d1\u30fc\u30eb\u306e\",Level:42,MinValue1:45,MaxValue1:49,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<45-49>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30aa\u30d1\u30fc\u30eb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30aa\u30d1\u30fc\u30eb\u306e\",Level:42,MinValue1:45,MaxValue1:49,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<45-49>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30aa\u30d1\u30fc\u30eb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -835,7 +1231,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30ea\u30f3\u30c9\u30a6\u306e\",Level:51,MinValue1:50,MaxValue1:54,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-54>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ea\u30f3\u30c9\u30a6\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30ea\u30f3\u30c9\u30a6\u306e\",Level:51,MinValue1:50,MaxValue1:54,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-54>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ea\u30f3\u30c9\u30a6\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -868,7 +1264,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u30aa\u30aa\u30bb\u30a4\u30dc\u30a6\u306e\",Level:60,MinValue1:55,MaxValue1:59,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<55-59>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30aa\u30aa\u30bb\u30a4\u30dc\u30a6\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u30aa\u30aa\u30bb\u30a4\u30dc\u30a6\u306e\",Level:60,MinValue1:55,MaxValue1:59,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<55-59>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30aa\u30aa\u30bb\u30a4\u30dc\u30a6\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -901,7 +1297,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u7460\u7483\u306e\",Level:69,MinValue1:60,MaxValue1:64,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<60-64>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u7460\u7483\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u7460\u7483\u306e\",Level:69,MinValue1:60,MaxValue1:64,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<60-64>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u7460\u7483\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -934,7 +1330,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Prefix:\"Prefix\",ID:\"Mana\",Name:\"\u9752\u306e\",Level:75,MinValue1:65,MaxValue1:68,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<65-68>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9752\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Prefix:1b,ID:\"Mana\",Name:\"\u9752\u306e\",Level:75,MinValue1:65,MaxValue1:68,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"red\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<65-68>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9752\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
