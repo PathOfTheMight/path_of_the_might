@@ -3,4 +3,4 @@ execute unless data storage items: Items[{Slot:1b,tag:{Gloves:10b}}] run functio
 execute unless data storage items: Items[{Slot:1b,tag:{Gloves:10b}}] run data modify storage items: Items append value {id:"minecraft:cod",Count:1b,Slot:10b,tag:{CustomModelData:5,NoHold:1b,display:{Name:'{"text":"<手>","italic":false,"bold":true,"color":"white"}'}}}
 
 scoreboard players set #UpdateEquipment Number 1
-scoreboard players set #Armor Number 1
+scoreboard players set #ArmorSound Number 1

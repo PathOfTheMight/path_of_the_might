@@ -22,4 +22,4 @@ execute if score #Flag Number matches 1 if data storage gem: Gem run data remove
 execute if data storage gem: Gem run function item:lore/equipment/main
 execute if data storage gem: Gem run data modify storage items: Items[{Slot:15b}] set from storage item: Item
 
-scoreboard players set #Gem Number 1
+scoreboard players set #GemSound Number 1

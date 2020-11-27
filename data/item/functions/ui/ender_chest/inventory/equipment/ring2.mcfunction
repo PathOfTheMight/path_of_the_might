@@ -3,4 +3,4 @@ execute unless data storage items: Items[{Slot:12b,tag:{Ring:1b}}] run function 
 execute unless data storage items: Items[{Slot:12b,tag:{Ring:1b}}] run data modify storage items: Items append value {id:"minecraft:cod",Count:1b,Slot:12b,tag:{CustomModelData:8,NoHold:1b,display:{Name:'{"text":"<指>","italic":false,"bold":true,"color":"white"}'}}}
 
 scoreboard players set #UpdateEquipment Number 1
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.8
+scoreboard players set #AccessorySound Number 1

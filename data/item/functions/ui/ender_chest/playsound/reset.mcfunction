@@ -1,5 +1,5 @@
-scoreboard players set #Weapon Number 0
-scoreboard players set #Armor Number 0
-scoreboard players set #Accessory Number 0
-scoreboard players set #Gem Number 0
-scoreboard players set #Ench Number 0
+scoreboard players set #WeaponSound Number 0
+scoreboard players set #ArmorSound Number 0
+scoreboard players set #AccessorySound Number 0
+scoreboard players set #GemSound Number 0
+scoreboard players set #EnchSound Number 0

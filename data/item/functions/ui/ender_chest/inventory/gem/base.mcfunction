@@ -68,4 +68,4 @@ execute if data storage gem: {Gem:{Socket:"White"}} unless data storage gem: Gem
 execute if data storage gem: Gem.tag run data modify storage items: Items[{Slot:26b}].id set value "minecraft:cake"
 execute if data storage gem: Gem.tag run data modify storage items: Items[{Slot:26b}].tag set from storage gem: Gem.tag
 
-scoreboard players set #Ench Number 1
+scoreboard players set #EnchSound Number 1
