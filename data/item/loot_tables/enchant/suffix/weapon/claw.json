@@ -1561,7 +1561,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Excitement\",Level:2,MinValue1:10,MaxValue1:19,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<10-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Excitement\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Excitement\",Level:2,MinValue1:10,MaxValue1:19,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<10-19>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Excitement\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1594,7 +1594,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Joy\",Level:18,MinValue1:20,MaxValue1:29,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-29>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Joy\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Joy\",Level:18,MinValue1:20,MaxValue1:29,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-29>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Joy\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1627,7 +1627,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Elation\",Level:29,MinValue1:30,MaxValue1:39,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<30-39>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Elation\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Elation\",Level:29,MinValue1:30,MaxValue1:39,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<30-39>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Elation\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1660,7 +1660,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Bliss\",Level:42,MinValue1:40,MaxValue1:49,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<40-49>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Bliss\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Bliss\",Level:42,MinValue1:40,MaxValue1:49,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<40-49>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Bliss\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1693,7 +1693,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Euphoria\",Level:55,MinValue1:50,MaxValue1:59,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-59>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Euphoria\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Euphoria\",Level:55,MinValue1:50,MaxValue1:59,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-59>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Euphoria\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1726,7 +1726,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Nirvana\",Level:79,MinValue1:60,MaxValue1:69,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<60-69>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Nirvana\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"IncManaRegenerationRate\",Name:\"of Nirvana\",Level:79,MinValue1:60,MaxValue1:69,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"MP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<60-69>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Nirvana\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [

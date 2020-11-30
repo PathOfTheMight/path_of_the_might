@@ -9,9 +9,9 @@ scoreboard players set #Thold2 Number 666667
 execute if data storage item: {Item:{tag:{Requirements:{Type:"Str"}}}} run function item:enchant/roll/color/str
 execute if data storage item: {Item:{tag:{Requirements:{Type:"Dex"}}}} run function item:enchant/roll/color/dex
 execute if data storage item: {Item:{tag:{Requirements:{Type:"Int"}}}} run function item:enchant/roll/color/int
-execute if data storage item: {Item:{tag:{Requirements:{Type:"Str_Dex"}}}} run function item:enchant/roll/color/str_dex
-execute if data storage item: {Item:{tag:{Requirements:{Type:"Str_Int"}}}} run function item:enchant/roll/color/str_int
-execute if data storage item: {Item:{tag:{Requirements:{Type:"Dex_Int"}}}} run function item:enchant/roll/color/dex_int
+execute if data storage item: {Item:{tag:{Requirements:{Type:"StrDex"}}}} run function item:enchant/roll/color/str_dex
+execute if data storage item: {Item:{tag:{Requirements:{Type:"StrInt"}}}} run function item:enchant/roll/color/str_int
+execute if data storage item: {Item:{tag:{Requirements:{Type:"DexInt"}}}} run function item:enchant/roll/color/dex_int
 
 function main:rand
 execute if score #Rand Number <= #Thold1 Number run data modify storage gem: Gem.Socket set value "Red"

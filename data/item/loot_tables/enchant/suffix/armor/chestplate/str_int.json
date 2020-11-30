@@ -5,204 +5,6 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Accuracy\",Name:\"of Steadiness\",Level:1,MinValue1:50,MaxValue1:100,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u547d\u4e2d\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-100>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Steadiness\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 1,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Accuracy\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Accuracy\",Name:\"of Precision\",Level:20,MinValue1:101,MaxValue1:165,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u547d\u4e2d\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<101-165>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Precision\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 20,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Accuracy\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Accuracy\",Name:\"of Sniper\",Level:40,MinValue1:166,MaxValue1:250,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u547d\u4e2d\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<166-250>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Sniper\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 40,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Accuracy\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Accuracy\",Name:\"of the Marksman\",Level:60,MinValue1:251,MaxValue1:350,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u547d\u4e2d\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<251-350>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of the Marksman\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 60,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Accuracy\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Accuracy\",Name:\"of the Ranger\",Level:75,MinValue1:351,MaxValue1:480,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u547d\u4e2d\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<351-480>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of the Ranger\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 75,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Accuracy\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Accuracy\",Name:\"of Lioneye\",Level:85,MinValue1:481,MaxValue1:600,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u547d\u4e2d\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<481-600>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Lioneye\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 85,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Accuracy\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
                     "weight": 250,
                     "name": "minecraft:stone",
                     "functions": [
@@ -658,303 +460,6 @@
                                 "entity": "this",
                                 "predicate": {
                                     "nbt": "{Tags:[\"ColdResistance\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u30de\u30f3\u30b0\u30fc\u30b9\u306e\",Level:1,MinValue1:8,MaxValue1:12,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<8-12>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30de\u30f3\u30b0\u30fc\u30b9\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 1,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u30e4\u30de\u30cd\u30b3\u306e\",Level:11,MinValue1:13,MaxValue1:17,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<13-17>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30e4\u30de\u30cd\u30b3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 11,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u72d0\u306e\",Level:22,MinValue1:18,MaxValue1:22,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<18-22>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u72d0\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 22,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u9df9\u306e\",Level:33,MinValue1:23,MaxValue1:27,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<23-27>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9df9\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 33,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u9ed2\u8c79\u306e\",Level:44,MinValue1:28,MaxValue1:32,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<28-32>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u9ed2\u8c79\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 44,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u8c79\u306e\",Level:55,MinValue1:33,MaxValue1:37,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<33-37>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u8c79\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 55,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u30b8\u30e3\u30ac\u30fc\u306e\",Level:66,MinValue1:38,MaxValue1:42,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<38-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b8\u30e3\u30ac\u30fc\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 66,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u5e7b\u5f71\u306e\",Level:74,MinValue1:43,MaxValue1:50,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<43-50>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5e7b\u5f71\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 74,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1000,
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"Dexterity\",Name:\"\u98a8\u306e\",Level:82,MinValue1:51,MaxValue1:55,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<51-55>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u98a8\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "Lvl": {
-                                    "min": 82,
-                                    "max": 100
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Tags:[\"Dexterity\"]}"
                                 }
                             }
                         }
@@ -1726,7 +1231,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30a4\u30e2\u30ea\u306e\",Level:1,MinValue1:10,MaxValue1:20,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30e9\u30a4\u30d5\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<10-20>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a4\u30e2\u30ea\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30a4\u30e2\u30ea\u306e\",Level:1,MinValue1:10,MaxValue1:20,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<10-20>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30a4\u30e2\u30ea\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1759,7 +1264,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30c8\u30ab\u30b2\u306e\",Level:18,MinValue1:20,MaxValue1:50,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30e9\u30a4\u30d5\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-50>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30c8\u30ab\u30b2\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30c8\u30ab\u30b2\u306e\",Level:18,MinValue1:20,MaxValue1:50,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-50>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30c8\u30ab\u30b2\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1792,7 +1297,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30d7\u30e9\u30ca\u30ea\u30a2\u306e\",Level:30,MinValue1:50,MaxValue1:100,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30e9\u30a4\u30d5\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-100>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d7\u30e9\u30ca\u30ea\u30a2\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30d7\u30e9\u30ca\u30ea\u30a2\u306e\",Level:30,MinValue1:50,MaxValue1:100,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<50-100>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d7\u30e9\u30ca\u30ea\u30a2\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1825,7 +1330,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30d2\u30c8\u30c7\u306e\",Level:44,MinValue1:100,MaxValue1:150,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30e9\u30a4\u30d5\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<100-150>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d2\u30c8\u30c7\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30d2\u30c8\u30c7\u306e\",Level:44,MinValue1:100,MaxValue1:150,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<100-150>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d2\u30c8\u30c7\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1858,7 +1363,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30d2\u30c9\u30e9\u306e\",Level:59,MinValue1:150,MaxValue1:220,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30e9\u30a4\u30d5\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<150-220>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d2\u30c9\u30e9\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30d2\u30c9\u30e9\u306e\",Level:59,MinValue1:150,MaxValue1:220,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<150-220>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30d2\u30c9\u30e9\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1891,7 +1396,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30c8\u30ed\u30fc\u30eb\u306e\",Level:78,MinValue1:220,MaxValue1:300,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30e9\u30a4\u30d5\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<220-300>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30c8\u30ed\u30fc\u30eb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u30c8\u30ed\u30fc\u30eb\u306e\",Level:78,MinValue1:220,MaxValue1:300,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<220-300>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30c8\u30ed\u30fc\u30eb\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1924,7 +1429,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"of Ryslatha\",Level:83,MinValue1:300,MaxValue1:400,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30e9\u30a4\u30d5\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<300-400>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Ryslatha\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"of Ryslatha\",Level:83,MinValue1:300,MaxValue1:400,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<300-400>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" of Ryslatha\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
                         }
                     ],
                     "conditions": [
@@ -1934,6 +1439,39 @@
                             "scores": {
                                 "Lvl": {
                                     "min": 83,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"LifeRegeneration\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 700,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"LifeRegeneration\",Name:\"\u4e0d\u6b7b\u9ce5\u306e\",Level:86,MinValue1:400,MaxValue1:500,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"\u81ea\u7136\u56de\u5fa9\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<400-500>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u4e0d\u6b7b\u9ce5\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 86,
                                     "max": 100
                                 }
                             }
@@ -2209,6 +1747,303 @@
                                 "entity": "this",
                                 "predicate": {
                                     "nbt": "{Tags:[\"LightningResistance\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u7363\u306e\",Level:1,MinValue1:8,MaxValue1:12,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<8-12>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u7363\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 1,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u30ec\u30b9\u30e9\u30fc\u306e\",Level:11,MinValue1:13,MaxValue1:17,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<13-17>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ec\u30b9\u30e9\u30fc\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 11,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u718a\u306e\",Level:22,MinValue1:18,MaxValue1:22,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<18-22>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u718a\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 22,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u30e9\u30a4\u30aa\u30f3\u306e\",Level:33,MinValue1:23,MaxValue1:27,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<23-27>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30e9\u30a4\u30aa\u30f3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 33,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u30b4\u30ea\u30e9\u306e\",Level:44,MinValue1:28,MaxValue1:32,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<28-32>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b4\u30ea\u30e9\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 44,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u30b4\u30ea\u30a2\u30c6\u306e\",Level:55,MinValue1:33,MaxValue1:37,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<33-37>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30b4\u30ea\u30a2\u30c6\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 55,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u30ec\u30f4\u30a3\u30a2\u30b5\u30f3\u306e\",Level:66,MinValue1:38,MaxValue1:42,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<38-42>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u30ec\u30f4\u30a3\u30a2\u30b5\u30f3\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 66,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u5de8\u4eba\u306e\",Level:74,MinValue1:43,MaxValue1:50,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\u2010\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<43-50>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u5de8\u4eba\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 74,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Suffix:1b,ID:\"Strength\",Name:\"\u795e\u3005\u306e\",Level:82,MinValue1:51,MaxValue1:55,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" \u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\u25c6\",\"color\":\"yellow\",\"italic\":false},{\"text\":\"\",\"color\":\"gray\",\"italic\":false}]',HiddenLore1:'[{\"text\":\"<51-55>\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" \u795e\u3005\u306e\",\"color\":\"gray\",\"bold\":true,\"italic\":false}]'}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "Lvl": {
+                                    "min": 82,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"Strength\"]}"
                                 }
                             }
                         }
