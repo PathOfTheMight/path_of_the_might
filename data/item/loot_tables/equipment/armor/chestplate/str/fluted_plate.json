@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:210030,Equipment:1b,Armor:1b,Chestplate:1b,BaseName:\"\u30d5\u30eb\u30fc\u30c6\u30c3\u30c9\u30d7\u30ec\u30fc\u30c8\",Rarity:\"Normal\",MaxSocket:6,Requirements:{Type:\"Str\",Level:{Base:35},Str:{Base:99}},BaseStats:{Armor:{Base:353},}}"
+                            "tag": "{CustomModelData:210030,Equipment:1b,Armor:1b,Chestplate:1b,BaseName:\"\u30d5\u30eb\u30fc\u30c6\u30c3\u30c9\u30d7\u30ec\u30fc\u30c8\",Rarity:\"Normal\",MaxSocket:6,Requirements:{Type:\"Str\",Level:{Base:35},Str:{Base:99}},BaseStats:{Armor:{Base:353}}}"
                         }
                     ]
                 }

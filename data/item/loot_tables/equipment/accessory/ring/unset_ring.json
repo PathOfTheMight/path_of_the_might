@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:301030,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u7121\u9298\u306e\u30ea\u30f3\u30b0\",Rarity:\"Normal\",MaxSocket:1,Requirements:{Level:{Base:5}},Implicit:{AffixName:\"Has1Socket\",Prefix:1b}}"
+                            "tag": "{CustomModelData:301030,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u7121\u9298\u306e\u30ea\u30f3\u30b0\",Rarity:\"Normal\",MaxSocket:1,Requirements:{Level:{Base:5}},Implicit:[{Prefix:1b,ID:\"Has1Socket\",MinValue1:1,MaxValue1:1,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b8\u30a7\u30e0\u30bd\u30b1\u30c3\u30c8\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore1:'[{\"text\":\"<1-1>\",\"color\":\"dark_gray\",\"italic\":false}]'}]}"
                         }
                     ]
                 }

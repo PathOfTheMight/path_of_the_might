@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:300080,Equipment:1b,Accessory:1b,Amulet:1b,BaseName:\"\u30bf\u30fc\u30b3\u30a4\u30ba\u30a2\u30df\u30e5\u30ec\u30c3\u30c8\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:16}},Implicit:{AffixName:\"DexterityAndIntelligence\",Suffix:1b,Range:{Min:16,Max:24}}}"
+                            "tag": "{CustomModelData:300080,Equipment:1b,Accessory:1b,Amulet:1b,BaseName:\"\u30bf\u30fc\u30b3\u30a4\u30ba\u30a2\u30df\u30e5\u30ec\u30c3\u30c8\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:16}},Implicit:[{Suffix:1b,ID:\"DexterityAndIntelligence\",MinValue1:16,MaxValue1:24,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"DEX\uff06INT\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore1:'[{\"text\":\"<16-24>\",\"color\":\"dark_gray\",\"italic\":false}]'}]}"
                         }
                     ]
                 }

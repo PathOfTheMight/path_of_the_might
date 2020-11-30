@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:302020,Equipment:1b,Accessory:1b,Belt:1b,BaseName:\"\u30d8\u30d3\u30fc\u30d9\u30eb\u30c8\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:8}},Implicit:{AffixName:\"Strength\",Suffix:1b,Range:{Min:25,Max:35}}}"
+                            "tag": "{CustomModelData:302020,Equipment:1b,Accessory:1b,Belt:1b,BaseName:\"\u30d8\u30d3\u30fc\u30d9\u30eb\u30c8\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:8}},Implicit:[{Suffix:1b,ID:\"Strength\",MinValue1:25,MaxValue1:35,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"STR\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore1:'[{\"text\":\"<25-35>\",\"color\":\"dark_gray\",\"italic\":false}]'}]}"
                         }
                     ]
                 }

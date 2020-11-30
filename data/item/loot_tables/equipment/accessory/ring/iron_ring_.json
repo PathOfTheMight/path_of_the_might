@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:301011,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u30a2\u30a4\u30a2\u30f3\u30ea\u30f3\u30b0\",Rarity:\"Unique\",MaxSocket:0,Implicit:{AffixName:\"AddPhysicalAttackDamage\",Prefix:1b,Range:{Min:1,Max:1,Min2:4,Max2:4}}}"
+                            "tag": "{CustomModelData:301011,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u30a2\u30a4\u30a2\u30f3\u30ea\u30f3\u30b0\",Rarity:\"Unique\",MaxSocket:0,Requirements:{Level:{Base:1}},Implicit:[{Prefix:1b,ID:\"AddPhysicalAttackDamage\",MinValue1:1,MaxValue1:1,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"+%s-%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"},{\"nbt\":\"Affix.Value2\",\"storage\":\"affix:\"}]},{\"text\":\"\u7269\u7406\u30c0\u30e1\u30fc\u30b8:\u6280\u80fd\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-30>\",\"color\":\"dark_gray\",\"italic\":false}]',MinValue2:4,MaxValue2:4}]}"
                         }
                     ]
                 }

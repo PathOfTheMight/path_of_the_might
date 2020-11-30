@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:110030,Equipment:1b,Weapon:1b,Sword2H:1b,Melee:1b,Sword:1b,2H:1b,WeaponType:'{\"text\":\"\u4e21\u624b\u5263\",\"color\":\"green\",\"bold\":true,\"italic\":false}',BaseName:\"\u30c4\u30fc\u30cf\u30f3\u30c9\u30bd\u30fc\u30c9\",Rarity:\"Normal\",MaxSocket:6,Requirements:{Level:{Base:17},Str:{Base:33},Dex:{Base:33}},BaseStats:{PhysicalDamageMin:{Base:18},PhysicalDamageMax:{Base:33},CriticalStrikeChance:{Base:5},AttackSpeed:{Base:1.4},WeaponRange:{Base:13}}}"
+                            "tag": "{CustomModelData:110030,Equipment:1b,Weapon:1b,Sword2H:1b,Melee:1b,Sword:1b,2H:1b,WeaponType:'{\"text\":\"\u4e21\u624b\u5263\",\"color\":\"green\",\"bold\":true,\"italic\":false}',BaseName:\"\u30c4\u30fc\u30cf\u30f3\u30c9\u30bd\u30fc\u30c9\",Rarity:\"Normal\",MaxSocket:6,Requirements:{Level:{Base:17},Str:{Base:33},Dex:{Base:33}},BaseStats:{PhysicalDamageMin:{Base:18},PhysicalDamageMax:{Base:33},CriticalStrikeChance:{Base:5.0},AttackSpeed:{Base:1.4},WeaponRange:{Base:13}}}"
                         }
                     ]
                 }

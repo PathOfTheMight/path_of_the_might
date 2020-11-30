@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:301070,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u91d1\u525b\u77f3\u306e\u6307\u8f2a\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:20}},Implicit:{AffixName:\"IncCriticalStrikeChance\",Suffix:1b,Range:{Min:20,Max:30}}}"
+                            "tag": "{CustomModelData:301070,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u91d1\u525b\u77f3\u306e\u6307\u8f2a\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:20}},Implicit:[{Suffix:1b,ID:\"IncCriticalStrikeChance\",MinValue1:20,MaxValue1:30,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u767a\u751f\u7387\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-30>\",\"color\":\"dark_gray\",\"italic\":false}]'}]}"
                         }
                     ]
                 }

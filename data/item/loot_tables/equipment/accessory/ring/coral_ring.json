@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:301000,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u30b5\u30f3\u30b4\u306e\u6307\u8f2a\",Rarity:\"Normal\",MaxSocket:0,Implicit:{AffixName:\"Life\",Prefix:1b,Range:{Min:20,Max:30}}}"
+                            "tag": "{CustomModelData:301000,Equipment:1b,Accessory:1b,Ring:1b,BaseName:\"\u30b5\u30f3\u30b4\u306e\u6307\u8f2a\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:1}},Implicit:[{Prefix:1b,ID:\"Life\",MinValue1:20,MaxValue1:30,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"+%s \",\"color\":\"white\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u6700\u5927\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"HP\",\"color\":\"white\",\"bold\":false,\"italic\":false}]',HiddenLore1:'[{\"text\":\"<20-30>\",\"color\":\"dark_gray\",\"italic\":false}]'}]}"
                         }
                     ]
                 }

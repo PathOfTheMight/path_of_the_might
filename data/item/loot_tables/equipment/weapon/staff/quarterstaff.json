@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:111030,Equipment:1b,Weapon:1b,Staff:1b,Melee:1b,Staff:1b,2H:1b,WeaponType:'{\"text\":\"\u6756\",\"color\":\"green\",\"bold\":true,\"italic\":false}',BaseName:\"\u516b\u89d2\u68d2\",Rarity:\"Normal\",MaxSocket:6,Requirements:{Level:{Base:18},Str:{Base:35},Int:{Base:35}},BaseStats:{PhysicalDamageMin:{Base:21},PhysicalDamageMax:{Base:35},CriticalStrikeChance:{Base:6},AttackSpeed:{Base:1.3},WeaponRange:{Base:13}}}"
+                            "tag": "{CustomModelData:111030,Equipment:1b,Weapon:1b,Staff:1b,Melee:1b,Staff:1b,2H:1b,WeaponType:'{\"text\":\"\u6756\",\"color\":\"green\",\"bold\":true,\"italic\":false}',BaseName:\"\u516b\u89d2\u68d2\",Rarity:\"Normal\",MaxSocket:6,Requirements:{Level:{Base:18},Str:{Base:35},Int:{Base:35}},BaseStats:{PhysicalDamageMin:{Base:21},PhysicalDamageMax:{Base:35},CriticalStrikeChance:{Base:6.0},AttackSpeed:{Base:1.3},WeaponRange:{Base:13}}}"
                         }
                     ]
                 }

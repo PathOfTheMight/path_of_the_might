@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:302040,Equipment:1b,Accessory:1b,Belt:1b,BaseName:\"\u5e03\u306e\u30d9\u30eb\u30c8\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:16}},Implicit:{AffixName:\"IncStunRecovery\",Suffix:1b,Range:{Min:15,Max:25}}}"
+                            "tag": "{CustomModelData:302040,Equipment:1b,Accessory:1b,Belt:1b,BaseName:\"\u5e03\u306e\u30d9\u30eb\u30c8\",Rarity:\"Normal\",MaxSocket:0,Requirements:{Level:{Base:16}},Implicit:[{Suffix:1b,ID:\"IncStunRecovery\",MinValue1:15,MaxValue1:25,MainLore1:'[{\"text\":\"\u2726 \",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"+%s%% \",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"nbt\":\"Affix.Value1\",\"storage\":\"affix:\"}]},{\"text\":\"\u30b9\u30bf\u30f3\u5fa9\u5e30\u901f\u5ea6\",\"color\":\"white\",\"bold\":true,\"italic\":false}]',HiddenLore1:'[{\"text\":\"<15-25>\",\"color\":\"dark_gray\",\"italic\":false}]'}]}"
                         }
                     ]
                 }
